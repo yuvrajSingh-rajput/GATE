@@ -1,0 +1,33 @@
+{
+  "id": "test-5",
+  "title": "FULL SYLLABUS TEST-5 (ADVANCE LEVEL) (GATE - 2021)",
+  "source": "Made Easy",
+  "totalQuestions": 65,
+  "totalMarks": 100,
+  "durationMinutes": 180,
+  "sections": [
+    {
+      "name": "General Aptitude",
+      "range": [
+        1,
+        10
+      ]
+    },
+    {
+      "name": "Core Subject",
+      "range": [
+        11,
+        65
+      ]
+    }
+  ],
+  "extractionNotes": [
+    "Q20 option A and option B text appear identical in the source PDF ('Both R and S are in 2NF only and R covers S.') — this duplication is preserved as-is from the PDF rather than corrected.",
+    "Q24 solution in the PDF is partially cut off / condensed in the visible scan; the extracted solution paraphrases the visible reasoning about reductions and recursiveness as best as could be read.",
+    "Q45 option B text says 'Nisha is right' while the question stem refers to 'Nick' — this inconsistency is preserved exactly as it appears in the source PDF.",
+    "Q57 solution step showing the intermediate exponentiation result was only partially legible in the scan; the final answer (262) matches the PDF's stated correct answer.",
+    "Q59 options C and D appeared visually very similar in the scanned PDF (one likely has a complement bar over part of the expression that did not render clearly); transcribed as literally as could be read — option B is confirmed as the marked correct answer.",
+    "Q62 solution's inclusion-exclusion arithmetic in the PDF was partially cut off in the scan; only the final stated answer (3622928) could be confirmed with certainty.",
+    "Questions 8, 15, 31, 36, 43, and 59 depend on diagrams/circuits/K-maps shown in the PDF to be answerable and are flagged with questionImage for separate cropping."
+  ]
+}

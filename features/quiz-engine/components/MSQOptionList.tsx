@@ -5,14 +5,16 @@ import { QuestionOption } from "@/types";
 import { cn } from "@/lib/utils";
 import { Check } from "lucide-react";
 import { FormattedText } from "@/components/shared/FormattedText";
+import { ZoomableImage } from "@/components/shared/ZoomableImage";
 
 interface MSQOptionListProps {
+  testId: string;
   options: QuestionOption[];
   selectedOptions: string[];
   onChange: (optionId: string) => void;
 }
 
-export function MSQOptionList({ options, selectedOptions, onChange }: MSQOptionListProps) {
+export function MSQOptionList({ testId, options, selectedOptions, onChange }: MSQOptionListProps) {
   return (
     <div className="space-y-3 mt-6">
       {options.map((option) => {
@@ -40,9 +42,14 @@ export function MSQOptionList({ options, selectedOptions, onChange }: MSQOptionL
             >
               <Check className="w-5 h-5" />
             </div>
-            <div className="flex-1 text-base leading-relaxed">
+            <div className="flex-1 text-base leading-relaxed overflow-hidden">
               <span className="font-semibold mr-2">{option.id}.</span>
-              <FormattedText text={option.text} className="inline" />
+              {option.text && <FormattedText text={option.text} className="inline" />}
+              {option.image && (
+                <div className="mt-2 w-full max-w-sm">
+                  <ZoomableImage src={`/api/images/${testId}/${option.image}`} alt={`Option ${option.id}`} />
+                </div>
+              )}
             </div>
           </button>
         );

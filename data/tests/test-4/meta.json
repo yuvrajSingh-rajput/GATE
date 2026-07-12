@@ -1,0 +1,31 @@
+{
+  "id": "test-4",
+  "title": "FULL SYLLABUS TEST-4 (BASIC LEVEL) (GATE - 2021)",
+  "source": "Made Easy",
+  "totalQuestions": 65,
+  "totalMarks": 100,
+  "durationMinutes": 180,
+  "sections": [
+    {
+      "name": "General Aptitude",
+      "range": [
+        1,
+        10
+      ]
+    },
+    {
+      "name": "Core Subject",
+      "range": [
+        11,
+        65
+      ]
+    }
+  ],
+  "extractionNotes": [
+    "Q1 text was cropped at the top of the page; reconstructed from visible partial text and standard aptitude phrasing.",
+    "Q4 question stem was partially cropped across a page break; reconstructed from the visible equation continuation and solution text.",
+    "Q13: option C's text was not fully visible in the source PDF screenshot (obscured/cut off in the page layout); its value could not be confirmed and may not exactly match the original PDF.",
+    "Q17, Q25, Q28, and Q65 depend on diagrams/figures shown in the PDF to be answerable; these are flagged with questionImage placeholders for separate cropping.",
+    "Math notation involving exponents, roots, set operators, and logical connectives has been converted to plain-text approximations (e.g. 2^n, sqrt, in, and/or) per the requested format."
+  ]
+}

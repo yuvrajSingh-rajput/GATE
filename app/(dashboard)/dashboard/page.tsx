@@ -2,16 +2,17 @@
 
 import React from "react";
 import Link from "next/link";
-import { TEST_MANIFEST } from "@/data/tests";
+import { useAllTests } from "@/hooks/queries/useTests";
 import { useAttempts } from "@/hooks/queries/useAttempts";
 import { Button } from "@/components/ui/button";
 import { Clock, PlayCircle, BarChart2, CheckCircle2 } from "lucide-react";
 import { Skeleton } from "@/components/ui/skeleton";
 
 export default function DashboardPage() {
-  const { data: attempts, isLoading } = useAttempts();
+  const { data: attempts, isLoading: isLoadingAttempts } = useAttempts();
+  const { data: testManifest, isLoading: isLoadingTests } = useAllTests();
 
-  if (isLoading) {
+  if (isLoadingAttempts || isLoadingTests) {
     return (
       <div className="space-y-6">
         <Skeleton className="h-10 w-48" />
@@ -24,7 +25,7 @@ export default function DashboardPage() {
 
   // Get active or past attempts
   const recentAttempts = attempts?.sort((a, b) => new Date(b.startedAt).getTime() - new Date(a.startedAt).getTime()) || [];
-  
+
   return (
     <div className="space-y-10 pb-12 max-w-7xl mx-auto">
       <div>
@@ -37,7 +38,7 @@ export default function DashboardPage() {
           <h2 className="text-xl font-bold tracking-tight">Available Mock Tests</h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {TEST_MANIFEST.map((test) => {
+          {(testManifest || []).map((test) => {
             const attemptForTest = recentAttempts.find(a => a.testId === test.id);
             const isInProgress = attemptForTest?.status === "in-progress";
             const isCompleted = attemptForTest?.status === "submitted" || attemptForTest?.status === "auto-submitted";
@@ -50,7 +51,7 @@ export default function DashboardPage() {
                   </div>
                   <h3 className="text-lg font-bold line-clamp-2">{test.title}</h3>
                 </div>
-                
+
                 <div className="flex items-center gap-4 text-sm text-muted-foreground mb-6">
                   <div className="flex items-center gap-1">
                     <Clock className="w-4 h-4" />

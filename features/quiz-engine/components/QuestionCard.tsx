@@ -18,6 +18,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 
 interface QuestionCardProps {
+  testId: string;
   question: Question;
   answer: AttemptAnswer | undefined;
   onAnswerChange: (selected: string[]) => void;
@@ -26,6 +27,7 @@ interface QuestionCardProps {
 }
 
 export function QuestionCard({
+  testId,
   question,
   answer,
   onAnswerChange,
@@ -108,7 +110,7 @@ export function QuestionCard({
           {question.questionImage && (
             <div className="mb-8">
               <ZoomableImage
-                src={`/images/questions/${question.questionImage}`}
+                src={`/api/images/${testId}/${question.questionImage}`}
                 alt={`Figure for Question ${question.number}`}
               />
             </div>
@@ -117,6 +119,7 @@ export function QuestionCard({
           <div className="mt-8">
             {question.type === "MCQ" && (
               <OptionList
+                testId={testId}
                 options={question.options}
                 selectedOption={selected[0] || null}
                 onChange={handleMCQChange}
@@ -124,6 +127,7 @@ export function QuestionCard({
             )}
             {question.type === "MSQ" && (
               <MSQOptionList
+                testId={testId}
                 options={question.options}
                 selectedOptions={selected}
                 onChange={handleMSQChange}

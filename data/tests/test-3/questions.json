@@ -1,0 +1,1811 @@
+[
+  {
+    "id": "q1",
+    "number": 1,
+    "type": "MCQ",
+    "marks": 1,
+    "negativeMarks": 0.33,
+    "section": "General Aptitude",
+    "questionText": "Pick out the most effective word from the given words to fill in the blank to make the sentence meaningfully complete.\nCatching the earlier train will give us the _________ to do some shopping.",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Chance"
+      },
+      {
+        "id": "B",
+        "text": "Luck"
+      },
+      {
+        "id": "C",
+        "text": "Possibility"
+      },
+      {
+        "id": "D",
+        "text": "Occasion"
+      }
+    ],
+    "correctAnswer": [
+      "A"
+    ],
+    "natRange": null,
+    "solution": "(a)"
+  },
+  {
+    "id": "q2",
+    "number": 2,
+    "type": "MCQ",
+    "marks": 1,
+    "negativeMarks": 0.33,
+    "section": "General Aptitude",
+    "questionText": "Out of four alternatives, choose the one which can be substituted for the given phrase.\n\"Murder of a king\"",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Infanticide"
+      },
+      {
+        "id": "B",
+        "text": "Matricide"
+      },
+      {
+        "id": "C",
+        "text": "Genocide"
+      },
+      {
+        "id": "D",
+        "text": "Regicide"
+      }
+    ],
+    "correctAnswer": [
+      "D"
+    ],
+    "natRange": null,
+    "solution": "(d)"
+  },
+  {
+    "id": "q3",
+    "number": 3,
+    "type": "MCQ",
+    "marks": 1,
+    "negativeMarks": 0.33,
+    "section": "General Aptitude",
+    "questionText": "If a portion of a half water/half alcohol mix is replaced with 25% alcohol solution, resulting in a 30% alcohol solution, what percentage of the original mix was replaced?",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "3%"
+      },
+      {
+        "id": "B",
+        "text": "20%"
+      },
+      {
+        "id": "C",
+        "text": "66%"
+      },
+      {
+        "id": "D",
+        "text": "80%"
+      }
+    ],
+    "correctAnswer": [
+      "D"
+    ],
+    "natRange": null,
+    "solution": "(d) Let portion replaced be x. 0.5(1-x)+0.25x = 0.3 => x=0.8, or 80%"
+  },
+  {
+    "id": "q4",
+    "number": 4,
+    "type": "MCQ",
+    "marks": 1,
+    "negativeMarks": 0.33,
+    "section": "General Aptitude",
+    "questionText": "Two positions of a dice are shown. When 4 is at the bottom, what number will be on the top?",
+    "questionImage": "q4_dice_positions.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "2"
+      },
+      {
+        "id": "C",
+        "text": "5"
+      },
+      {
+        "id": "D",
+        "text": "6"
+      }
+    ],
+    "correctAnswer": [
+      "A"
+    ],
+    "natRange": null,
+    "solution": "(a) From figures, 2,3,5 and 6 are adjacent to 1. Therefore 4 lies opposite 1. Hence when 4 is at bottom, 1 must be on top."
+  },
+  {
+    "id": "q5",
+    "number": 5,
+    "type": "NAT",
+    "marks": 1,
+    "negativeMarks": 0,
+    "section": "General Aptitude",
+    "questionText": "Twenty-four men can complete a work in sixteen days. Thirty-two women can complete the same work in twenty-four days. Sixteen men and sixteen women started working for twelve days. The number of extra men to be added to complete the remaining work in 2 days is ______",
+    "questionImage": null,
+    "options": [],
+    "correctAnswer": [
+      "24"
+    ],
+    "natRange": [
+      24,
+      24
+    ],
+    "solution": "24 men complete work in 16 days. 32 women complete same work in 24 days => 24 women take 24×32/24=32 days. So 16 women equivalent to 8 men work-wise. 16+8=24 men start, work 12 days, complete in 16 days so need another 4 days. To complete in half the time (2 days), need twice the workforce, so need another 24 men."
+  },
+  {
+    "id": "q6",
+    "number": 6,
+    "type": "MCQ",
+    "marks": 2,
+    "negativeMarks": 0.67,
+    "section": "General Aptitude",
+    "questionText": "A train after traveling for 50 km meets with an accident and then proceeds at 3/4 of its former speed and arrives at its destination 35 minutes late. Had the accident occurred 24 km farther, it would have reached the destination only 25 minutes late. What is the speed of the train in km/hr?",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "45"
+      },
+      {
+        "id": "B",
+        "text": "33"
+      },
+      {
+        "id": "C",
+        "text": "48"
+      },
+      {
+        "id": "D",
+        "text": "55"
+      }
+    ],
+    "correctAnswer": [
+      "C"
+    ],
+    "natRange": null,
+    "solution": "(c) Let d=total distance, s=speed. Segment 2 must account for the 10-minute total time difference between the two cases: 24/(3s/4) - 24/s = 1/6, solving gives s=48 km/hr"
+  },
+  {
+    "id": "q7",
+    "number": 7,
+    "type": "MCQ",
+    "marks": 2,
+    "negativeMarks": 0.67,
+    "section": "General Aptitude",
+    "questionText": "An orange vendor makes a profit of 20% by selling orange at a certain price. If he charges ₹1.2 higher per orange he would gain 40%. Find the original price at which he sold an orange.",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "₹7.2"
+      },
+      {
+        "id": "B",
+        "text": "₹6"
+      },
+      {
+        "id": "C",
+        "text": "₹5"
+      },
+      {
+        "id": "D",
+        "text": "₹4"
+      }
+    ],
+    "correctAnswer": [
+      "A"
+    ],
+    "natRange": null,
+    "solution": "(a) Let cost=c, selling price s=1.2c. s+1.2=1.4c => 1.2c+1.2=1.4c => c=6, s=7.2"
+  },
+  {
+    "id": "q8",
+    "number": 8,
+    "type": "MCQ",
+    "marks": 2,
+    "negativeMarks": 0.67,
+    "section": "General Aptitude",
+    "questionText": "ΔABC and ΔXYZ are equilateral triangles of 54 cm sides. All smaller triangles like ΔANM, ΔOCP, ΔQPX etc. are also equilateral triangles. Find the area of the shape MNOPQRM.",
+    "questionImage": "q8_star_triangles.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "243√3 sq.cm."
+      },
+      {
+        "id": "B",
+        "text": "486√3 sq.cm."
+      },
+      {
+        "id": "C",
+        "text": "729√3 sq.cm."
+      },
+      {
+        "id": "D",
+        "text": "4374√3 sq.cm."
+      }
+    ],
+    "correctAnswer": [
+      "B"
+    ],
+    "natRange": null,
+    "solution": "(b) AB=54cm, MN=MR=NO=OP=PQ=QR=54/3=18cm. MNOPQRM is a regular hexagon with side 18cm. Area = (3√3/2)(18)² = 486√3 sq.cm."
+  },
+  {
+    "id": "q9",
+    "number": 9,
+    "type": "MCQ",
+    "marks": 2,
+    "negativeMarks": 0.67,
+    "section": "General Aptitude",
+    "questionText": "What is the sum of the following series?\n-64, -66, -68,........., -100",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "-1458"
+      },
+      {
+        "id": "B",
+        "text": "-1558"
+      },
+      {
+        "id": "C",
+        "text": "-1568"
+      },
+      {
+        "id": "D",
+        "text": "-1664"
+      }
+    ],
+    "correctAnswer": [
+      "B"
+    ],
+    "natRange": null,
+    "solution": "(b) AP with d=-2, a=-64, an=-100. -100=-64+(n-1)(-2) => n=19. Sum=(19/2)(-64-100)=19×(-82)=-1558"
+  },
+  {
+    "id": "q10",
+    "number": 10,
+    "type": "NAT",
+    "marks": 2,
+    "negativeMarks": 0,
+    "section": "General Aptitude",
+    "questionText": "The perimeter of a certain isosceles right triangle is 16+16√2 units. What is the length of the hypotenuse of the triangle?",
+    "questionImage": null,
+    "options": [],
+    "correctAnswer": [
+      "16"
+    ],
+    "natRange": [
+      16,
+      16
+    ],
+    "solution": "This is a 45:45:90 isosceles triangle with sides in ratio 1:1:√2. Let sides be x,x,x√2. Perimeter = 2x+x√2 = 16+16√2. Solving: x√2(√2+1)=16(1+√2) => x√2=16"
+  },
+  {
+    "id": "q11",
+    "number": 11,
+    "type": "MCQ",
+    "marks": 1,
+    "negativeMarks": 0.33,
+    "section": "Core Subject",
+    "questionText": "Let A={(a*b*)} and B={bb, ba, bbb}. Then A/B represents the following language when/is quotient operation.",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "∅"
+      },
+      {
+        "id": "B",
+        "text": "{b*}"
+      },
+      {
+        "id": "C",
+        "text": "{a*b*}"
+      },
+      {
+        "id": "D",
+        "text": "None of these"
+      }
+    ],
+    "correctAnswer": [
+      "C"
+    ],
+    "natRange": null,
+    "solution": "(c) A={a*b*}, B={bb,ba,bbb}. A/B = (a*b*)/bb ∪ (a*b*)/ba ∪ (a*b*)/bbb = {a*b*} ∪ ∅ ∪ {a*b*} = {a*b*}"
+  },
+  {
+    "id": "q12",
+    "number": 12,
+    "type": "MCQ",
+    "marks": 1,
+    "negativeMarks": 0.33,
+    "section": "Core Subject",
+    "questionText": "Assume i and j are small integers. Which of the following code snippets swaps i and j without third variable? (^ is a XOR operation bitwise).\nA: i=i+j; j=i-j; i=i-j;\nB: i=i*j; j=i/j; i=i/j;\nC: i=i^j; j=i^j; i=i^j;",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "i=i+j; j=i-j; i=i-j;"
+      },
+      {
+        "id": "B",
+        "text": "i=i*j; j=i/j; i=i/j;"
+      },
+      {
+        "id": "C",
+        "text": "i=i^j; j=i^j; i=i^j;"
+      },
+      {
+        "id": "D",
+        "text": "All of these"
+      }
+    ],
+    "correctAnswer": [
+      "D"
+    ],
+    "natRange": null,
+    "solution": "(d) All three code snippets do the same work — they swap i and j without a 3rd variable."
+  },
+  {
+    "id": "q13",
+    "number": 13,
+    "type": "MCQ",
+    "marks": 1,
+    "negativeMarks": 0.33,
+    "section": "Core Subject",
+    "questionText": "If given two Turing decidable languages L1 and L2, then L1-L2 will be",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Recursive language"
+      },
+      {
+        "id": "B",
+        "text": "Recursive enumerable language"
+      },
+      {
+        "id": "C",
+        "text": "Regular language"
+      },
+      {
+        "id": "D",
+        "text": "CFL"
+      }
+    ],
+    "correctAnswer": [
+      "A"
+    ],
+    "natRange": null,
+    "solution": "(a) Recursive languages are closed under L1-L2, since L1-L2 = L1 ∩ L2-complement, and recursive languages are closed under intersection and complement."
+  },
+  {
+    "id": "q14",
+    "number": 14,
+    "type": "MCQ",
+    "marks": 1,
+    "negativeMarks": 0.33,
+    "section": "Core Subject",
+    "questionText": "How many times does the processor need to access the memory when it executes an indirect address instruction to fetch the data when single operand is used?",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "2"
+      },
+      {
+        "id": "C",
+        "text": "3"
+      },
+      {
+        "id": "D",
+        "text": "4"
+      }
+    ],
+    "correctAnswer": [
+      "B"
+    ],
+    "natRange": null,
+    "solution": "(b) 2 times required to access memory for an indirect address instruction."
+  },
+  {
+    "id": "q15",
+    "number": 15,
+    "type": "MCQ",
+    "marks": 1,
+    "negativeMarks": 0.33,
+    "section": "Core Subject",
+    "questionText": "Consider the following statement:\nI. Level order traversal is not based on depth first search.\nII. Worst case deletion and insertion in an AVL tree has different time complexity.\nWhich of the above statement(s) is/are true?",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "I only"
+      },
+      {
+        "id": "B",
+        "text": "II only"
+      },
+      {
+        "id": "C",
+        "text": "Both I and II"
+      },
+      {
+        "id": "D",
+        "text": "None of these"
+      }
+    ],
+    "correctAnswer": [
+      "A"
+    ],
+    "natRange": null,
+    "solution": "(a) Level order traversal is based on breadth first search. Worst case deletion and insertion in an AVL tree has same time complexity."
+  },
+  {
+    "id": "q16",
+    "number": 16,
+    "type": "MCQ",
+    "marks": 1,
+    "negativeMarks": 0.33,
+    "section": "Core Subject",
+    "questionText": "The number of binary strings with m zeroes and n ones, such that no two zeroes are consecutive, is equal to",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "nCm"
+      },
+      {
+        "id": "B",
+        "text": "(n+1)C(n-m+1)"
+      },
+      {
+        "id": "C",
+        "text": "(m+1)Cn"
+      },
+      {
+        "id": "D",
+        "text": "None of these"
+      }
+    ],
+    "correctAnswer": [
+      "B"
+    ],
+    "natRange": null,
+    "solution": "(b) Using the gap method: arrange n ones in a row giving n+1 gaps, of which m positions used to place zeroes. (n+1)Cm strings result, same as (n+1)C(n-m+1)."
+  },
+  {
+    "id": "q17",
+    "number": 17,
+    "type": "MCQ",
+    "marks": 1,
+    "negativeMarks": 0.33,
+    "section": "Core Subject",
+    "questionText": "Consider the following segment table:\nSegment 0: Base=200, Length=180\nSegment 1: Base=540, Length=490\nSegment 2: Base=1135, Length=65\nSegment 3: Base=2084, Length=300\nWhich of the following logical address generate trap to operating system?\nI. 0, 210  II. 1, 340  III. 2, 1140  IV. 3, 140",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "I and II only"
+      },
+      {
+        "id": "B",
+        "text": "II and III only"
+      },
+      {
+        "id": "C",
+        "text": "I and III only"
+      },
+      {
+        "id": "D",
+        "text": "I and IV only"
+      }
+    ],
+    "correctAnswer": [
+      "C"
+    ],
+    "natRange": null,
+    "solution": "(c) I: (0,210) 210>180 so generates trap. II: (1,340) 490>340, no trap. III: (2,1140) length 65<1140, so there is trap. IV: (3,140) 300>140, so no trap."
+  },
+  {
+    "id": "q18",
+    "number": 18,
+    "type": "MCQ",
+    "marks": 1,
+    "negativeMarks": 0.33,
+    "section": "Core Subject",
+    "questionText": "For the circuit given below. If A=10101010 and B=11111111. A and B feed into a Bitwise EX-NOR gate, whose output feeds into a Gray Code Generator, producing the Output. What is the decimal equivalent of the output?",
+    "questionImage": "q18_exnor_gray_code_circuit.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "251"
+      },
+      {
+        "id": "B",
+        "text": "253"
+      },
+      {
+        "id": "C",
+        "text": "254"
+      },
+      {
+        "id": "D",
+        "text": "255"
+      }
+    ],
+    "correctAnswer": [
+      "D"
+    ],
+    "natRange": null,
+    "solution": "(d) A=10101010, B=11111111. Ex-NOR: 10101010. Gray code of 10101010 is 11111111. Decimal equivalent of 11111111 = 255"
+  },
+  {
+    "id": "q19",
+    "number": 19,
+    "type": "MCQ",
+    "marks": 1,
+    "negativeMarks": 0.33,
+    "section": "Core Subject",
+    "questionText": "Which of the following is true?",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "In IPv4 checksum is used as error detecting technique where in IPv6 CRC is used."
+      },
+      {
+        "id": "B",
+        "text": "In congestion avoidance state, sender increases its window size by one packet for each acknowledgement."
+      },
+      {
+        "id": "C",
+        "text": "When an IP router between two ethernet segments forward an IP packet, it does not modify the destination IP address."
+      },
+      {
+        "id": "D",
+        "text": "None of these"
+      }
+    ],
+    "correctAnswer": [
+      "C"
+    ],
+    "natRange": null,
+    "solution": "(c) IPv4 uses checksum, and IPv6 does not use any such technique as it assumes upper/lower layers perform error detection. Window size increases by 1 MSS. When an IP router forwards a packet between two ethernet segments it does not modify the destination IP."
+  },
+  {
+    "id": "q20",
+    "number": 20,
+    "type": "MCQ",
+    "marks": 1,
+    "negativeMarks": 0.33,
+    "section": "Core Subject",
+    "questionText": "Consider the following structure for creating nodes of a double linked list.\nstruct node {\n  int data;\n  struct node *x1; /* left pointer */\n  struct node *y1; /* right pointer */\n};\nLet us assume P be the node in the existing linked list. Which of the following is true about the following code C1?\nCode C1:\n(P→x1)→y1 = P→y1;\n(P→y1)→x1 = P→x1;\nAssume memory is made free automatically by the compiler after deletion.",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "It deletes the node to the right of P"
+      },
+      {
+        "id": "B",
+        "text": "It deletes the node to the left of P"
+      },
+      {
+        "id": "C",
+        "text": "It deletes the node P from the linked list"
+      },
+      {
+        "id": "D",
+        "text": "None of the above"
+      }
+    ],
+    "correctAnswer": [
+      "C"
+    ],
+    "natRange": null,
+    "solution": "(c) The pointer rewiring in code C1 removes node P from the doubly-linked list, connecting its left and right neighbors directly, with P freed automatically."
+  },
+  {
+    "id": "q21",
+    "number": 21,
+    "type": "MCQ",
+    "marks": 1,
+    "negativeMarks": 0.33,
+    "section": "Core Subject",
+    "questionText": "Let A=[[-1,0,1],[0,1,0]] and B=[[a,b],[c,d],[e,f]] (B is 3×2). If AB=I then element f=_________.",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "a"
+      },
+      {
+        "id": "B",
+        "text": "a+1"
+      },
+      {
+        "id": "C",
+        "text": "b"
+      },
+      {
+        "id": "D",
+        "text": "1-b"
+      }
+    ],
+    "correctAnswer": [
+      "C"
+    ],
+    "natRange": null,
+    "solution": "(c) Given AB=I: [[-a+e, -b+f],[c,d]] = [[1,0],[0,1]]. From -b+f=0, f=b"
+  },
+  {
+    "id": "q22",
+    "number": 22,
+    "type": "MCQ",
+    "marks": 1,
+    "negativeMarks": 0.33,
+    "section": "Core Subject",
+    "questionText": "Let an denote the number of ternary strings of length n in which no two 0's are consecutive. Then the recurrence relation for an is equal to",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "an = a(n-1) + a(n-2); a1=3, a2=8"
+      },
+      {
+        "id": "B",
+        "text": "an = 2(a(n-1) + a(n-2)); a1=3, a2=8"
+      },
+      {
+        "id": "C",
+        "text": "an = 2a(n-1) + 3a(n-2); a1=3, a2=8"
+      },
+      {
+        "id": "D",
+        "text": "an = a(n-2) + 2a(n-3); a1=3, a2=8"
+      }
+    ],
+    "correctAnswer": [
+      "B"
+    ],
+    "natRange": null,
+    "solution": "(b) We can check that a3 equals 22, and only option (b) is consistent with the base cases when plugged in."
+  },
+  {
+    "id": "q23",
+    "number": 23,
+    "type": "MCQ",
+    "marks": 1,
+    "negativeMarks": 0.33,
+    "section": "Core Subject",
+    "questionText": "Which of the following is correct?",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Secondary index over key may not be dense."
+      },
+      {
+        "id": "B",
+        "text": "Relation with every attribute is prime always be in BCNF."
+      },
+      {
+        "id": "C",
+        "text": "A theta join is a natural join followed by relation operator."
+      },
+      {
+        "id": "D",
+        "text": "None of these"
+      }
+    ],
+    "correctAnswer": [
+      "D"
+    ],
+    "natRange": null,
+    "solution": "(d) (a) Secondary index over key must be dense. (b) Relation with every attribute prime is always in 3NF but may not be in BCNF. (c) A theta join is a Cartesian product followed by relation operator."
+  },
+  {
+    "id": "q24",
+    "number": 24,
+    "type": "MCQ",
+    "marks": 1,
+    "negativeMarks": 0.33,
+    "section": "Core Subject",
+    "questionText": "Let G be a graph having 3 components, such that the components can be coloured sufficiently with 3, 4, and 5 colours respectively in such a way that no two adjacent vertices have the same colour. Then the chromatic number of G is equal to",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "3"
+      },
+      {
+        "id": "B",
+        "text": "4"
+      },
+      {
+        "id": "C",
+        "text": "5"
+      },
+      {
+        "id": "D",
+        "text": "None of these"
+      }
+    ],
+    "correctAnswer": [
+      "C"
+    ],
+    "natRange": null,
+    "solution": "(c) Chromatic number of G = max(3,4,5) = 5"
+  },
+  {
+    "id": "q25",
+    "number": 25,
+    "type": "MCQ",
+    "marks": 1,
+    "negativeMarks": 0.33,
+    "section": "Core Subject",
+    "questionText": "A modulo-16 ripple counter uses J-K flip-flops. If the propagation delay of each flip-flop is p ns and the maximum clock frequency that can be used is 5 MHz, then which of the following represents value of p?",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "30"
+      },
+      {
+        "id": "B",
+        "text": "40"
+      },
+      {
+        "id": "C",
+        "text": "50"
+      },
+      {
+        "id": "D",
+        "text": "55"
+      }
+    ],
+    "correctAnswer": [
+      "C"
+    ],
+    "natRange": null,
+    "solution": "(c) Number of flip-flops for mod-16 ripple counter=4. Max clock frequency = 10^9/(4p) Hz = 5MHz. p = 10^9/(4×5×10^6) = 50"
+  },
+  {
+    "id": "q26",
+    "number": 26,
+    "type": "NAT",
+    "marks": 1,
+    "negativeMarks": 0,
+    "section": "Core Subject",
+    "questionText": "How many 32K×8 RAM chips are needed to provide a memory capacity of 1 M byte ________.",
+    "questionImage": null,
+    "options": [],
+    "correctAnswer": [
+      "32"
+    ],
+    "natRange": [
+      32,
+      32
+    ],
+    "solution": "Number of RAM chips needed = 1M bytes / (32K×8 RAM) = 32"
+  },
+  {
+    "id": "q27",
+    "number": 27,
+    "type": "NAT",
+    "marks": 1,
+    "negativeMarks": 0,
+    "section": "Core Subject",
+    "questionText": "Consider a IPv4 network system in which each host can generate packet with a rate of 300 packet per second, if each host in network is identified by unique identification number of 48 bits, then the host wrap around time for generating packet will be (in sec) ________. (Closest integer value)",
+    "questionImage": null,
+    "options": [],
+    "correctAnswer": [
+      "218"
+    ],
+    "natRange": [
+      218,
+      219
+    ],
+    "solution": "IPv4 address size=32 bits. Number of hosts present = 2^32. Each host generates 300 packets/sec. Total = 2^32×300. Unique identification number is 48 bits, so number of packets possible = 2^48. Time to generate host wrap around = 2^48/(2^32×300) = 218.45 ≈ 218"
+  },
+  {
+    "id": "q28",
+    "number": 28,
+    "type": "NAT",
+    "marks": 1,
+    "negativeMarks": 0,
+    "section": "Core Subject",
+    "questionText": "What is the value of the following limit ________ (Upto 2 decimal places)\nlim(x→4) [3-√(x+5)] / (x-4)",
+    "questionImage": null,
+    "options": [],
+    "correctAnswer": [
+      "-0.16"
+    ],
+    "natRange": [
+      -0.17,
+      -0.16
+    ],
+    "solution": "Rationalizing: lim(x→4) [9-(x+5)] / [(x-4)(3+√(x+5))] = -1/(3+√9) = -1/6 = -0.16"
+  },
+  {
+    "id": "q29",
+    "number": 29,
+    "type": "NAT",
+    "marks": 1,
+    "negativeMarks": 0,
+    "section": "Core Subject",
+    "questionText": "Let P and V are usual semaphore operation, a counting semaphore variable S initialized to 3, if the following operations are performed in the given order, value of S is ________.\nP, V, P, P, V, V, P, V, V, P, P, V",
+    "questionImage": null,
+    "options": [],
+    "correctAnswer": [
+      "3"
+    ],
+    "natRange": [
+      3,
+      3
+    ],
+    "solution": "P decrements semaphore, V increments it. Given sequence has 6 P operations and 6 V operations. Final value of S = 3+6-6 = 3"
+  },
+  {
+    "id": "q30",
+    "number": 30,
+    "type": "NAT",
+    "marks": 1,
+    "negativeMarks": 0,
+    "section": "Core Subject",
+    "questionText": "The ratio of chromatic number to the diameter of Wheel graph W7 is equal to ________. (Upto 1 decimal place)",
+    "questionImage": null,
+    "options": [],
+    "correctAnswer": [
+      "1.5"
+    ],
+    "natRange": [
+      1.5,
+      1.5
+    ],
+    "solution": "Chromatic number of Wheel graph is 3 when n is odd, and 4 when n is even. So k(W7)=3. Diameter of Wheel graph=2. Ratio = 3/2 = 1.5"
+  },
+  {
+    "id": "q31",
+    "number": 31,
+    "type": "NAT",
+    "marks": 1,
+    "negativeMarks": 0,
+    "section": "Core Subject",
+    "questionText": "Consider the following function.\nint fun(int m, int n) {\n  if (n==0) return m;\n  else return (m + fun(m, n-1));\n}\nWhat is the return value of function fun(18, 28)?",
+    "questionImage": null,
+    "options": [],
+    "correctAnswer": [
+      "522"
+    ],
+    "natRange": [
+      522,
+      522
+    ],
+    "solution": "The given program multiplies m and (n+1) = 18×29 = 522"
+  },
+  {
+    "id": "q32",
+    "number": 32,
+    "type": "NAT",
+    "marks": 1,
+    "negativeMarks": 0,
+    "section": "Core Subject",
+    "questionText": "Consider the following ER diagram: Entities A,B,C connect via relationship R1 (M cardinality) to entity E1; E1 connects with cardinality 1 to relationship R2 which connects with cardinality 1 to entity E2; E2 connects via relationship R3 (M,N cardinality) to entities X,Y,Z. The minimum number of relations table required for above ER diagram are ________.",
+    "questionImage": "q32_er_diagram.png",
+    "options": [],
+    "correctAnswer": [
+      "4"
+    ],
+    "natRange": [
+      4,
+      4
+    ],
+    "solution": "E1R1 (A B C D), R2(A D), E2(D E F), E3R3(X D Y Z candidate key). So minimum 4 relational tables are required."
+  },
+  {
+    "id": "q33",
+    "number": 33,
+    "type": "NAT",
+    "marks": 1,
+    "negativeMarks": 0,
+    "section": "Core Subject",
+    "questionText": "Consider the following C code:\nint main() {\n  int a=25;\n  int b;\n  b=++a;\n  b=a++;\n  b=--a;\n  b=a;\n  printf(\"%d\", b);\n  return 0;\n}\nNumber of tokens in the above C code ________.",
+    "questionImage": null,
+    "options": [],
+    "correctAnswer": [
+      "42"
+    ],
+    "natRange": [
+      42,
+      42
+    ],
+    "solution": "Counting each token (keywords, identifiers, operators, punctuation) across the entire program gives a total of 42 tokens."
+  },
+  {
+    "id": "q34",
+    "number": 34,
+    "type": "NAT",
+    "marks": 1,
+    "negativeMarks": 0,
+    "section": "Core Subject",
+    "questionText": "The number of distinct BFS traversal possible on complete graph of 4 vertices are ________. (Vertices are labelled)",
+    "questionImage": null,
+    "options": [],
+    "correctAnswer": [
+      "24"
+    ],
+    "natRange": [
+      24,
+      24
+    ],
+    "solution": "Complete graph on 4 vertices: 4 choices to select the starting vertex. For each start, remaining 3 vertices can be visited in 3! orders. Total = 4×3! = 4×6 = 24"
+  },
+  {
+    "id": "q35",
+    "number": 35,
+    "type": "NAT",
+    "marks": 1,
+    "negativeMarks": 0,
+    "section": "Core Subject",
+    "questionText": "Consider 3 dimensional Array A[90][30][40] stored in linear array in column major order. If the base address starts at 10, what is the location of A[20][20][30]? Assume the first element is stored at A[1][1][1].",
+    "questionImage": null,
+    "options": [],
+    "correctAnswer": [
+      "23699"
+    ],
+    "natRange": [
+      23699,
+      23699
+    ],
+    "solution": "For column major order: loc(A(i,j,k)) = BaseAddress + (i-1)r2r3 + (k-1)r2 + (j-1) = 10 + 19×(30)(40) + 29×(30) + 19 = 23699"
+  },
+  {
+    "id": "q36",
+    "number": 36,
+    "type": "MCQ",
+    "marks": 2,
+    "negativeMarks": 0.67,
+    "section": "Core Subject",
+    "questionText": "We are given two strings: String S of length n and string T of length m for the LCS problem, we have produced the following exponential time recursive program.\nLCS(S,n,T,m) {\n  if (n==0 || m==0) return 0;\n  if (S[n]==T[m]) result = 1+LCS(S,n-1,T,m-1);\n  else result = max(LCS(S,n-1,T,m), LCS(S,n,T,m-1));\n  return result;\n}\nThen the number of times that LCS(S,1,T,1) is recursively called equals ________.",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "C(n+m-2, m-1)"
+      },
+      {
+        "id": "B",
+        "text": "C(n+m+1, m-2)"
+      },
+      {
+        "id": "C",
+        "text": "C(n+m+2, m)"
+      },
+      {
+        "id": "D",
+        "text": "C(n+m, m-1)"
+      }
+    ],
+    "correctAnswer": [
+      "A"
+    ],
+    "natRange": null,
+    "solution": "(a)"
+  },
+  {
+    "id": "q37",
+    "number": 37,
+    "type": "MCQ",
+    "marks": 2,
+    "negativeMarks": 0.67,
+    "section": "Core Subject",
+    "questionText": "Consider the following statements:\nI. A secure hash function will not produce any collisions.\nII. Bind() used on the client side and assigns a free local port number to the socket.\nWhich of the above statement(s) is/are true?",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "I only"
+      },
+      {
+        "id": "B",
+        "text": "II only"
+      },
+      {
+        "id": "C",
+        "text": "Both I and II"
+      },
+      {
+        "id": "D",
+        "text": "Neither I nor II"
+      }
+    ],
+    "correctAnswer": [
+      "D"
+    ],
+    "natRange": null,
+    "solution": "(d) A secure hash function may produce any number of collisions. Bind() associates a socket with a socket address structure. Both statements are incorrect."
+  },
+  {
+    "id": "q38",
+    "number": 38,
+    "type": "MCQ",
+    "marks": 2,
+    "negativeMarks": 0.67,
+    "section": "Core Subject",
+    "questionText": "Let (Z,+) be a group where Z represents the set of all integers. Then which of the following is a subgroup of G?",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "({2k+1 | k∈Z}, +)"
+      },
+      {
+        "id": "B",
+        "text": "({3k+2 | k∈Z}, +)"
+      },
+      {
+        "id": "C",
+        "text": "({5k | k∈Z} ∪ {5k+2 | k∈Z} ∪ {5k+4 | k∈Z}, +)"
+      },
+      {
+        "id": "D",
+        "text": "None of these"
+      }
+    ],
+    "correctAnswer": [
+      "D"
+    ],
+    "natRange": null,
+    "solution": "(d) None of the given options are subgroups of G. All violate the closure property when checked."
+  },
+  {
+    "id": "q39",
+    "number": 39,
+    "type": "MCQ",
+    "marks": 2,
+    "negativeMarks": 0.67,
+    "section": "Core Subject",
+    "questionText": "A single processor system has three resource types X, Y and Z, which are shared by four processes. There are 12 units of each resource type. Consider the following scenario, where the column allocation denotes the units of each resource type allocated to each process, and the column request denotes the remaining needs of every process for each resource type in order to complete their execution.\nP0: Allocation(2,3,2) Request(3,5,8)\nP1: Allocation(3,1,2) Request(1,2,3)\nP2: Allocation(3,3,2) Request(5,8,1)\nP3: Allocation(3,2,3) Request(2,2,4)\nWhich of the following is correct?",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "P1 is the first process to execute"
+      },
+      {
+        "id": "B",
+        "text": "P2 execute at 2nd position"
+      },
+      {
+        "id": "C",
+        "text": "P0 executed at 4th position"
+      },
+      {
+        "id": "D",
+        "text": "All of these"
+      }
+    ],
+    "correctAnswer": [
+      "A"
+    ],
+    "natRange": null,
+    "solution": "(a) Available = Total resources - Total allocated = (12,12,12)-(11,9,9)=(1,3,3). Applying Banker's algorithm, P1 is the first process able to execute."
+  },
+  {
+    "id": "q40",
+    "number": 40,
+    "type": "MCQ",
+    "marks": 2,
+    "negativeMarks": 0.67,
+    "section": "Core Subject",
+    "questionText": "Consider a relation R(A,B,C,D) and two sets of functional dependencies F1 and F2:\nF1 = {CA→B, BA→D, B→D, DB→C}\nF2 = {A→B, B→A, AB→C, AC→D, B→C}\nWhich of the following is true?",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "F2 covers F1"
+      },
+      {
+        "id": "B",
+        "text": "F1 covers F2"
+      },
+      {
+        "id": "C",
+        "text": "F1 covers F2"
+      },
+      {
+        "id": "D",
+        "text": "None of these"
+      }
+    ],
+    "correctAnswer": [
+      "A"
+    ],
+    "natRange": null,
+    "solution": "(a) Checking F2 covers F1: CA→B derivable from F2 (A→B then CA→CB, CA→B). BA→D derivable (A→B, B→AC, AC→D then B→D, AB→D). B→D derivable. DB→C derivable (B→C then DB→DC). So F2 covers F1. Checking F1 covers F2: A→B cannot be derived by F1, so F1 does not cover F2."
+  },
+  {
+    "id": "q41",
+    "number": 41,
+    "type": "MCQ",
+    "marks": 2,
+    "negativeMarks": 0.67,
+    "section": "Core Subject",
+    "questionText": "For the circuit shown below: a BCD Up Counter (LSB to MSB: Q0,Q1,Q2,Q3) feeds two XOR/XNOR gates producing I1 and I0, which feed into a 2-to-4 decoder producing outputs y3,y2,y1,y0. For how many number of clock pulses for which y2 is '1'?",
+    "questionImage": "q41_bcd_counter_decoder_circuit.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "2 clock pulses"
+      },
+      {
+        "id": "B",
+        "text": "3 clock pulses"
+      },
+      {
+        "id": "C",
+        "text": "10 clock pulses"
+      },
+      {
+        "id": "D",
+        "text": "6 clock pulses"
+      }
+    ],
+    "correctAnswer": [
+      "B"
+    ],
+    "natRange": null,
+    "solution": "(b) I1=Q1⊕Q0, I0=Q3⊙Q2. Tracing through all 10 clock cycles of the BCD counter, y2 is '1' for 3 clock cycles."
+  },
+  {
+    "id": "q42",
+    "number": 42,
+    "type": "MCQ",
+    "marks": 2,
+    "negativeMarks": 0.67,
+    "section": "Core Subject",
+    "questionText": "Consider a system with N stations share 80 Kbps of slotted aloha channel, size of the frame is 256 B which are sent at every 50 seconds what is the value of N?",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "728.25"
+      },
+      {
+        "id": "B",
+        "text": "835.19"
+      },
+      {
+        "id": "C",
+        "text": "718.75"
+      },
+      {
+        "id": "D",
+        "text": "None of these"
+      }
+    ],
+    "correctAnswer": [
+      "C"
+    ],
+    "natRange": null,
+    "solution": "(c) Throughput of slotted aloha = G×e^(-G), maximum throughput achieved when G=1. N×L = 0.368×80×10^3. (256×8/50)×N = 0.368×80×10^3. N = (0.368×50×80×10^3)/(256×8) = 718.75"
+  },
+  {
+    "id": "q43",
+    "number": 43,
+    "type": "MCQ",
+    "marks": 2,
+    "negativeMarks": 0.67,
+    "section": "Core Subject",
+    "questionText": "Consider the following grammar G with productions\nS → aaA\nA → aA | B\nB → bbbC\nC → bC | λ\nThe language generated by G is",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "{a^(2n) b^(3m) : n≥2, m≥3}"
+      },
+      {
+        "id": "B",
+        "text": "{a^n b^m : n≥2, m≥3}"
+      },
+      {
+        "id": "C",
+        "text": "{a^n b^n : n=m-1}"
+      },
+      {
+        "id": "D",
+        "text": "{a^(2n) b^(3m) : n≥2, m≥3}"
+      }
+    ],
+    "correctAnswer": [
+      "B"
+    ],
+    "natRange": null,
+    "solution": "(b) From S→aaA we have two a's, and the number of a's can be further increased from A→aA. B→bbbC gives three b's, and further b's can be increased from C→bC."
+  },
+  {
+    "id": "q44",
+    "number": 44,
+    "type": "MCQ",
+    "marks": 2,
+    "negativeMarks": 0.67,
+    "section": "Core Subject",
+    "questionText": "Consider a degree sequence for n vertices, what is the worst case time complexity to determine if a simple graph is possible with the given degree sequence?",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "O(n²)"
+      },
+      {
+        "id": "B",
+        "text": "O(n log n)"
+      },
+      {
+        "id": "C",
+        "text": "O(n)"
+      },
+      {
+        "id": "D",
+        "text": "O(n² log n)"
+      }
+    ],
+    "correctAnswer": [
+      "D"
+    ],
+    "natRange": null,
+    "solution": "(d) Using the Havel-Hakimi algorithm: sort the degree sequence in decreasing order, decrement the first k terms where k=a[0], repeating until all entries become 0 or one entry remains. This takes O(n² log n) time."
+  },
+  {
+    "id": "q45",
+    "number": 45,
+    "type": "MCQ",
+    "marks": 2,
+    "negativeMarks": 0.67,
+    "section": "Core Subject",
+    "questionText": "Consider the following function.\nint BSR(int arr[], int k) {\n  int value=0, i, last;\n  for (i=0; i<k; i++)\n    value += arr[i];\n  last = (k*(k-1))/2;\n  return (value - last);\n}\nAssume that the array contains list of all the numbers from 1 to k-1. What is the return value of function BSR?",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Sum of all numbers"
+      },
+      {
+        "id": "B",
+        "text": "Repeated number in the list"
+      },
+      {
+        "id": "C",
+        "text": "Average of all numbers"
+      },
+      {
+        "id": "D",
+        "text": "None of these"
+      }
+    ],
+    "correctAnswer": [
+      "B"
+    ],
+    "natRange": null,
+    "solution": "(b) This program finds a repeated (duplicate) number in the list. It sums all values in 'value' and subtracts k(k-1)/2. Since the array has k locations with numbers from 1 to k-1, one number is repeated."
+  },
+  {
+    "id": "q46",
+    "number": 46,
+    "type": "MCQ",
+    "marks": 2,
+    "negativeMarks": 0.67,
+    "section": "Core Subject",
+    "questionText": "Consider the following table:\nSupplier(sid, name)\nParts(pid, pname, color)\nCatalog(sid, pid, cost)\nWhich of the following query gives ID's of supplier who supplied every red part.\nQ1: Select sid from Catalog C1 where NOT EXISTS (select pid from Parts P, Catalog C2 where color='Red' and C1.sid = C2.sid)\nQ2: Select sid from Catalog where pid = ALL (select pid from Parts where color='Red')",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Q1 only"
+      },
+      {
+        "id": "B",
+        "text": "Q2 only"
+      },
+      {
+        "id": "C",
+        "text": "Both Q1 and Q2"
+      },
+      {
+        "id": "D",
+        "text": "None of these"
+      }
+    ],
+    "correctAnswer": [
+      "D"
+    ],
+    "natRange": null,
+    "solution": "(d) Q1 does not give the names of suppliers who supplied every red part. Q2's query will fail if two or more parts are red, since (=ALL) becomes false for every record."
+  },
+  {
+    "id": "q47",
+    "number": 47,
+    "type": "MCQ",
+    "marks": 2,
+    "negativeMarks": 0.67,
+    "section": "Core Subject",
+    "questionText": "Consider a system such that the number of clock cycles for a polling operation (including transferring to the polling routine, accessing the device and restarting the user program) is 400 cycles and that the processor executes with a 500 MHz clock. Determine the fraction of CPU consumed when the mouse must be polled 30 times per second.",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "0.002%"
+      },
+      {
+        "id": "B",
+        "text": "0.02%"
+      },
+      {
+        "id": "C",
+        "text": "0.2%"
+      },
+      {
+        "id": "D",
+        "text": "None of these"
+      }
+    ],
+    "correctAnswer": [
+      "A"
+    ],
+    "natRange": null,
+    "solution": "(a) Clock cycles for polling 30 times = 30×400=12000 cycles/sec. 1 processor cycle time = 1/(500×10^6). Total poll time = 12000×that = 2.4×10^-5. Fraction = 2.4×10^-5×100 = 0.0024%, closest option is 0.002%"
+  },
+  {
+    "id": "q48",
+    "number": 48,
+    "type": "MCQ",
+    "marks": 2,
+    "negativeMarks": 0.67,
+    "section": "Core Subject",
+    "questionText": "Consider the following grammar:\nS → aPbSQ | a\nQ → tS\nP → r\nWhich of the following option is true with respect to the grammar?",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Grammar is LL(1)"
+      },
+      {
+        "id": "B",
+        "text": "Grammar is LR(0)"
+      },
+      {
+        "id": "C",
+        "text": "Grammar is not LR(0) but SLR(1)"
+      },
+      {
+        "id": "D",
+        "text": "Grammar is not SLR(1)"
+      }
+    ],
+    "correctAnswer": [
+      "C"
+    ],
+    "natRange": null,
+    "solution": "(c) FIRST(aPbSQ) and FIRST(a) both include 'a', so grammar is not LL(1). Checking LR(0) via canonical items shows a shift-reduce conflict, so not LR(0). Checking SLR(1), the conflict resolves using FOLLOW sets, so grammar is SLR(1) but not LR(0)."
+  },
+  {
+    "id": "q49",
+    "number": 49,
+    "type": "MCQ",
+    "marks": 2,
+    "negativeMarks": 0.67,
+    "section": "Core Subject",
+    "questionText": "Consider the following function.\nf(x) = √(36-4x²)\nFind the points at which f has absolute minimum and absolute maximum respectively.",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "x=0, x=6"
+      },
+      {
+        "id": "B",
+        "text": "x=6, x=0"
+      },
+      {
+        "id": "C",
+        "text": "x=0, x=3"
+      },
+      {
+        "id": "D",
+        "text": "x=3, x=0"
+      }
+    ],
+    "correctAnswer": [
+      "D"
+    ],
+    "natRange": null,
+    "solution": "(d) At x=0, f(x)=6, which is the maximum. At x=3, f(x)=0, which is the minimum. So f has absolute maximum at x=0 and absolute minimum at x=3."
+  },
+  {
+    "id": "q50",
+    "number": 50,
+    "type": "MCQ",
+    "marks": 2,
+    "negativeMarks": 0.67,
+    "section": "Core Subject",
+    "questionText": "Consider the following code segment:\nstruct node {\n  struct node *left;\n  int data;\n  struct node *right;\n};\nstruct node *fun(struct node *P) {\n  if (P→right→right == NULL)\n    P→right = P→right→left;\n  else\n    P = fun(P→right);\n  return (P);\n}\nWhat does the function fun do if root of a binary search tree is passed to the function? Assume left subtree and right subtree of Binary search tree is not NULL.",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Finds the largest node in the binary search tree"
+      },
+      {
+        "id": "B",
+        "text": "Finds the largest node in the binary search tree and deletes it"
+      },
+      {
+        "id": "C",
+        "text": "Finds the smallest node in Binary search tree"
+      },
+      {
+        "id": "D",
+        "text": "Finds the smallest node in binary search tree and deletes it"
+      }
+    ],
+    "correctAnswer": [
+      "B"
+    ],
+    "natRange": null,
+    "solution": "(b) The given code deletes the largest element of the Binary search tree, since the largest element is always found at the rightmost node."
+  },
+  {
+    "id": "q51",
+    "number": 51,
+    "type": "MCQ",
+    "marks": 2,
+    "negativeMarks": 0.67,
+    "section": "Core Subject",
+    "questionText": "Which of the following language is not a deterministic context free language?",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Set of all binary strings where every string not contain an equal number of zeros and one"
+      },
+      {
+        "id": "B",
+        "text": "Set of all binary strings where every string starts and ends with the same symbol, and have the same number of zeros and ones"
+      },
+      {
+        "id": "C",
+        "text": "{1 0^n 1^n | n>0} ∪ {11 0^k 1^(2k) | k>0}"
+      },
+      {
+        "id": "D",
+        "text": "None of these"
+      }
+    ],
+    "correctAnswer": [
+      "D"
+    ],
+    "natRange": null,
+    "solution": "(d) All given languages are DCFL. Each condition can be checked deterministically as the string is read left to right."
+  },
+  {
+    "id": "q52",
+    "number": 52,
+    "type": "MCQ",
+    "marks": 2,
+    "negativeMarks": 0.67,
+    "section": "Core Subject",
+    "questionText": "A 5 stage pipelined processor has IF, ID, EXE, MEM and WB. WB stage operation is divided into two parts. In the first part register write operation and in the second part register read operation is performed. The latencies of all those stages are 300, 400, 500, 500 and 300 (in nano second) respectively. Consider the following code is executed on this processor:\nI1: ADD R3,R2,R4; R3←R2+R4\nI2: SUB R6,R4,R3; R6←R4-R3\nI3: ADD R7,R5,R3; R7←R5+R3\nI4: SUB R1,R7,R4; R1←R7-R4\nWhat will be the execution time for the above code? (Assume each instruction takes one cycle to complete its operation in every stage).",
+    "questionImage": "q52_pipeline_diagram.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "6500 ns"
+      },
+      {
+        "id": "B",
+        "text": "5500 ns"
+      },
+      {
+        "id": "C",
+        "text": "6000 ns"
+      },
+      {
+        "id": "D",
+        "text": "5000 ns"
+      }
+    ],
+    "correctAnswer": [
+      "C"
+    ],
+    "natRange": null,
+    "solution": "(c) With data hazards causing stalls traced through the pipeline diagram, execution completes in 12 clock cycles of 500ns each = 6000 ns"
+  },
+  {
+    "id": "q53",
+    "number": 53,
+    "type": "MCQ",
+    "marks": 2,
+    "negativeMarks": 0.67,
+    "section": "Core Subject",
+    "questionText": "Consider the following statements with respect to networking devices:\nS1: They transmit the data to all the ports on the devices.\nS2: They build the connection with the similar networks which use the similar LANs.\nS3: They transmit the data only to that port which is connected to the destination device.\nS4: By checking the header of the packet, it forwards the packet to the higher hop on the path to destination.\nWhich of the following is true?\n(a) S1=Switch, S2=Router, S3=Hub, S4=Gateway\n(b) S1=Switch, S2=Gateway, S3=Hub, S4=Bridge\n(c) S1=Hub, S2=Bridge, S3=Switch, S4=Gateway\n(d) S1=Hub, S2=Bridge, S3=Switch, S4=Router",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "(a)"
+      },
+      {
+        "id": "B",
+        "text": "(b)"
+      },
+      {
+        "id": "C",
+        "text": "(c)"
+      },
+      {
+        "id": "D",
+        "text": "(d)"
+      }
+    ],
+    "correctAnswer": [
+      "D"
+    ],
+    "natRange": null,
+    "solution": "(d) Hubs transmit packets to all appended devices regardless of destination. Bridge connects two LANs/segments using the same protocol. Switch, unlike a hub, forwards packets just to the destination device. A router determines the destination address from the header and forwards it to the next hop."
+  },
+  {
+    "id": "q54",
+    "number": 54,
+    "type": "NAT",
+    "marks": 2,
+    "negativeMarks": 0,
+    "section": "Core Subject",
+    "questionText": "Consider the partially ordered set (P(S),⊇) where S={1,2,3,4,....,256}. Let A, B, C and D be subsets of S such that A contains all multiples of 8, and B contains multiples of 12, C consists of multiples of 18 and D consists of all perfect squares respectively. We define a subroutine op(a) equal to an element a', such that GLB(a,a')=0 and LUB(a,a')=1, where 0 and 1 denote the least and the greatest element respectively. Given that op(D) results in a set X, the cardinality of X is equal to ________.",
+    "questionImage": null,
+    "options": [],
+    "correctAnswer": [
+      "240"
+    ],
+    "natRange": [
+      240,
+      240
+    ],
+    "solution": "op(a) represents the complement of a. 256 is the largest perfect square belonging to S, giving 16 perfect squares from 1 to 256, so |D|=16. The complement of D contains 256-16=240 elements. So op(D)=|D'|=240"
+  },
+  {
+    "id": "q55",
+    "number": 55,
+    "type": "NAT",
+    "marks": 2,
+    "negativeMarks": 0,
+    "section": "Core Subject",
+    "questionText": "The number of state in a DFA to accept the language L={w | na(w) mod 4 = 2 and nb(w) mod 5 = 4}. (na(w) denotes the number of a's in string w) are ________.",
+    "questionImage": null,
+    "options": [],
+    "correctAnswer": [
+      "20"
+    ],
+    "natRange": [
+      20,
+      20
+    ],
+    "solution": "Number of states = m×n = 4×5 = 20"
+  },
+  {
+    "id": "q56",
+    "number": 56,
+    "type": "NAT",
+    "marks": 2,
+    "negativeMarks": 0,
+    "section": "Core Subject",
+    "questionText": "Consider two nodes X and Y connected with a cable of 1500 meter and signal propagation speed is 6×10^8 m/sec, frame size used by both nodes is 128 B including header and preambles, transmission rate is 80 Mbps and there are 4 switch between X and Y each insert 40 bit delay as a processing time in addition to store and forward delay. If only X send a packet to Y the time taken to reach at Y is ________ (μsec). (Upto 1 decimal place)",
+    "questionImage": null,
+    "options": [],
+    "correctAnswer": [
+      "68.5"
+    ],
+    "natRange": [
+      68.4,
+      68.6
+    ],
+    "solution": "Transmission Time = (128×8)/80Mbps = 12.8 μsec. Propagation Time = 1500/(6×10^8)=2.5 μsec. Processing Time = 40bits/80Mbps=0.5 μsec. Cable divided into 5 parts so propagation delay between entry points = 2.5/5=0.5 μsec. Time at first switch = 12.8+0.5+0.5=13.8. For 4 switches = 13.8×4=55.2. Total = 55.2+12.8+0.5 = 68.5 μsec"
+  },
+  {
+    "id": "q57",
+    "number": 57,
+    "type": "NAT",
+    "marks": 2,
+    "negativeMarks": 0,
+    "section": "Core Subject",
+    "questionText": "Consider the following statements:\nI. Bounded waiting is always satisfied if there are only two processes in synchronization mechanism.\nII. Test and set is used to implement lock/unlock to avoid busy waiting.\nIII. The CPU utilization always increases with the degree of multiprogramming increases.\nNumber of correct statement(s) is/are ________.",
+    "questionImage": null,
+    "options": [],
+    "correctAnswer": [
+      "0"
+    ],
+    "natRange": [
+      0,
+      0
+    ],
+    "solution": "I. Bounded waiting is not always satisfied even with two processes. II. Test and set is a special hardware instruction that performs two operations atomically but is not used to avoid busy waiting. III. CPU utilization increases as the degree of multiprogramming increases only up to a threshold, after which it decreases. All three statements are false."
+  },
+  {
+    "id": "q58",
+    "number": 58,
+    "type": "NAT",
+    "marks": 2,
+    "negativeMarks": 0,
+    "section": "Core Subject",
+    "questionText": "Consider a complete graph G with 5 vertices and with edges having weight 2,3,4,5,6,7,8,9,10,11 then maximum possible weight of minimum spanning tree of G is ________.",
+    "questionImage": "q58_weighted_graph.png",
+    "options": [],
+    "correctAnswer": [
+      "18"
+    ],
+    "natRange": [
+      18,
+      18
+    ],
+    "solution": "For the worst-case arrangement of edge weights that maximizes the MST weight, the resulting MST cost = 2+3+5+8 = 18"
+  },
+  {
+    "id": "q59",
+    "number": 59,
+    "type": "NAT",
+    "marks": 2,
+    "negativeMarks": 0,
+    "section": "Core Subject",
+    "questionText": "Consider a memory system, with a single level paging where a memory reference takes 180 ns, TLB access time 30 ns and the hit rate of TLB is 70%, we use memory system with TLB and without TLB, the difference between effective access time without TLB and with TLB technique is ________ (ns).",
+    "questionImage": null,
+    "options": [],
+    "correctAnswer": [
+      "96"
+    ],
+    "natRange": [
+      96,
+      96
+    ],
+    "solution": "Effective access time without TLB = 2×180=360ns. EAT with TLB = x(TLB+Ma)+(1-x)(TLB+2Ma) = 0.7(30+180)+0.3(30+360) = 147+117=264ns. Difference = 360-264=96ns"
+  },
+  {
+    "id": "q60",
+    "number": 60,
+    "type": "NAT",
+    "marks": 2,
+    "negativeMarks": 0,
+    "section": "Core Subject",
+    "questionText": "If a fair coin is tossed until the same result turns up in succession (both head or both tail) then find the probability when the number of tosses are even ________. (Upto 2 decimal places)",
+    "questionImage": null,
+    "options": [],
+    "correctAnswer": [
+      "0.66"
+    ],
+    "natRange": [
+      0.65,
+      0.67
+    ],
+    "solution": "P(n=even) = 2[P(n=2)+P(n=4)+P(n=6)+...] = 2[1/2² + (1/2)(1/2)² + ...] which simplifies via geometric progression to (1/2)(4/3) = 2/3 ≈ 0.66"
+  },
+  {
+    "id": "q61",
+    "number": 61,
+    "type": "NAT",
+    "marks": 2,
+    "negativeMarks": 0,
+    "section": "Core Subject",
+    "questionText": "Assume stack A has the entries p, q and r (with p on top and r on bottom). Initially stack B is empty. An entry popped out of stack A can be printed immediately or pushed to stack B. A entry popped out of stack B can only be printed. What is the least number of stack permutations of input sequence that start with a particular letter?",
+    "questionImage": null,
+    "options": [],
+    "correctAnswer": [
+      "1"
+    ],
+    "natRange": [
+      1,
+      1
+    ],
+    "solution": "Total stack permutations possible with the given sequence is 5. Here the least number of permutations starting with a particular letter is 1 (starting with r)."
+  },
+  {
+    "id": "q62",
+    "number": 62,
+    "type": "NAT",
+    "marks": 2,
+    "negativeMarks": 0,
+    "section": "Core Subject",
+    "questionText": "Consider the following schedules:\nS1: r1(x), r2(z), r1(z), r3(x), r3(y), w1(x), c1, w3(y), c3, r2(y), w2(y), w2(z), c2\nS2: r1(x), r2(z), r1(z), r3(x), r3(y), w1(x), w3(y), r2(y), w2(y), w2(z), c1, c2, c3\nS3: r1(x), r2(z), r3(x), r1(z), r2(y), r3(y), w1(x), c1, w2(z), c2, w3(y), c3\nThe number of above schedules recoverable are ________.",
+    "questionImage": null,
+    "options": [],
+    "correctAnswer": [
+      "2"
+    ],
+    "natRange": [
+      2,
+      2
+    ],
+    "solution": "In S3, w3(y) is first and r2(y) appears second, hence c2 should appear after c3. In recoverable schedules, if T2 reads a value written by T3, T3 must commit before T2 commits. Schedules S1 and S3 are recoverable."
+  },
+  {
+    "id": "q63",
+    "number": 63,
+    "type": "NAT",
+    "marks": 2,
+    "negativeMarks": 0,
+    "section": "Core Subject",
+    "questionText": "Two binary counters are cascaded, where first counter has n-flip-flop and second counter has m-flip-flop. If the input signal has frequency of 30 MHz and n=6, m=4, then the output frequency of output signal will be ________ (kHz). (Upto 2 decimal places)",
+    "questionImage": null,
+    "options": [],
+    "correctAnswer": [
+      "29.29"
+    ],
+    "natRange": [
+      29.2,
+      29.3
+    ],
+    "solution": "MOD of 'n' FF counter = 2^n = 2^6 = 64 = M. MOD of 'm' FF counter = 2^m = 2^4 = 16 = N. Overall states of combined counter = M×N = 64×16. Output frequency = f/(M×N) = 30MHz/(64×16) = 29.29 kHz"
+  },
+  {
+    "id": "q64",
+    "number": 64,
+    "type": "NAT",
+    "marks": 2,
+    "negativeMarks": 0,
+    "section": "Core Subject",
+    "questionText": "Consider the following statements:\nI. Debugger is a program that allows to examine and modify the contents of registers.\nII. Canonical LR parser is LR(1) parser with single look ahead terminal.\nIII. In a two pass assembler symbol table is generated in second pass.\nNumber of correct statement(s) is/are ________.",
+    "questionImage": null,
+    "options": [],
+    "correctAnswer": [
+      "1"
+    ],
+    "natRange": [
+      1,
+      1
+    ],
+    "solution": "I. A debugger is a program that allows to test and debug other programs (not just examine/modify registers). II. Canonical LR parser is an LR(k) parser, k=1, with a single lookahead terminal — this is correct. III. In a two-pass assembler, the symbol table is generated in the first pass, not the second. So only 1 statement is correct."
+  },
+  {
+    "id": "q65",
+    "number": 65,
+    "type": "NAT",
+    "marks": 2,
+    "negativeMarks": 0,
+    "section": "Core Subject",
+    "questionText": "Consider a CPU that executes at a clock rate of 200 MHz (5 ns per cycle) with a single level of cache. CPI(execution) i.e. CPI with ideal memory is 1.1. Instruction mix are 50% arithmetic/logical, 30% load/store, 20% control instruction. Assume the cache miss rate is 15% and a miss penalty of 5 cycles. The number of times cpu with ideal memory is faster when no miss-occurs ________. (Upto 2 decimal places)",
+    "questionImage": null,
+    "options": [],
+    "correctAnswer": [
+      "1.88"
+    ],
+    "natRange": [
+      1.8,
+      1.9
+    ],
+    "solution": "CPI = CPI(execution) + Memory stall per instruction. Memory access/Instruction = Instruction fetch + Load/store = 1+0.3=1.3. Memory stall/Instruction = 1.3×0.15×5=0.975. CPI = 1.1+0.975=2.075. Ideal memory CPU with no misses is faster by 2.075/1.1 = 1.88 times"
+  }
+]

@@ -21,7 +21,7 @@ import { Timer } from "@/features/quiz-engine/components/Timer";
 import { Button } from "@/components/ui/button";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Question } from "@/types";
-import { TEST_MANIFEST, getTestData } from "@/data/tests";
+import { useTest } from "@/hooks/queries/useTests";
 
 export default function QuizTakingPage() {
   const { testId, attemptId } = useParams();
@@ -41,8 +41,8 @@ export default function QuizTakingPage() {
   const [submitDialogOpen, setSubmitDialogOpen] = useState(false);
   const [activeSection, setActiveSection] = useState<string>("");
 
-  const testMeta = TEST_MANIFEST.find((t) => t.id === testId);
-  const testData = getTestData(testId as string);
+  const { data: testData, isLoading: isLoadingTest } = useTest(testId as string);
+  const testMeta = testData?.testMeta;
   const questions = (testData?.questions || []) as Question[];
 
   // Hydrate Store
@@ -175,7 +175,7 @@ export default function QuizTakingPage() {
     onSaveAndNext: handleSaveAndNext,
   });
 
-  if (isLoading || store.attemptId !== attemptId || !testMeta || !currentQuestion) {
+  if (isLoading || isLoadingTest || store.attemptId !== attemptId || !testMeta || !currentQuestion) {
     return (
       <div className="flex h-screen w-full items-center justify-center bg-background">
         <Skeleton className="h-[400px] w-[600px] rounded-xl" />
@@ -220,10 +220,11 @@ export default function QuizTakingPage() {
           
           <div className="flex-1 overflow-y-auto p-4 md:p-6">
             <QuestionCard
+              testId={testId as string}
               question={currentQuestion}
               answer={store.answers[currentQuestion.id]}
               onAnswerChange={handleAnswerChange}
-              isBookmarked={false} // Phase 1 placeholder or connect to bookmarks store
+              isBookmarked={false}
               onToggleBookmark={() => {}}
             />
           </div>

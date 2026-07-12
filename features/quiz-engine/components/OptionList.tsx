@@ -4,14 +4,16 @@ import React from "react";
 import { QuestionOption } from "@/types";
 import { cn } from "@/lib/utils";
 import { FormattedText } from "@/components/shared/FormattedText";
+import { ZoomableImage } from "@/components/shared/ZoomableImage";
 
 interface OptionListProps {
+  testId: string;
   options: QuestionOption[];
   selectedOption: string | null;
   onChange: (optionId: string) => void;
 }
 
-export function OptionList({ options, selectedOption, onChange }: OptionListProps) {
+export function OptionList({ testId, options, selectedOption, onChange }: OptionListProps) {
   return (
     <div className="space-y-3 mt-6">
       {options.map((option) => {
@@ -39,8 +41,13 @@ export function OptionList({ options, selectedOption, onChange }: OptionListProp
             >
               {option.id}
             </div>
-            <div className="flex-1 text-base leading-relaxed">
-              <FormattedText text={option.text} />
+            <div className="flex-1 text-base leading-relaxed overflow-hidden">
+              {option.text && <FormattedText text={option.text} />}
+              {option.image && (
+                <div className="mt-2 w-full max-w-sm">
+                  <ZoomableImage src={`/api/images/${testId}/${option.image}`} alt={`Option ${option.id}`} />
+                </div>
+              )}
             </div>
           </button>
         );

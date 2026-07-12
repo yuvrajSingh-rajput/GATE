@@ -1,24 +1,32 @@
 import fs from "fs";
 import path from "path";
-import { TestDataSchema } from "../lib/validators/testData.schema";
+import { TestMetaSchema } from "../data/tests/_schema/testMeta.schema";
+import { QuestionArraySchema } from "../data/tests/_schema/question.schema";
 
 const testsDir = path.join(process.cwd(), "data", "tests");
 
 function validateTests() {
-  const files = fs.readdirSync(testsDir).filter(file => file.endsWith(".json"));
+  const entries = fs.readdirSync(testsDir, { withFileTypes: true });
+  const testFolders = entries.filter((entry) => entry.isDirectory() && !entry.name.startsWith("_"));
   let allValid = true;
 
-  for (const file of files) {
-    const filePath = path.join(testsDir, file);
+  for (const folder of testFolders) {
+    const testId = folder.name;
+    const testPath = path.join(testsDir, testId);
     try {
-      const fileContent = fs.readFileSync(filePath, "utf-8");
-      const jsonData = JSON.parse(fileContent);
-      
-      TestDataSchema.parse(jsonData);
-      console.log(`✅ [VALID] ${file}`);
+      const metaPath = path.join(testPath, "meta.json");
+      const questionsPath = path.join(testPath, "questions.json");
+
+      const metaContent = fs.readFileSync(metaPath, "utf-8");
+      const questionsContent = fs.readFileSync(questionsPath, "utf-8");
+
+      TestMetaSchema.parse(JSON.parse(metaContent));
+      QuestionArraySchema.parse(JSON.parse(questionsContent));
+
+      console.log(`✅ [VALID] ${testId}`);
     } catch (error) {
       allValid = false;
-      console.error(`❌ [INVALID] ${file}:`);
+      console.error(`❌ [INVALID] ${testId}:`);
       if (error instanceof Error) {
         console.error(error.message);
       }

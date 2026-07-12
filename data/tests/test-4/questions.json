@@ -1,0 +1,1995 @@
+[
+  {
+    "id": "q1",
+    "number": 1,
+    "type": "MCQ",
+    "marks": 1,
+    "negativeMarks": 0.33,
+    "section": "General Aptitude",
+    "questionText": "Out of the options given below, select whichever word you consider the most appropriate for the blank space: Speeding and blocking are traffic offences which lead to _____ accidents.",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Troublesome"
+      },
+      {
+        "id": "B",
+        "text": "Final"
+      },
+      {
+        "id": "C",
+        "text": "Great"
+      },
+      {
+        "id": "D",
+        "text": "Gruesome"
+      }
+    ],
+    "correctAnswer": [
+      "D"
+    ],
+    "natRange": null,
+    "solution": "The correct word is 'Gruesome', matching the tone of a serious traffic offence outcome."
+  },
+  {
+    "id": "q2",
+    "number": 2,
+    "type": "MCQ",
+    "marks": 1,
+    "negativeMarks": 0.33,
+    "section": "General Aptitude",
+    "questionText": "Out of the following four sentences, select the most suitable sentence with respect to grammar and usage.",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Take this medicine when you have eaten food."
+      },
+      {
+        "id": "B",
+        "text": "Take this medicine when you are eating food."
+      },
+      {
+        "id": "C",
+        "text": "Take this medicine when you ate food."
+      },
+      {
+        "id": "D",
+        "text": "Take this medicine when you could eat food."
+      }
+    ],
+    "correctAnswer": [
+      "A"
+    ],
+    "natRange": null,
+    "solution": "Option (a) uses correct tense sequencing (present perfect) making it the grammatically sound choice."
+  },
+  {
+    "id": "q3",
+    "number": 3,
+    "type": "MCQ",
+    "marks": 1,
+    "negativeMarks": 0.33,
+    "section": "General Aptitude",
+    "questionText": "An article is sold for Rs 24 with a discount of 20%. If the same article is sold at a discount of 30%, then the new selling price of the article will be",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Rs. 25"
+      },
+      {
+        "id": "B",
+        "text": "Rs. 27"
+      },
+      {
+        "id": "C",
+        "text": "Rs. 21"
+      },
+      {
+        "id": "D",
+        "text": "Rs. 18"
+      }
+    ],
+    "correctAnswer": [
+      "C"
+    ],
+    "natRange": null,
+    "solution": "Let marked price be MP. 80% of MP = 24, so MP = Rs 30. At 30% discount, new price = 70% of 30 = Rs 21."
+  },
+  {
+    "id": "q4",
+    "number": 4,
+    "type": "MCQ",
+    "marks": 1,
+    "negativeMarks": 0.33,
+    "section": "General Aptitude",
+    "questionText": "Given 3^a = 4, 4^b = 5, 5^c = 6, 6^d = 7, 7^e = 8, 8^f = 9. The value of the product 'abcdef' is",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "2"
+      },
+      {
+        "id": "C",
+        "text": "3"
+      },
+      {
+        "id": "D",
+        "text": "4"
+      }
+    ],
+    "correctAnswer": [
+      "B"
+    ],
+    "natRange": null,
+    "solution": "Since 3^a = 4 means 4 = 3^a, and successively substituting each equation into the next, everything reduces to 3^(abcdef) = 9. So abcdef = 2."
+  },
+  {
+    "id": "q5",
+    "number": 5,
+    "type": "NAT",
+    "marks": 1,
+    "negativeMarks": 0,
+    "section": "General Aptitude",
+    "questionText": "A vessel can be filled up completely by 3 individual pipes in 10, 15 and 18 hours respectively. If all these three pipes are opened simultaneously, then the 60% of the vessel will be filled in _____ minutes.",
+    "questionImage": null,
+    "options": [],
+    "correctAnswer": [
+      "162"
+    ],
+    "natRange": [
+      162,
+      162
+    ],
+    "solution": "Combined rate of the three pipes = 1/10+1/15+1/18 = 2/9 of the vessel per hour, so the vessel fills completely in 4.5 hours (270 minutes). 60% of 270 minutes = 162 minutes."
+  },
+  {
+    "id": "q6",
+    "number": 6,
+    "type": "MCQ",
+    "marks": 2,
+    "negativeMarks": 0.67,
+    "section": "General Aptitude",
+    "questionText": "Two ships left the sea port simultaneously and go in two mutually perpendicular directions. Half an hour later, the shortest distance between them was 17 km and after another 15 minutes, one ship was 10.5 km farther from the origin than the other. The speeds of both ships are",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "16 km/hour and 30 km/hour"
+      },
+      {
+        "id": "B",
+        "text": "18 km/hour and 32 km/hour"
+      },
+      {
+        "id": "C",
+        "text": "12 km/hour and 26 km/hour"
+      },
+      {
+        "id": "D",
+        "text": "22 km/hour and 36 km/hour"
+      }
+    ],
+    "correctAnswer": [
+      "A"
+    ],
+    "natRange": null,
+    "solution": "Let the speeds be Va and Vb. After half an hour, (Va/2)^2+(Vb/2)^2=17^2, giving Va^2+Vb^2=1156. After 45 minutes, (3/4)Va-(3/4)Vb=10.5, giving Va-Vb=14. Solving the two equations gives Va=30 km/hr and Vb=16 km/hr."
+  },
+  {
+    "id": "q7",
+    "number": 7,
+    "type": "MCQ",
+    "marks": 2,
+    "negativeMarks": 0.67,
+    "section": "General Aptitude",
+    "questionText": "In this question, 2 statements S1 and S2 are given, followed by 2 conclusions C1 and C2. Read the conclusions and decide which of the following logically follows based on the given statements.\nStatement:\nS1: All ballet dancers are girls.\nS2: All girls are beautiful.\nConclusions:\nC1: All ballet dancers are beautiful.\nC2: Some girls are ballet dancers.",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Only conclusion C1 follows."
+      },
+      {
+        "id": "B",
+        "text": "Only conclusion C2 follows."
+      },
+      {
+        "id": "C",
+        "text": "Either C1 follows or C2 follows."
+      },
+      {
+        "id": "D",
+        "text": "Both C1 as well as C2 follows."
+      }
+    ],
+    "correctAnswer": [
+      "D"
+    ],
+    "natRange": null,
+    "solution": "Representing the statements as nested sets (ballet dancers within girls, girls within beautiful) shows that all ballet dancers are beautiful (C1), and since all ballet dancers are girls, some girls are indeed ballet dancers (C2). Both conclusions hold."
+  },
+  {
+    "id": "q8",
+    "number": 8,
+    "type": "MCQ",
+    "marks": 2,
+    "negativeMarks": 0.67,
+    "section": "General Aptitude",
+    "questionText": "ABCD is a square with each side having a length 4√2 cm, and P, Q, R and S are the mid points of sides AB, BC, CD and DA respectively. A circle is drawn inside the quadrilateral formed by joining PQRS touching all the sides. The area of this circle will be",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "16π cm²"
+      },
+      {
+        "id": "B",
+        "text": "4π cm²"
+      },
+      {
+        "id": "C",
+        "text": "8π cm²"
+      },
+      {
+        "id": "D",
+        "text": "6π cm²"
+      }
+    ],
+    "correctAnswer": [
+      "B"
+    ],
+    "natRange": null,
+    "solution": "Joining the midpoints of the square's sides forms a smaller square PQRS with side PS = 4 cm, so the inscribed circle has diameter 4 cm and area = (π/4)×4² = 4π cm²."
+  },
+  {
+    "id": "q9",
+    "number": 9,
+    "type": "MCQ",
+    "marks": 2,
+    "negativeMarks": 0.67,
+    "section": "General Aptitude",
+    "questionText": "In a 100 m race, Ravi beats Sahil by 6 seconds whereas in the same race Sahil beats Tony by 3 seconds. If Ravi beats Tony by 25 meters, then the time taken by Ravi to complete the race is",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "27 seconds"
+      },
+      {
+        "id": "B",
+        "text": "54 seconds"
+      },
+      {
+        "id": "C",
+        "text": "36 seconds"
+      },
+      {
+        "id": "D",
+        "text": "18 seconds"
+      }
+    ],
+    "correctAnswer": [
+      "A"
+    ],
+    "natRange": null,
+    "solution": "Ravi beats Tony by 9 seconds (6+3) and also by 25 m, so Tony's speed = 25/9 m/s. Using 100/T_Ravi - 100/R_time = 9 and solving gives R_time (Ravi's time) = 27 seconds."
+  },
+  {
+    "id": "q10",
+    "number": 10,
+    "type": "MSQ",
+    "marks": 2,
+    "negativeMarks": 0,
+    "section": "General Aptitude",
+    "questionText": "The calendar for the year 2007 will be the same for the year",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "2024"
+      },
+      {
+        "id": "B",
+        "text": "2018"
+      },
+      {
+        "id": "C",
+        "text": "2029"
+      },
+      {
+        "id": "D",
+        "text": "2032"
+      }
+    ],
+    "correctAnswer": [
+      "B",
+      "C"
+    ],
+    "natRange": null,
+    "solution": "Counting the accumulated odd days from 2007 onward, the total odd days become a multiple of 7 (equivalent to 0 odd days) by 2018, making 2018 an ordinary year matching 2007's calendar. Similarly, 2029 also turns out to be an ordinary year matching 2007's calendar."
+  },
+  {
+    "id": "q11",
+    "number": 11,
+    "type": "MCQ",
+    "marks": 1,
+    "negativeMarks": 0.33,
+    "section": "Core Subject",
+    "questionText": "A binary single-precision floating point number contains the sequence of bits 1000111110000000001000000000000. Information is stored in the following left-to-right order: sign bit, exponent (bias -127) and mantissa (with an implied unit bit). Which of the following representations in decimal is equivalent?",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "2^31 × (1 + 2^-12)"
+      },
+      {
+        "id": "B",
+        "text": "-1 × 2^31 × (1 + 2^-12)"
+      },
+      {
+        "id": "C",
+        "text": "-1 × 2^-65 × (1 + 2^-10)"
+      },
+      {
+        "id": "D",
+        "text": "-1 × 2^-96 × (1 + 2^-11)"
+      }
+    ],
+    "correctAnswer": [
+      "D"
+    ],
+    "natRange": null,
+    "solution": "Sign bit S=1 (negative). Biased exponent E = 00011111 = 32... wait it's computed from the bit sequence 32 in the reported working, giving true exponent = 32-127 = -96. Mantissa gives 1.F = 1 + 2^-11. Combining gives -1 × 2^-96 × (1+2^-11)."
+  },
+  {
+    "id": "q12",
+    "number": 12,
+    "type": "MCQ",
+    "marks": 1,
+    "negativeMarks": 0.33,
+    "section": "Core Subject",
+    "questionText": "According to the TCP/IP protocol suite, match the following lists:\nList-I: A. ICMP, B. PPP, C. DHCP, D. SCTP, E. RPC, F. MIME\nList-II: I. Data link layer, II. Network layer, III. Transport layer, IV. Application layer",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "A-III, B-I, C-III, D-II, E-III, F-IV"
+      },
+      {
+        "id": "B",
+        "text": "A-II, B-I, C-II, D-III, E-IV, F-IV"
+      },
+      {
+        "id": "C",
+        "text": "A-II, B-II, C-III, D-IV, E-I, F-III"
+      },
+      {
+        "id": "D",
+        "text": "A-II, B-II, C-IV, D-III, E-III, F-IV"
+      }
+    ],
+    "correctAnswer": [
+      "B"
+    ],
+    "natRange": null,
+    "solution": "Mapping each protocol to its correct OSI/TCP-IP layer gives ICMP-Network, PPP-Data link, DHCP-Network, SCTP-Transport, RPC-Application, MIME-Application, matching option (b)."
+  },
+  {
+    "id": "q13",
+    "number": 13,
+    "type": "MCQ",
+    "marks": 1,
+    "negativeMarks": 0.33,
+    "section": "Core Subject",
+    "questionText": "A CPU has an arithmetic unit that adds bytes and then sets its V, C and Z flag bits as follows. The V-bit is set if arithmetic overflow occurs (in two's complement arithmetic). The C-bit is set if a carry-out is generated from the most significant bit during an operation. The Z-bit is set if the result is zero. What are the values of the V, C and Z flag bits (in that order) after the 8-bit bytes 1100 1100 and 1000 1111 are added?",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "0 0 0"
+      },
+      {
+        "id": "B",
+        "text": "1 1 0"
+      },
+      {
+        "id": "C",
+        "text": "1 1 1"
+      },
+      {
+        "id": "D",
+        "text": "0 0 1"
+      }
+    ],
+    "correctAnswer": [
+      "B"
+    ],
+    "natRange": null,
+    "solution": "Adding 1100 1100 and 1000 1111 gives a carry-out from the MSB (C=1). Since both operand sign bits are 1 but the result's sign bit is 0, overflow occurs (V=1). The result is not zero (Z=0), giving V,C,Z = 1,1,0."
+  },
+  {
+    "id": "q14",
+    "number": 14,
+    "type": "MCQ",
+    "marks": 1,
+    "negativeMarks": 0.33,
+    "section": "Core Subject",
+    "questionText": "Let N* denote the non-zero natural numbers. Define a binary relation R on N* × N* by (m,n) R (s,t) if gcd(m,n) = gcd(s,t). The binary relation R is",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Reflexive, not symmetric, transitive."
+      },
+      {
+        "id": "B",
+        "text": "Reflexive, symmetric, transitive."
+      },
+      {
+        "id": "C",
+        "text": "Reflexive, symmetric, not transitive."
+      },
+      {
+        "id": "D",
+        "text": "Reflexive, not symmetric, not transitive."
+      }
+    ],
+    "correctAnswer": [
+      "B"
+    ],
+    "natRange": null,
+    "solution": "R is reflexive since gcd(a,b)=gcd(a,b). It is symmetric since equality of gcd values is symmetric, and transitive since equality of gcd values is transitive. Hence R is an equivalence relation: reflexive, symmetric, and transitive."
+  },
+  {
+    "id": "q15",
+    "number": 15,
+    "type": "MCQ",
+    "marks": 1,
+    "negativeMarks": 0.33,
+    "section": "Core Subject",
+    "questionText": "If X, Y and Z are boolean variables, which of the following is/are true?\nI. X∧(Y∨Z) = (X∧Y)∨(X∧Z)\nII. X∨(Y∧Z) = (X∨Y)∧(X∨Z)\nIII. ((X∧Y)∨Z) = (Z∨(Y∧X))",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "II only"
+      },
+      {
+        "id": "B",
+        "text": "I and II only"
+      },
+      {
+        "id": "C",
+        "text": "I and III only"
+      },
+      {
+        "id": "D",
+        "text": "All of these"
+      }
+    ],
+    "correctAnswer": [
+      "D"
+    ],
+    "natRange": null,
+    "solution": "Statement I is the distributive law of AND over OR. Statement II is the distributive law of OR over AND. Statement III follows from commutativity of OR and AND. All three statements are true."
+  },
+  {
+    "id": "q16",
+    "number": 16,
+    "type": "MCQ",
+    "marks": 1,
+    "negativeMarks": 0.33,
+    "section": "Core Subject",
+    "questionText": "Consider the following statements:\nI. If L is a regular language then the set of strings in L of odd length is also a regular language.\nII. If L is a regular language then the set of strings in L of even length is also a regular language.\nWhich of the above statements is/are true?",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Only I"
+      },
+      {
+        "id": "B",
+        "text": "Only II"
+      },
+      {
+        "id": "C",
+        "text": "Both I and II"
+      },
+      {
+        "id": "D",
+        "text": "None of these"
+      }
+    ],
+    "correctAnswer": [
+      "C"
+    ],
+    "natRange": null,
+    "solution": "Let Even(Σ*) and Odd(Σ*) be the regular languages of even/odd length strings. Since Odd(L) = L ∩ Odd(Σ*) and Even(L) = L ∩ Even(Σ*), and regular languages are closed under intersection, both statements hold."
+  },
+  {
+    "id": "q17",
+    "number": 17,
+    "type": "MCQ",
+    "marks": 1,
+    "negativeMarks": 0.33,
+    "section": "Core Subject",
+    "questionText": "The diagram below suggests how we could implement a double-ended linked list, in which we maintain a reference to both the first and last nodes in the linked list. Which one of the following operations would be inefficient to carry out when there are a large number of elements in the linked list?",
+    "questionImage": "q17_double_ended_linked_list.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Insertion at the end to which front refers."
+      },
+      {
+        "id": "B",
+        "text": "Insertion at the end to which rear refers."
+      },
+      {
+        "id": "C",
+        "text": "Deletion from the end to which front refers."
+      },
+      {
+        "id": "D",
+        "text": "Deletion from the end to which rear refers."
+      }
+    ],
+    "correctAnswer": [
+      "D"
+    ],
+    "natRange": null,
+    "solution": "To delete the node the rear pointer refers to, we must update the second-to-last node's next reference, but without a 'previous' pointer we must traverse almost the entire list from the front to find it. This operation takes O(n), while the other operations take O(1)."
+  },
+  {
+    "id": "q18",
+    "number": 18,
+    "type": "MCQ",
+    "marks": 1,
+    "negativeMarks": 0.33,
+    "section": "Core Subject",
+    "questionText": "Given a hash table and its hashing function h(x) = x mod 10. The keys 24, 89, 18, 39, 48, 69 are inserted into the above hash table. Determine the number of times the collisions occur at location 8 after inserting the last element into the hash table using linear probing.",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "1 time"
+      },
+      {
+        "id": "B",
+        "text": "0 time"
+      },
+      {
+        "id": "C",
+        "text": "2 times"
+      },
+      {
+        "id": "D",
+        "text": "None of these"
+      }
+    ],
+    "correctAnswer": [
+      "A"
+    ],
+    "natRange": null,
+    "solution": "Inserting the keys in order using linear probing, 18 is placed at position 8 without collision, but when 48 is inserted later it also hashes to 8 and must probe to the next slot, producing exactly one collision at location 8."
+  },
+  {
+    "id": "q19",
+    "number": 19,
+    "type": "MCQ",
+    "marks": 1,
+    "negativeMarks": 0.33,
+    "section": "Core Subject",
+    "questionText": "Consider the basic block B:\nq=3; r=10; s=q+r; t=2×r+s; t=q; u=q+r; v=q+t; w=3+x\nNow consider the following basic block B2:\nq=3; r=10; s=q+r; t=q; u=q+r; v=q+t; w=3+x\nState which optimization was performed on the basic block B to get B2.",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Constant propagation/folding"
+      },
+      {
+        "id": "B",
+        "text": "Copy propagation"
+      },
+      {
+        "id": "C",
+        "text": "Common sub-expression elimination"
+      },
+      {
+        "id": "D",
+        "text": "Dead code elimination"
+      }
+    ],
+    "correctAnswer": [
+      "D"
+    ],
+    "natRange": null,
+    "solution": "The statement t=2×r+s in block B is never used before t is reassigned to q, making it dead code. Removing this irrelevant statement (which does not affect the program's output) transforms B into B2, so the optimization applied is dead code elimination."
+  },
+  {
+    "id": "q20",
+    "number": 20,
+    "type": "MCQ",
+    "marks": 1,
+    "negativeMarks": 0.33,
+    "section": "Core Subject",
+    "questionText": "A starvation free job scheduling policy guarantees that no job waits indefinitely for service. Which of the following job scheduling policies is starvation free?",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Round Robin"
+      },
+      {
+        "id": "B",
+        "text": "Priority queuing"
+      },
+      {
+        "id": "C",
+        "text": "Shortest job first"
+      },
+      {
+        "id": "D",
+        "text": "Youngest job first"
+      }
+    ],
+    "correctAnswer": [
+      "A"
+    ],
+    "natRange": null,
+    "solution": "Round Robin gives every process a fair, bounded time slice in turn, so no process can be starved indefinitely, unlike priority-based or size-based scheduling policies."
+  },
+  {
+    "id": "q21",
+    "number": 21,
+    "type": "MCQ",
+    "marks": 1,
+    "negativeMarks": 0.33,
+    "section": "Core Subject",
+    "questionText": "If 4 distinct integers a, b, c, d are randomly selected (one after other) from 1-20, what is the probability that a<b<c<d?",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "C(20,4)/20^4"
+      },
+      {
+        "id": "B",
+        "text": "20P4/20^4"
+      },
+      {
+        "id": "C",
+        "text": "1/20^4"
+      },
+      {
+        "id": "D",
+        "text": "C(20,4)/20P4"
+      }
+    ],
+    "correctAnswer": [
+      "D"
+    ],
+    "natRange": null,
+    "solution": "Among 20 integers, we first choose 4 numbers in C(20,4) ways. Out of the 4! possible orderings of these 4 chosen numbers, only one ordering satisfies a<b<c<d. Total ordered outcomes = 20P4, so the probability = C(20,4)/20P4, equivalently 1/4!."
+  },
+  {
+    "id": "q22",
+    "number": 22,
+    "type": "MCQ",
+    "marks": 1,
+    "negativeMarks": 0.33,
+    "section": "Core Subject",
+    "questionText": "Consider the following statements:\nI. {a^m b^2n | m≥0 and n≥0} is regular.\nII. {a^p b^q | p, q prime} is regular.\nWhich of the above statements is/are true?",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Only I"
+      },
+      {
+        "id": "B",
+        "text": "Only II"
+      },
+      {
+        "id": "C",
+        "text": "Both I and II"
+      },
+      {
+        "id": "D",
+        "text": "None of these"
+      }
+    ],
+    "correctAnswer": [
+      "A"
+    ],
+    "natRange": null,
+    "solution": "Statement I describes any number of a's followed by an even number of b's, which is regular. Statement II is not regular because a finite automaton cannot recognize whether a count is a prime number."
+  },
+  {
+    "id": "q23",
+    "number": 23,
+    "type": "MCQ",
+    "marks": 1,
+    "negativeMarks": 0.33,
+    "section": "Core Subject",
+    "questionText": "Consider the following statements:\nI. If we are given pre-order and post-order traversal of a binary tree, then we can always construct that binary tree uniquely from the given pre-order and post-order traversal.\nII. If we are given pre-order and post-order traversal of a full binary tree, then we can always construct that binary tree uniquely from given pre-order and post-order traversal. (Note that a full binary tree is a tree in which every node has either 0 or 2 children.)\nWhich of the above statements is/are correct?",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Only I"
+      },
+      {
+        "id": "B",
+        "text": "Only II"
+      },
+      {
+        "id": "C",
+        "text": "Both I and II"
+      },
+      {
+        "id": "D",
+        "text": "None of these"
+      }
+    ],
+    "correctAnswer": [
+      "B"
+    ],
+    "natRange": null,
+    "solution": "For a general binary tree, pre-order and post-order traversal do not give enough information to determine which side a single child belongs to, so statement I is false. For a full binary tree, every internal node has exactly two children, removing this ambiguity, so the tree can always be uniquely reconstructed, making statement II true."
+  },
+  {
+    "id": "q24",
+    "number": 24,
+    "type": "MCQ",
+    "marks": 1,
+    "negativeMarks": 0.33,
+    "section": "Core Subject",
+    "questionText": "Which of the following inference system is valid?",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "((p∨q)→r, r) ⇒ ¬p"
+      },
+      {
+        "id": "B",
+        "text": "(p, ¬p↔q) ⇒ ¬q"
+      },
+      {
+        "id": "C",
+        "text": "(p∧q→r, ¬r) ⇒ (p∨q)"
+      },
+      {
+        "id": "D",
+        "text": "(p∧q) ⇒ (p↔¬q)"
+      }
+    ],
+    "correctAnswer": [
+      "B"
+    ],
+    "natRange": null,
+    "solution": "Option (b) is a valid inference: if p is true, then the biconditional ¬p↔q forces q to be false, so ¬q is true, matching the conclusion."
+  },
+  {
+    "id": "q25",
+    "number": 25,
+    "type": "NAT",
+    "marks": 1,
+    "negativeMarks": 0,
+    "section": "Core Subject",
+    "questionText": "Consider the following figure for TCP connection release, showing messages exchanged between hosts A and B with Seq and Ack values: A→B Seq=20,Ack=-; B→A Seq=50,Ack=21; B→A Seq=51,Ack=21; A→B Seq=A,Ack=B. What will be the B value, if A is 21?",
+    "questionImage": "q25_tcp_connection_release.png",
+    "options": [],
+    "correctAnswer": [
+      "52"
+    ],
+    "natRange": [
+      52,
+      52
+    ],
+    "solution": "Following the four-way TCP connection termination handshake sequence and acknowledgment numbering shown in the figure, the acknowledgment value B works out to 52 when A = 21."
+  },
+  {
+    "id": "q26",
+    "number": 26,
+    "type": "MSQ",
+    "marks": 1,
+    "negativeMarks": 0,
+    "section": "Core Subject",
+    "questionText": "Which of the above statements are correct?\nA. Every BCNF decomposition is dependency preserving.\nB. A necessary condition for a relation to be in 2NF but not in 3NF is that some non-prime attribute must be determined by a non-prime attribute or a set containing a non-prime attribute.\nC. If relation R is in 3NF and every key is simple, then R is in BCNF.\nD. A necessary condition for a relation to be in 3NF but not in BCNF is that it should have overlapping candidate keys - two candidate keys of two or more attributes and at least one common attribute.",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Every BCNF decomposition is dependency preserving."
+      },
+      {
+        "id": "B",
+        "text": "A necessary condition for a relation to be in 2NF but not in 3NF is that some non-prime attribute must be determined by a non-prime attribute or a set containing a non-prime attribute."
+      },
+      {
+        "id": "C",
+        "text": "If relation R is in 3NF and every key is simple, then R is in BCNF."
+      },
+      {
+        "id": "D",
+        "text": "A necessary condition for a relation to be in 3NF but not in BCNF is that it should have overlapping candidate keys - two candidate keys of two or more attributes and at least one common attribute."
+      }
+    ],
+    "correctAnswer": [
+      "B",
+      "C",
+      "D"
+    ],
+    "natRange": null,
+    "solution": "Statement A is false since BCNF decomposition is not always dependency preserving. Statements B, C, and D are true properties relating 2NF, 3NF, and BCNF conditions."
+  },
+  {
+    "id": "q27",
+    "number": 27,
+    "type": "MCQ",
+    "marks": 1,
+    "negativeMarks": 0.33,
+    "section": "Core Subject",
+    "questionText": "Consider the following statements:\nI. In a preorder traversal of a binary search tree (with more than 2 elements), the first item printed out can never be the smallest one.\nII. In a preorder traversal of a min heap, the first item printed out is always the smallest one.\nIII. In a preorder traversal of a AVL tree (with more than 2 elements), the first item printed out can never be the smallest one.\nWhich of the above statements is/are true?",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Only I"
+      },
+      {
+        "id": "B",
+        "text": "Only III"
+      },
+      {
+        "id": "C",
+        "text": "Both II and III"
+      },
+      {
+        "id": "D",
+        "text": "All of these"
+      }
+    ],
+    "correctAnswer": [
+      "C"
+    ],
+    "natRange": null,
+    "solution": "In a BST, if it is right-skewed, the smallest element can still be at the root, so statement I is false. In a min-heap the root is always the smallest element (II is true). An AVL tree is a balanced BST so it can never have the smallest element at the root (III is true)."
+  },
+  {
+    "id": "q28",
+    "number": 28,
+    "type": "MSQ",
+    "marks": 1,
+    "negativeMarks": 0,
+    "section": "Core Subject",
+    "questionText": "Consider the following transition diagram in which a thread moves between each of the 3 states: Running, Ready, Blocked, with numbered transitions 1-6. Conditions: P (process is scheduled and run by the scheduler), Q (time slice runs out but process still wants to run), R (I/O completes or lock acquired, woken up by a semaphore or condition), S (any blocking action - I/O request, lock blocks). Match the transitions in the diagram with the conditions that cause them. Which of the following is/are correct?",
+    "questionImage": "q28_thread_state_transition_diagram.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "1-P"
+      },
+      {
+        "id": "B",
+        "text": "2-Q"
+      },
+      {
+        "id": "C",
+        "text": "6-R"
+      },
+      {
+        "id": "D",
+        "text": "5-S"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "natRange": null,
+    "solution": "Matching each numbered transition to its triggering condition: transition 1 corresponds to condition P, transition 2 to condition Q, and transition 5 to condition S, all correctly matched. Transition 6 does not correspond to condition R."
+  },
+  {
+    "id": "q29",
+    "number": 29,
+    "type": "NAT",
+    "marks": 1,
+    "negativeMarks": 0,
+    "section": "Core Subject",
+    "questionText": "A 64-bit processor has 64 registers and uses a 20-bit instruction format. It has two types of instructions: M-type and R-type. Each M-type instruction contains an opcode and a memory address. Each R-type instruction contains an opcode and two register names. Main memory is 8K words, and it is byte addressable. If there are 6 distinct R-type opcodes, then the maximum number of distinct M-type opcodes is _____.",
+    "questionImage": null,
+    "options": [],
+    "correctAnswer": [
+      "15"
+    ],
+    "natRange": [
+      15,
+      15
+    ],
+    "solution": "Main memory size = 8K words × 8 bytes/word = 64 KB, so memory address needs enough bits to address it. With 20-bit instruction length, solving 2^20 ≥ (6 × 2^12) + (x × 2^16) gives x ≤ 15.6, so the maximum number of distinct M-type opcodes is 15."
+  },
+  {
+    "id": "q30",
+    "number": 30,
+    "type": "MSQ",
+    "marks": 1,
+    "negativeMarks": 0,
+    "section": "Core Subject",
+    "questionText": "Let R=(A,B,C), S=(C,D,E). Consider the following queries:\nI. {<a> | ∃b (<a,b>) ∈ r ∧ b=10}\nII. select A from r where B=10\nIII. select * from r except select * from s\nIV. select * from r where (A,B,C) not in (select * from s)\nWhich of the following is/are true? (Two queries are equivalent when they produce the same output, i.e., same set of records. Assume distinct tuples are returned by SQL.)",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Query I and II are equivalent."
+      },
+      {
+        "id": "B",
+        "text": "Query I and IV are equivalent."
+      },
+      {
+        "id": "C",
+        "text": "Query II and IV are equivalent."
+      },
+      {
+        "id": "D",
+        "text": "Query III and IV are equivalent."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "D"
+    ],
+    "natRange": null,
+    "solution": "Queries I and II both select the A values from r where B=10, so they are equivalent. Queries III and IV both return tuples of r that do not appear in s, so they are also equivalent to each other."
+  },
+  {
+    "id": "q31",
+    "number": 31,
+    "type": "MCQ",
+    "marks": 1,
+    "negativeMarks": 0.33,
+    "section": "Core Subject",
+    "questionText": "How many minimum number of NAND gates do you need to realize F(A,B) = NOT(A+B), when variables are only available in original form, not in complementary form?",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "2"
+      },
+      {
+        "id": "B",
+        "text": "3"
+      },
+      {
+        "id": "C",
+        "text": "4"
+      },
+      {
+        "id": "D",
+        "text": "5"
+      }
+    ],
+    "correctAnswer": [
+      "C"
+    ],
+    "natRange": null,
+    "solution": "F(A,B) is a NOR function. Realizing a NOR gate purely from NAND gates (with inputs only in true form) requires 4 NAND gates."
+  },
+  {
+    "id": "q32",
+    "number": 32,
+    "type": "MCQ",
+    "marks": 1,
+    "negativeMarks": 0.33,
+    "section": "Core Subject",
+    "questionText": "Consider the following grammar:\nE → E(T) | T\nT → T*F | id\nF → (id)\nWhich of the following can be the correct handle in bottom up parsing for the above grammar?",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "id*(id)"
+      },
+      {
+        "id": "B",
+        "text": "id*F"
+      },
+      {
+        "id": "C",
+        "text": "E(id)"
+      },
+      {
+        "id": "D",
+        "text": "(id)"
+      }
+    ],
+    "correctAnswer": [
+      "D"
+    ],
+    "natRange": null,
+    "solution": "A handle is the right-hand side of a production that helps reduce to a non-terminal at the left-hand side during bottom-up parsing. Since (id) is the RHS of production F→(id), it qualifies as a valid handle."
+  },
+  {
+    "id": "q33",
+    "number": 33,
+    "type": "MCQ",
+    "marks": 1,
+    "negativeMarks": 0.33,
+    "section": "Core Subject",
+    "questionText": "Suppose a complete binary tree of n elements is stored in an array A in the standard fashion. That is, store the root in A[1] and for every node stored in A[k], store its children in A[2k] and A[2k+1]. Consider the following statements:\nI. A list of the array elements A[1], A[2], A[3], ... A[n] forms a breadth first traversal of the complete binary tree.\nII. A list of the array elements A[1], A[2], A[3], ... A[n] forms a depth first traversal of the complete binary tree.\nIII. A list of the array elements A[1], A[2], A[3], ... A[n] forms a pre-order traversal of the complete binary tree.\nWhich of the above statements are true?",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "I only"
+      },
+      {
+        "id": "B",
+        "text": "I and III only"
+      },
+      {
+        "id": "C",
+        "text": "II and III only"
+      },
+      {
+        "id": "D",
+        "text": "None of these"
+      }
+    ],
+    "correctAnswer": [
+      "A"
+    ],
+    "natRange": null,
+    "solution": "A complete binary tree is one where all levels are full except possibly the last, which is filled left to right. Storing it in array form using the standard indexing scheme is essentially storing the elements in breadth-first traversal order, so only statement I is true."
+  },
+  {
+    "id": "q34",
+    "number": 34,
+    "type": "MCQ",
+    "marks": 1,
+    "negativeMarks": 0.33,
+    "section": "Core Subject",
+    "questionText": "An n×n array v is defined as follows: v[i,j] = i+j for all i,j where 1≤i,j≤n. The sum of the elements of the array v is",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "n×n(3n+1)"
+      },
+      {
+        "id": "B",
+        "text": "2n×n(n+1)"
+      },
+      {
+        "id": "C",
+        "text": "n×n(n+1)"
+      },
+      {
+        "id": "D",
+        "text": "n×n(n+1)/2"
+      }
+    ],
+    "correctAnswer": [
+      "C"
+    ],
+    "natRange": null,
+    "solution": "Each row's values form an arithmetic sequence, and summing all rows (accounting for the additional (i-1)n contribution per row i) yields a total sum of n×n(n+1)."
+  },
+  {
+    "id": "q35",
+    "number": 35,
+    "type": "MCQ",
+    "marks": 1,
+    "negativeMarks": 0.33,
+    "section": "Core Subject",
+    "questionText": "Consider the following statements regarding the set of 'All non-regular' languages:\nI. It is closed under union.\nII. It is closed under concatenation.\nIII. It is closed under complementation.\nIV. It is an uncountable set.\nWhich of the above statements is/are correct?",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "IV only"
+      },
+      {
+        "id": "B",
+        "text": "II and IV only"
+      },
+      {
+        "id": "C",
+        "text": "III and IV only"
+      },
+      {
+        "id": "D",
+        "text": "II, III and IV only"
+      }
+    ],
+    "correctAnswer": [
+      "C"
+    ],
+    "natRange": null,
+    "solution": "The complement of a non-regular language is always non-regular (proved by contradiction), so statement III is true. Using this, one can show non-regular languages aren't closed under union. Non-regular languages also aren't closed under concatenation (shown via counterexample languages of primes/composites). Since the set of non-regular languages contains non-recursively-enumerable languages too, it is uncountable, so statement IV is also true."
+  },
+  {
+    "id": "q36",
+    "number": 36,
+    "type": "MCQ",
+    "marks": 2,
+    "negativeMarks": 0.67,
+    "section": "Core Subject",
+    "questionText": "Let T denote a non-empty binary tree in which every node either is a leaf or has two children. Then, n(T) denotes the number of non-leaf nodes of T (where n(T)=0 if T is a leaf), h(T) denotes the height of T (where h(T)=0 if T is a leaf), TL denotes the left subtree of T and TR denotes the right subtree of T. If F is a function defined by F(T) = 0 if T is a leaf, else F(TL)+F(TR)+min(h(TL),h(TR)), then F(T) =",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "n(T)+h(T)-1"
+      },
+      {
+        "id": "B",
+        "text": "n(T)+h(T)"
+      },
+      {
+        "id": "C",
+        "text": "n(T)-h(T)-1"
+      },
+      {
+        "id": "D",
+        "text": "n(T)-h(T)"
+      }
+    ],
+    "correctAnswer": [
+      "D"
+    ],
+    "natRange": null,
+    "solution": "Testing with a single-node tree gives n(T)=0, h(T)=0, F(T)=0, which rules out options (a) and (c). Testing with a three-node tree (root with two leaf children) gives n(T)=1, h(T)=1, F(T)=0, which rules out option (b), leaving option (d) as correct."
+  },
+  {
+    "id": "q37",
+    "number": 37,
+    "type": "MCQ",
+    "marks": 2,
+    "negativeMarks": 0.67,
+    "section": "Core Subject",
+    "questionText": "Consider the following algorithm for a solution to the critical section problem for two processes. Here turn=0 indicates process P0 and turn=1 indicates process P1.\nbool flag[2] = {false,false}; turn = 0 or 1;\ndo { flag[i]=true; while(flag[j]) { if(turn==j) { flag[i]=false; while(turn==j); flag[i]=true; } } /*Critical Section*/ turn=j; flag[i]=false; /*Remainder Section*/ } while(true);\nWhich of the following is false?",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Mutual exclusion is satisfied."
+      },
+      {
+        "id": "B",
+        "text": "Progress is satisfied."
+      },
+      {
+        "id": "C",
+        "text": "Bounded waiting is satisfied."
+      },
+      {
+        "id": "D",
+        "text": "Deadlock may occur."
+      }
+    ],
+    "correctAnswer": [
+      "D"
+    ],
+    "natRange": null,
+    "solution": "This algorithm is Dekker's solution. Careful case analysis shows mutual exclusion, progress, and bounded waiting are all satisfied by the algorithm, so the statement that deadlock may occur is the false one."
+  },
+  {
+    "id": "q38",
+    "number": 38,
+    "type": "MCQ",
+    "marks": 2,
+    "negativeMarks": 0.67,
+    "section": "Core Subject",
+    "questionText": "In a certain pipelined processor a branch instruction can cause 2 stalls if it is not dealt with properly. We can avoid this penalty if a clever compiler can fill the immediate next 2 slots with independent instructions. Two compilers A and B generate code for this processor. Compiler A can fill the first delay slot 35% of the time and second delay slot 85% of the time. Compiler B can fill the first delay slot 20% of the time and second delay slot 100% of the time. Assume that 30% of the instructions are branch instructions. What is the % of the improvement in CPI (Clocks Per Instruction) with compiler A over compiler B?",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "0"
+      },
+      {
+        "id": "B",
+        "text": "5"
+      },
+      {
+        "id": "C",
+        "text": "10"
+      },
+      {
+        "id": "D",
+        "text": "15"
+      }
+    ],
+    "correctAnswer": [
+      "A"
+    ],
+    "natRange": null,
+    "solution": "For the 30% branch instructions: Compiler A's average stalls per branch instruction = (1-0.35)+(1-0.85) = 0.80. Compiler B's average stalls per branch instruction = (1-0.20)+(1-1.00) = 0.80. Since both compilers give the same number of stalls per branch instruction, the improvement in CPI of compiler A over compiler B is 0%."
+  },
+  {
+    "id": "q39",
+    "number": 39,
+    "type": "MCQ",
+    "marks": 2,
+    "negativeMarks": 0.67,
+    "section": "Core Subject",
+    "questionText": "Let S = {0,1,2,3,4,5,6,7,8,9}. What is the smallest integer K such that any subset of S of size K contains two disjoint subsets of size two, {x1,x2} and {y1,y2}, such that x1+x2 = y1+y2 = 9?",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "8"
+      },
+      {
+        "id": "B",
+        "text": "6"
+      },
+      {
+        "id": "C",
+        "text": "7"
+      },
+      {
+        "id": "D",
+        "text": "5"
+      }
+    ],
+    "correctAnswer": [
+      "C"
+    ],
+    "natRange": null,
+    "solution": "There are 5 disjoint pairs of elements from S summing to 9: {0,9},{1,8},{2,7},{3,6},{4,5}. In the worst case, one could select just one element from each pair (5 elements) without forming a complete matching pair. Selecting 2 more elements (total 7) guarantees, by the pigeonhole principle, that two disjoint pairs summing to 9 are formed."
+  },
+  {
+    "id": "q40",
+    "number": 40,
+    "type": "MCQ",
+    "marks": 2,
+    "negativeMarks": 0.67,
+    "section": "Core Subject",
+    "questionText": "A direct mapped cache of size 2^n blocks with 2^m word blocks, with word size 4 bytes, will require a tag field whose size is? Assume byte-addressable main memory size as 2^32 bytes.",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "32-n+m"
+      },
+      {
+        "id": "B",
+        "text": "32-n-m"
+      },
+      {
+        "id": "C",
+        "text": "32-n-m-2"
+      },
+      {
+        "id": "D",
+        "text": "32-m+n"
+      }
+    ],
+    "correctAnswer": [
+      "C"
+    ],
+    "natRange": null,
+    "solution": "Main memory size = 2^32 bytes, so the address is 32 bits. The block offset field size = m+2 bits (since word size is 4 bytes = 2^2, and there are 2^m words per block). With n bits for the index, the tag field size T satisfies T+n+(m+2)=32, giving T = 32-n-m-2."
+  },
+  {
+    "id": "q41",
+    "number": 41,
+    "type": "NAT",
+    "marks": 2,
+    "negativeMarks": 0,
+    "section": "Core Subject",
+    "questionText": "Let K(A,B) be the complete bipartite graph with A,B being the two parts, and let |A|=10, |B|=17. Let u,v in A be two different vertices. We obtain a new graph G by adding an edge between u,v. The chromatic number of G is _____?",
+    "questionImage": null,
+    "options": [],
+    "correctAnswer": [
+      "3"
+    ],
+    "natRange": [
+      3,
+      3
+    ],
+    "solution": "Since we've added an edge between u and v (both in part A), they must be given different colors. Since both u and v are adjacent to every vertex in part B, part B's vertices need yet another (third) color distinct from both u and v's colors, while the rest of part A can reuse either of u or v's colors. So the chromatic number is 3."
+  },
+  {
+    "id": "q42",
+    "number": 42,
+    "type": "NAT",
+    "marks": 2,
+    "negativeMarks": 0,
+    "section": "Core Subject",
+    "questionText": "The value printed by the following program is _____.\n#include <stdio.h>\nvoid foo1(int* ptr, int num) { num = num+5; *ptr = *ptr*num; return; }\nvoid foo2(int* ptr, int num) { num = num-10; *ptr = *ptr/num; return; }\nvoid main() { int i=5, j=10, k=20; foo2(&j, k); foo1(&i, j); printf(\"%d\", i+j); }",
+    "questionImage": null,
+    "options": [],
+    "correctAnswer": [
+      "31"
+    ],
+    "natRange": [
+      31,
+      31
+    ],
+    "solution": "foo2 receives j's address and k's value; it modifies j's value to 1 while k remains unchanged. foo1 then receives i's address and j's (now updated) value; it modifies i's value to 30 while j stays at 1. So i+j = 30+1 = 31."
+  },
+  {
+    "id": "q43",
+    "number": 43,
+    "type": "MSQ",
+    "marks": 2,
+    "negativeMarks": 0,
+    "section": "Core Subject",
+    "questionText": "Which of the following languages is undecidable?\nL1 = {<M> | M is a TM and L(M) is infinite}.\nL2 = {<M> | M is a TM and L(M) is finite}.\nL3 = {<M> | M is a TM and L(M) is countable}.\nL4 = {<M> | M is a TM and L(M) is uncountable}.",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "L1 = {<M>|M is a TM and L(M) is infinite}."
+      },
+      {
+        "id": "B",
+        "text": "L2 = {<M>|M is a TM and L(M) is finite}."
+      },
+      {
+        "id": "C",
+        "text": "L3 = {<M>|M is a TM and L(M) is countable}."
+      },
+      {
+        "id": "D",
+        "text": "L4 = {<M>|M is a TM and L(M) is uncountable}."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B"
+    ],
+    "natRange": null,
+    "solution": "'Being infinite' and 'being finite' are both non-trivial properties of recursively enumerable languages, so by Rice's theorem L1 and L2 are undecidable. Since every RE language is countable, 'being countable' is a trivial property, making L3 decidable. Since no RE language is uncountable, 'being uncountable' is also a trivial property, making L4 decidable too."
+  },
+  {
+    "id": "q44",
+    "number": 44,
+    "type": "MCQ",
+    "marks": 2,
+    "negativeMarks": 0.67,
+    "section": "Core Subject",
+    "questionText": "What is the worst case running time of the following code in 'big O' notation in terms of the variable n? You should give the tightest bound possible.\nint f3(int n) { int sum=73; for(i=0;i<n;i++) { for(j=i;j>=5;j--) { sum--; } } return sum; }",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "O(n)"
+      },
+      {
+        "id": "B",
+        "text": "O(n*n)"
+      },
+      {
+        "id": "C",
+        "text": "O(n*n*n)"
+      },
+      {
+        "id": "D",
+        "text": "O(n*n*n*n)"
+      }
+    ],
+    "correctAnswer": [
+      "B"
+    ],
+    "natRange": null,
+    "solution": "The outer i-loop runs n times, and for each i≥5, the inner j-loop runs (i-4) times. Summing 1+2+...+(n-5) gives a running time of O(n²)."
+  },
+  {
+    "id": "q45",
+    "number": 45,
+    "type": "MSQ",
+    "marks": 2,
+    "negativeMarks": 0,
+    "section": "Core Subject",
+    "questionText": "Consider the following left and right recursive grammars for the language a*:\nG1: S → aS | ε\nG2: S → Sa | ε\nWhich of the following is true about shift-reduce parsing of the above two grammars?",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "G1 can be parsed with shift-reduce parser."
+      },
+      {
+        "id": "B",
+        "text": "G2 can be parsed with shift-reduce parser."
+      },
+      {
+        "id": "C",
+        "text": "Shift-reduce parser for G1 requires an unbounded stack size to parse large strings (like a million a's)."
+      },
+      {
+        "id": "D",
+        "text": "Shift-reduce parser for G2 requires a constant stack size to parse large strings (like a million a's)."
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "natRange": null,
+    "solution": "For the right-recursive grammar G1, the shift-reduce parser shifts the entire input onto the stack before it can perform the first reduction, requiring unbounded stack size. For the left-recursive grammar G2, the parser can reduce by S→a immediately and then alternate shift/reduce, using only constant stack space. Both grammars can technically be parsed by a shift-reduce parser, but with very different space requirements."
+  },
+  {
+    "id": "q46",
+    "number": 46,
+    "type": "MSQ",
+    "marks": 2,
+    "negativeMarks": 0,
+    "section": "Core Subject",
+    "questionText": "Consider the following grammar: S → rI | rSI | SS. Which of the following strings can be generated by this grammar?",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "rrIIrI"
+      },
+      {
+        "id": "B",
+        "text": "rIIrrII"
+      },
+      {
+        "id": "C",
+        "text": "rrIrIrIrrI"
+      },
+      {
+        "id": "D",
+        "text": "rrrIIIrIrII"
+      }
+    ],
+    "correctAnswer": [
+      "A",
+      "D"
+    ],
+    "natRange": null,
+    "solution": "This grammar generates the language of 'properly balanced parentheses' where 'r' denotes a left bracket ('(') and 'I' denotes a right bracket (')'). Only strings (a) and (d) are properly balanced; (b) and (c) are not."
+  },
+  {
+    "id": "q47",
+    "number": 47,
+    "type": "MSQ",
+    "marks": 2,
+    "negativeMarks": 0,
+    "section": "Core Subject",
+    "questionText": "Which of the following statements are true?\nA. In a relation R, if some set of attributes X is such that closure set of X contains all the attributes of R, i.e. X determines every attribute of R, then X is a candidate key of R.\nB. It is possible for a relation to have no non-trivial functional dependencies.\nC. If set of all attributes combined form a candidate key for some relation R then R does not contain any non-trivial FD.\nD. In a relation R, if X is some set of attributes and Y is some prime attribute such that X determines Y is a non-trivial FD, then R has at least two candidate keys.",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "In a relation R, if some set of attributes X is such that closure set of X contains all the attributes of R i.e. X determines every attribute of R then X is a candidate key of R."
+      },
+      {
+        "id": "B",
+        "text": "It is possible for a relation to have no non-trivial functional dependencies."
+      },
+      {
+        "id": "C",
+        "text": "If set of all attributes combined form a candidate key for some relation R then R does not contain any non-trivial FD."
+      },
+      {
+        "id": "D",
+        "text": "In a relation R, if X is some set of attributes and Y is some prime attribute such that X determines Y is a non-trivial FD, then R has at least two candidate keys."
+      }
+    ],
+    "correctAnswer": [
+      "B",
+      "C",
+      "D"
+    ],
+    "natRange": null,
+    "solution": "Statement A is false: if X determines every attribute of R, X is only guaranteed to be a super key, not necessarily a minimal candidate key. Statements B, C, and D are all true properties of relations and functional dependencies."
+  },
+  {
+    "id": "q48",
+    "number": 48,
+    "type": "MSQ",
+    "marks": 2,
+    "negativeMarks": 0,
+    "section": "Core Subject",
+    "questionText": "The lost update anomaly is said to occur if a transaction Tj reads a data item X, then another transaction Tk writes that data item X (possibly based on a previous read), after which Tj writes X. The update performed by Tk has been lost, since the update done by Tj ignored the value written by Tk. Which of the above statements is/are true?\nA. Lost update problem may exist in strict recoverable schedules.\nB. Lost update problem may exist in conflict serializable schedules.\nC. Lost update problem may exist in view serializable schedules.\nD. None of these.",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Lost update problem may exist in strict recoverable schedules."
+      },
+      {
+        "id": "B",
+        "text": "Lost update problem may exist in conflict serializable schedules."
+      },
+      {
+        "id": "C",
+        "text": "Lost update problem may exist in view serializable schedules."
+      },
+      {
+        "id": "D",
+        "text": "None of these"
+      }
+    ],
+    "correctAnswer": [
+      "B",
+      "C"
+    ],
+    "natRange": null,
+    "solution": "An example schedule can be constructed with a lost update problem that is still view serializable (view-equivalent to a serial schedule), showing that lost updates may occur even in view serializable (and conflict serializable) schedules."
+  },
+  {
+    "id": "q49",
+    "number": 49,
+    "type": "MSQ",
+    "marks": 2,
+    "negativeMarks": 0,
+    "section": "Core Subject",
+    "questionText": "Which of the below arguments/statements is not correct?\nA. FCFS scheduling results in the shortest possible average response time if the jobs happen to arrive in the ready queue with the shortest completion times first (or, as a special case, if all jobs have the same completion time).\nB. Round Robin scheduling behaves identically to FCFS if all the job lengths are longer than the length of the time slice.\nC. Round Robin scheduling performs poorly compared to FCFS if all the job lengths are less than the time slice length.\nD. The dispatcher is responsible for setting thread priorities.",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "FCFS scheduling results in the shortest possible average response time if the jobs happen to arrive in the ready queue with the shortest completion times first (or, as a special case, if all jobs have the same completion time)."
+      },
+      {
+        "id": "B",
+        "text": "Round Robin scheduling behaves identically to FCFS if all the job lengths are longer than the length of the time slice."
+      },
+      {
+        "id": "C",
+        "text": "Round Robin scheduling performs poorly compared to FCFS if all the job lengths are less than the time slice length."
+      },
+      {
+        "id": "D",
+        "text": "The dispatcher is responsible for setting thread priorities."
+      }
+    ],
+    "correctAnswer": [
+      "B",
+      "C",
+      "D"
+    ],
+    "natRange": null,
+    "solution": "Statement A is a true statement about FCFS. Statement B is false: Round Robin only behaves like FCFS when job lengths are no longer than the time slice, not longer. Statement C is also false: Round Robin performs poorly compared to FCFS only when job lengths are all the same and much greater than the time slice. Statement D is false: the dispatcher merely switches threads, while the scheduler sets thread priorities."
+  },
+  {
+    "id": "q50",
+    "number": 50,
+    "type": "MCQ",
+    "marks": 2,
+    "negativeMarks": 0.67,
+    "section": "Core Subject",
+    "questionText": "A certain pipelined RISC machine has 8 general-purpose registers R0, R1, ..., R7 and supports the following operations: ADD Rs1,Rs2,Rd (add Rs1 to Rs2 and put the sum in Rd), MUL Rs1,Rs2,Rd (multiply Rs1 by Rs2 and put the product in Rd). Both these operations use register addressing mode for sources and destination. An operation normally takes one cycle; however, an operation takes two cycles if it produces a result required by the immediately following operation in an operation sequence. Consider the expression AB+ABC+BC, where variables A, B, C are located in registers R0, R1, R2. If the contents of these three registers must not be modified, what is the minimum number of clock cycles required for an operation sequence that computes the value of AB+ABC+BC?",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "5"
+      },
+      {
+        "id": "B",
+        "text": "6"
+      },
+      {
+        "id": "C",
+        "text": "7"
+      },
+      {
+        "id": "D",
+        "text": "8"
+      }
+    ],
+    "correctAnswer": [
+      "B"
+    ],
+    "natRange": null,
+    "solution": "Set R3←R0×R1 (1 cycle), R4←R1×R2 (1 cycle), R5←R3×R2 (1 cycle), R6←R3+R4 (2 cycles, since its result is needed by the next instruction), R7←R4+R5 (1 cycle). This ordering avoids consecutive dependent operations wherever possible, requiring 6 total cycles, which is optimal."
+  },
+  {
+    "id": "q51",
+    "number": 51,
+    "type": "NAT",
+    "marks": 2,
+    "negativeMarks": 0,
+    "section": "Core Subject",
+    "questionText": "Consider the following instance of the 0/1 Knapsack problem: n=4, W=10, (P1,P2,P3,P4)=(10,40,30,50) and (w1,w2,w3,w4)=(5,4,6,3). What is the maximum profit?",
+    "questionImage": null,
+    "options": [],
+    "correctAnswer": [
+      "90"
+    ],
+    "natRange": [
+      90,
+      90
+    ],
+    "solution": "The maximum profit of 90 is obtained by choosing items 2 and 4 (weights 4+3=7 ≤ 10, profits 40+50=90)."
+  },
+  {
+    "id": "q52",
+    "number": 52,
+    "type": "MCQ",
+    "marks": 2,
+    "negativeMarks": 0.67,
+    "section": "Core Subject",
+    "questionText": "Consider the following schedule: S = (2,W,x), (1,W,z), (1,W,x), C1, (2,W,y), (2,R,y), (3,W,z), (3,W,m), C3, (2,R,m), C2. Where Ci means commit of the i-th transaction. Triple (i,W/R,x) means transaction i writes/reads item x.",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "S is conflict serializable."
+      },
+      {
+        "id": "B",
+        "text": "S is view serializable but not conflict serializable."
+      },
+      {
+        "id": "C",
+        "text": "S is not view serializable."
+      },
+      {
+        "id": "D",
+        "text": "None of these."
+      }
+    ],
+    "correctAnswer": [
+      "C"
+    ],
+    "natRange": null,
+    "solution": "Checking view serializability by tracing final-write and read-from relationships between transactions 1, 2, and 3 produces a cyclic constraint (3→2→1 but also 1→3), forming a contradiction. Hence the schedule is not view serializable."
+  },
+  {
+    "id": "q53",
+    "number": 53,
+    "type": "NAT",
+    "marks": 2,
+    "negativeMarks": 0,
+    "section": "Core Subject",
+    "questionText": "Consider table R with attributes A, B, C, D and E. How many maximum possible candidate keys are there for R?",
+    "questionImage": null,
+    "options": [],
+    "correctAnswer": [
+      "10"
+    ],
+    "natRange": [
+      10,
+      10
+    ],
+    "solution": "The maximum number of possible candidate keys for a relation with n attributes is C(n, floor(n/2)). For n=5, this is C(5,2) = 10."
+  },
+  {
+    "id": "q54",
+    "number": 54,
+    "type": "MCQ",
+    "marks": 2,
+    "negativeMarks": 0.67,
+    "section": "Core Subject",
+    "questionText": "Consider n matrices A1, A2, A3, ..., An with dimensions p0, p1, p2, ..., pn. Dimension of Ai is p(i-1) × pi. The optimal solution to find a minimum number of multiplications required to perform A(1..n) = A1×A2×A3×...×An whose size is p0×pn is given below.\nm[i,j] = 0 if i=j; = min over k<j of (expr); i<j\nWhat is expr?",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "m[i+1,k+1]+m[k+1,j]+p(i-1)×pk×pj"
+      },
+      {
+        "id": "B",
+        "text": "m[i,k+1]+m[k,j]+p(i-1)×pk×pj"
+      },
+      {
+        "id": "C",
+        "text": "m[i,k]+m[k+1,j]+p(i-1)×pk×pj"
+      },
+      {
+        "id": "D",
+        "text": "m[i,k]+m[k+1,j]+pi×pk×pj"
+      }
+    ],
+    "correctAnswer": [
+      "C"
+    ],
+    "natRange": null,
+    "solution": "By the standard dynamic programming recurrence for matrix chain multiplication, the recurrence relation matches option (c): m[i,k]+m[k+1,j]+p(i-1)×pk×pj."
+  },
+  {
+    "id": "q55",
+    "number": 55,
+    "type": "MCQ",
+    "marks": 2,
+    "negativeMarks": 0.67,
+    "section": "Core Subject",
+    "questionText": "Consider the following statements:\nS1: The longer the frames or the shorter the propagation time, the higher utilization can be achieved in CSMA LANs.\nS2: In CSMA/CD LANs, the amount of time that it takes to detect a collision is never greater than the end-to-end propagation delay.",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Only S1 is correct."
+      },
+      {
+        "id": "B",
+        "text": "Only S2 is correct."
+      },
+      {
+        "id": "C",
+        "text": "Both S1 and S2 are correct."
+      },
+      {
+        "id": "D",
+        "text": "Both S1 and S2 are false."
+      }
+    ],
+    "correctAnswer": [
+      "A"
+    ],
+    "natRange": null,
+    "solution": "S1 is true: link utilization increases with larger frame sizes, though it decreases if frames become very large. S2 is false, since detecting a collision in CSMA/CD always takes at least twice the propagation delay (TT ≥ 2×PT), not less than or equal to it."
+  },
+  {
+    "id": "q56",
+    "number": 56,
+    "type": "MCQ",
+    "marks": 2,
+    "negativeMarks": 0.67,
+    "section": "Core Subject",
+    "questionText": "Consider the following system of linear equations:\nx1-2x4=-3\n2x2+2x3=0\nx3+3x4=1\n-2x1+3x2+2x3+x4=5\nWhich of the following is true for the solutions of this system?",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "There is a unique solution."
+      },
+      {
+        "id": "B",
+        "text": "There are infinitely many solutions."
+      },
+      {
+        "id": "C",
+        "text": "There is no solution."
+      },
+      {
+        "id": "D",
+        "text": "There are exactly 2 solutions."
+      }
+    ],
+    "correctAnswer": [
+      "B"
+    ],
+    "natRange": null,
+    "solution": "Row-reducing the augmented matrix through elementary row operations brings the system to a triangular form with a final row of all zeros, indicating that the system has infinitely many solutions."
+  },
+  {
+    "id": "q57",
+    "number": 57,
+    "type": "MCQ",
+    "marks": 2,
+    "negativeMarks": 0.67,
+    "section": "Core Subject",
+    "questionText": "We have a singly linked list constructed out of nodes defined as follows: struct node {int value; struct node *next;}. In the function shown below, the parameter 'first' refers to the first node of the linked list if there is one, and has the value null otherwise. The intent of the function is to remove the last node of the linked list.\nvoid removelast(struct node *first) { struct node *p,*q; p=first; q=p->next; while(q->next != null) { p=q; q=q->next; } p->next=null; }\nWhich of the following describes the class of linked lists for which this function works correctly?",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "No linked list"
+      },
+      {
+        "id": "B",
+        "text": "All non-empty linked list"
+      },
+      {
+        "id": "C",
+        "text": "All linked lists with more than one node"
+      },
+      {
+        "id": "D",
+        "text": "All linked lists"
+      }
+    ],
+    "correctAnswer": [
+      "C"
+    ],
+    "natRange": null,
+    "solution": "If the list is empty, p (first) will be null and q=p->next will fail. If the list has only one node, p->next will be null, so q->next will fail immediately. The function only works correctly for lists with more than one node."
+  },
+  {
+    "id": "q58",
+    "number": 58,
+    "type": "MCQ",
+    "marks": 2,
+    "negativeMarks": 0.67,
+    "section": "Core Subject",
+    "questionText": "Suppose two threads execute the following C code concurrently, accessing shared variables a, b, and c: Initialization int a=4, b=0, c=0. Thread 1: if(a<0) { c=b-a; } else { c=b+a; } Thread 2: b=10; a=-3; What are the possible values for c after both threads complete? Assume reads and writes of the variables are atomic and the order of statements within each thread is preserved. How many different values are possible for c after both threads complete?",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "2"
+      },
+      {
+        "id": "B",
+        "text": "3"
+      },
+      {
+        "id": "C",
+        "text": "4"
+      },
+      {
+        "id": "D",
+        "text": "5"
+      }
+    ],
+    "correctAnswer": [
+      "D"
+    ],
+    "natRange": null,
+    "solution": "Considering all possible interleavings of the statements from both threads, the possible resulting values of c are 4, 7, 13, 14, and -3, giving a total of 5 distinct possible values."
+  },
+  {
+    "id": "q59",
+    "number": 59,
+    "type": "MCQ",
+    "marks": 2,
+    "negativeMarks": 0.67,
+    "section": "Core Subject",
+    "questionText": "Consider the following statements:\nI. There exists a RE language for which there is no ambiguous grammar possible.\nII. There exists a RE language for which there is no unambiguous grammar.\nWhich of the above statements is/are correct?",
+    "questionImage": null,
+    "options": [
+      {
+        "id": "A",
+        "text": "Both I and II"
+      },
+      {
+        "id": "B",
+        "text": "Only I"
+      },
+      {
+        "id": "C",
+        "text": "Only II"
+      },
+      {
+        "id": "D",
+        "text": "None of I and II are correct"
+      }
+    ],
+    "correctAnswer": [
+      "A"
+    ],
+    "natRange": null,
+    "solution": "Statement I is true, and the only language for which it holds is the empty language, since it contains no strings and so cannot have two distinct parse trees for any string. Statement II is also true; such inherently ambiguous languages exist, e.g. the union of {a^n b^n c^m} and {a^n b^m c^m}, whose common subset cannot be parsed unambiguously despite being context-free."
+  },
+  {
+    "id": "q60",
+    "number": 60,
+    "type": "NAT",
+    "marks": 2,
+    "negativeMarks": 0,
+    "section": "Core Subject",
+    "questionText": "Consider a recursive function fun(n): The time complexity of this function is O(n^α), then the least possible value (accurate up to 2 decimal positions) of α is _____.\nint fun(int n) { int i,a; for(i=0;i<n;i++) a++; return (fun(2n/3)+fun(2n/3)+fun(2n/3)); }",
+    "questionImage": null,
+    "options": [],
+    "correctAnswer": [
+      "2.70"
+    ],
+    "natRange": [
+      2.7,
+      2.72
+    ],
+    "solution": "The recurrence relation for this function is T(n) = 3T(2n/3) + n. Applying the Master method with a=3, b=3/2, we get f(n) = n^(log_b(a)) = n^(log_1.5(3)) ≈ n^2.71."
+  },
+  {
+    "id": "q61",
+    "number": 61,
+    "type": "NAT",
+    "marks": 2,
+    "negativeMarks": 0,
+    "section": "Core Subject",
+    "questionText": "An IP datagram of length (including a header of 20 bytes) 1800 bytes needs to cross an Ethernet followed by a WAN to reach its destination. The MTU for Ethernet is 1500 bytes. For the WAN, the MTU is given to be 576 bytes. The datagram of 1800 bytes cannot be carried in one unit by Ethernet. Hence 2 fragments are required (Frag1 and Frag2). At the entry to the WAN, the router has to further fragment Frag1. What will be the 'Fragment offset' of the last sub fragment of Frag1?",
+    "questionImage": null,
+    "options": [],
+    "correctAnswer": [
+      "138"
+    ],
+    "natRange": [
+      138,
+      138
+    ],
+    "solution": "The 1800-byte datagram is split into Frag1 (1500 bytes) and Frag2 (320 bytes) at the Ethernet boundary. At the WAN entry, Frag1 must be further fragmented since the WAN's MTU is 576 bytes; using a maximum data size of 552 bytes per sub-fragment (a multiple of 8, as required for the fragment offset field), Frag1 splits into Frag1A, Frag1B, and Frag1C. The last sub-fragment (Frag1C) has a fragment offset of 138 (in units of 8 bytes)."
+  },
+  {
+    "id": "q62",
+    "number": 62,
+    "type": "NAT",
+    "marks": 2,
+    "negativeMarks": 0,
+    "section": "Core Subject",
+    "questionText": "The value of k, for which the following system of equations does not have any solution is _____.\nx1+x2+x3=6\n4x1+kx2-kx3=0\n3x1+2x2-4x3=-8",
+    "questionImage": null,
+    "options": [],
+    "correctAnswer": [
+      "3"
+    ],
+    "natRange": [
+      3,
+      3
+    ],
+    "solution": "Row-reducing the coefficient matrix leads to the condition -8k+24=0, so k=3 makes the system inconsistent (no solution)."
+  },
+  {
+    "id": "q63",
+    "number": 63,
+    "type": "NAT",
+    "marks": 2,
+    "negativeMarks": 0,
+    "section": "Core Subject",
+    "questionText": "Consider a non-pipelined processor using the 5-stage datapath with 2 GHz clock speed. Assume that due to clock skew and pipeline registers, pipelining the processor lengthens the clock cycle period by 10%. Also, assume that data references represent 30% of the instructions executed and instruction accesses, resulting in a structural hazard between IF and MEM stages. Suppose that data references represent 30% of the instructions executed and that the ideal CPI of the pipelined processor, ignoring the structural hazard, is 1. How much speedup can we gain from pipelining? (Give answer up to two decimal places.)",
+    "questionImage": null,
+    "options": [],
+    "correctAnswer": [
+      "3.50"
+    ],
+    "natRange": [
+      3.49,
+      3.5
+    ],
+    "solution": "Without pipelining: clock period = 0.5 ns, CPI = 5. With pipelining: clock period lengthens by 10% to 0.55 ns, and 30% of instructions cause a structural hazard with a 1-cycle stall penalty, giving CPI = 1 + 0.3×1 = 1.3. Speedup from pipelining = (0.5 ns × 5)/(0.55 ns × 1.3) ≈ 3.50."
+  },
+  {
+    "id": "q64",
+    "number": 64,
+    "type": "NAT",
+    "marks": 2,
+    "negativeMarks": 0,
+    "section": "Core Subject",
+    "questionText": "Consider the following C program:\nmain() { int numbers[10] = {1,0,0,0,0}; int i,j; for(j=0;j<5;++j) for(i=0;i<j;++i) numbers[j]+=numbers[i]; for(j=0;j<5;++j) printf(\"%d\",numbers[j]); } What will be the output?",
+    "questionImage": null,
+    "options": [],
+    "correctAnswer": [
+      "11248"
+    ],
+    "natRange": [
+      11248,
+      11248
+    ],
+    "solution": "Tracing through the nested loops updates the array step by step: after all iterations, numbers[0..4] become 1,1,2,4,8 respectively, so the printed output is 11248."
+  },
+  {
+    "id": "q65",
+    "number": 65,
+    "type": "MCQ",
+    "marks": 2,
+    "negativeMarks": 0.67,
+    "section": "Core Subject",
+    "questionText": "A multiplexer, shown below, has 6 inputs S0, S1, A, B, C and D. The truth table describes its function (S0=0,S1=0→A; S0=1,S1=0→B; S0=0,S1=1→C; S0=1,S1=1→D, output M). It is desired to implement the function F=(X⊕Y)⊕Z using the multiplexer. If X is applied to S0 and Y is applied to S1, what inputs should be applied to A, B, C and D to realize the function F?",
+    "questionImage": "q65_multiplexer_truth_table.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "A=B=C=D=Z"
+      },
+      {
+        "id": "B",
+        "text": "A=X⊕Y, B=X⊕Z, C=Y⊕Z, D=Z"
+      },
+      {
+        "id": "C",
+        "text": "A=D=Z, B=C=Z̄"
+      },
+      {
+        "id": "D",
+        "text": "The function F can not be realized with any of the inputs shown above."
+      }
+    ],
+    "correctAnswer": [
+      "C"
+    ],
+    "natRange": null,
+    "solution": "Setting A=D=Z and B=C=complement of Z, the multiplexer output works out to XYZ̄+X̄YZ̄+X̄ȲZ+XYZ = (X⊕Y)Z + (X⊕Y)‾Z̄, which simplifies algebraically to (X⊕Y)⊕Z, matching the desired function F."
+  }
+]

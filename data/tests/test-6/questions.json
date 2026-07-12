@@ -1,0 +1,1979 @@
+[
+    {
+        "id": "q1",
+        "number": 1,
+        "type": "MCQ",
+        "marks": 1,
+        "negativeMarks": 0.33,
+        "section": "General Aptitude",
+        "questionText": "Identify the part of the sentence that has an error: The alarmed report of an (a) / earthquake frightened everyone (b) / in that diaster prone village (c). / No error (d).",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "The alarmed report of an"
+            },
+            {
+                "id": "B",
+                "text": "earthquake frightened everyone"
+            },
+            {
+                "id": "C",
+                "text": "in that diaster prone village"
+            },
+            {
+                "id": "D",
+                "text": "No error"
+            }
+        ],
+        "correctAnswer": [
+            "A"
+        ],
+        "natRange": null,
+        "solution": "The word 'alarmed' is used incorrectly; it should be 'alarming', since the report itself causes alarm rather than being alarmed."
+    },
+    {
+        "id": "q2",
+        "number": 2,
+        "type": "MCQ",
+        "marks": 1,
+        "negativeMarks": 0.33,
+        "section": "General Aptitude",
+        "questionText": "Select the word that is NEAREST in meaning to the bold word in capital letters VENERATE.",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "Accuse"
+            },
+            {
+                "id": "B",
+                "text": "Reverence"
+            },
+            {
+                "id": "C",
+                "text": "Criticize"
+            },
+            {
+                "id": "D",
+                "text": "Abuse"
+            }
+        ],
+        "correctAnswer": [
+            "B"
+        ],
+        "natRange": null,
+        "solution": "Venerate means to regard with deep respect, which matches 'Reverence' most closely."
+    },
+    {
+        "id": "q3",
+        "number": 3,
+        "type": "MCQ",
+        "marks": 1,
+        "negativeMarks": 0.33,
+        "section": "General Aptitude",
+        "questionText": "Three of the six vertices of a regular hexagon are chosen at random. The probability that the triangle with these three vertices is equilateral equals _____.",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "1/6"
+            },
+            {
+                "id": "B",
+                "text": "1/3"
+            },
+            {
+                "id": "C",
+                "text": "1/10"
+            },
+            {
+                "id": "D",
+                "text": "1/9"
+            }
+        ],
+        "correctAnswer": [
+            "C"
+        ],
+        "natRange": null,
+        "solution": "Total ways to pick 3 vertices out of 6 is C(6,3) = 20. Only two of these selections (ACE and BDF) form equilateral triangles, giving probability 2/20 = 1/10."
+    },
+    {
+        "id": "q4",
+        "number": 4,
+        "type": "MCQ",
+        "marks": 1,
+        "negativeMarks": 0.33,
+        "section": "General Aptitude",
+        "questionText": "At a Style cloth emporium the shopkeeper measures 20% less for every meter of cloth. He also marks up good by 20%. His profit percentage is _____.",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "50%"
+            },
+            {
+                "id": "B",
+                "text": "70%"
+            },
+            {
+                "id": "C",
+                "text": "80%"
+            },
+            {
+                "id": "D",
+                "text": "Can't be determined"
+            }
+        ],
+        "correctAnswer": [
+            "A"
+        ],
+        "natRange": null,
+        "solution": "Let cost per meter be x, so marked price per meter is 1.2x, but the shopkeeper only gives 0.8 meters worth for every meter charged, i.e. he actually charges 1.2x while giving material worth 0.8x. Profit percentage = (1.2x - 0.8x)/0.8x × 100 = 0.4/0.8 × 100 = 50%."
+    },
+    {
+        "id": "q5",
+        "number": 5,
+        "type": "NAT",
+        "marks": 1,
+        "negativeMarks": 0,
+        "section": "General Aptitude",
+        "questionText": "8 points lie on the circumference of a circle. The absolute difference between the number of triangles and the number of quadrilaterals that can be formed is _____.",
+        "questionImage": null,
+        "options": [],
+        "correctAnswer": [
+            "14"
+        ],
+        "natRange": [
+            14,
+            14
+        ],
+        "solution": "Number of triangles = C(8,3) = 56. Number of quadrilaterals = C(8,4) = 70. Their absolute difference is 70 - 56 = 14."
+    },
+    {
+        "id": "q6",
+        "number": 6,
+        "type": "MCQ",
+        "marks": 2,
+        "negativeMarks": 0.67,
+        "section": "General Aptitude",
+        "questionText": "Sum of n terms of the series 3/(1²·2²) + 5/(2²·3²) + 7/(3²·4²) + ..... is _____.",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "(n² - 2n) / (n - 1)²"
+            },
+            {
+                "id": "B",
+                "text": "(n² + 2n) / (n + 1)²"
+            },
+            {
+                "id": "C",
+                "text": "(2n² + 1) / n"
+            },
+            {
+                "id": "D",
+                "text": "None of these"
+            }
+        ],
+        "correctAnswer": [
+            "B"
+        ],
+        "natRange": null,
+        "solution": "Each term telescopes as 1/k² - 1/(k+1)², so the whole sum collapses to 1 - 1/(n+1)², which simplifies to (n² + 2n)/(n + 1)²."
+    },
+    {
+        "id": "q7",
+        "number": 7,
+        "type": "MCQ",
+        "marks": 2,
+        "negativeMarks": 0.67,
+        "section": "General Aptitude",
+        "questionText": "ABCD is a rectangle of dimension 6 cm × 8 cm. DE and BF are perpendicular drawn on the diagonal of the rectangle. What is the ratio of area of shaded region to that of unshaded region?",
+        "questionImage": "q7_rectangle_diagonal_perpendiculars.png",
+        "options": [
+            {
+                "id": "A",
+                "text": "7 : 3"
+            },
+            {
+                "id": "B",
+                "text": "16 : 9"
+            },
+            {
+                "id": "C",
+                "text": "4√2 : 3"
+            },
+            {
+                "id": "D",
+                "text": "None of these"
+            }
+        ],
+        "correctAnswer": [
+            "B"
+        ],
+        "natRange": null,
+        "solution": "Using the diagonal AC = 10 cm and equal-area triangle relations, DE works out to 4.8 cm. The ratio of shaded to unshaded area reduces to EC/AE, which computes to 6.4/3.6 = 16/9."
+    },
+    {
+        "id": "q8",
+        "number": 8,
+        "type": "MCQ",
+        "marks": 2,
+        "negativeMarks": 0.67,
+        "section": "General Aptitude",
+        "questionText": "If log₃2, log₃(2^x - 5) and log₃(2^x - 7/2) are in AP then x is equal to _____.",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "2"
+            },
+            {
+                "id": "B",
+                "text": "3"
+            },
+            {
+                "id": "C",
+                "text": "both (a) and (b)"
+            },
+            {
+                "id": "D",
+                "text": "None of (a) and (b)"
+            }
+        ],
+        "correctAnswer": [
+            "B"
+        ],
+        "natRange": null,
+        "solution": "The AP condition gives 2·log₃(2^x - 5) = log₃2 + log₃(2^x - 7/2), leading to (2^x)² - 12(2^x) + 32 = 0, so 2^x = 4 or 8, i.e. x = 2 or 3. x = 2 is rejected since it makes log(2^x - 5) undefined, so x = 3."
+    },
+    {
+        "id": "q9",
+        "number": 9,
+        "type": "MCQ",
+        "marks": 2,
+        "negativeMarks": 0.67,
+        "section": "General Aptitude",
+        "questionText": "In a group of 132 people 50, 60, 70 people like different sweets - Barfi, Jalebi, Rasgulla respectively. The number of people who like all the three sweet is half the number of people who like exactly 2 sweets. The number of people who like Barfi and Jalebi only, Jalabi and Rasgulla only and Barfi and Rasgulla only is same. If each of the students like at least one of the sweets then the number of people who like all three sweets are _____.",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "10"
+            },
+            {
+                "id": "B",
+                "text": "20"
+            },
+            {
+                "id": "C",
+                "text": "12"
+            },
+            {
+                "id": "D",
+                "text": "15"
+            }
+        ],
+        "correctAnswer": [
+            "C"
+        ],
+        "natRange": null,
+        "solution": "Setting up the standard three-set inclusion-exclusion with the given constraints (each pairwise-only region equal, and the all-three region equal to 1.5 times a pairwise-only region) and solving the resulting linear system for a total of 132 people gives the all-three count as 12."
+    },
+    {
+        "id": "q10",
+        "number": 10,
+        "type": "MSQ",
+        "marks": 2,
+        "negativeMarks": 0,
+        "section": "General Aptitude",
+        "questionText": "Two tables are given below, out of which Table 1 gives breakup of the percentage of student enrolling for Engineering systems in different states and Table 2 gives percentage breakup of stream wise enrollment in Haryana.\nTable-1: Bihar 20%, Haryana 15%, Maharashtra 30%, Rajasthan 24%, Kerala 11%.\nTable-2: Electronics Engineering 17.5%, Mechanical Engineering 30%, Computer 10%, Electrical Engineering 12.5%, Civil Engineering 30%.\nIf 4800 students took admission in Electrical Engineering in Haryana, then",
+        "questionImage": "q10_tables_states_streams_enrollment.png",
+        "options": [
+            {
+                "id": "A",
+                "text": "28160 total students took admission in Kerala."
+            },
+            {
+                "id": "B",
+                "text": "61440 total students took admission in Rajasthan."
+            },
+            {
+                "id": "C",
+                "text": "6720 students took admission in electronic in Haryana."
+            },
+            {
+                "id": "D",
+                "text": "(a) and (b) only"
+            }
+        ],
+        "correctAnswer": [
+            "A",
+            "B",
+            "C"
+        ],
+        "natRange": null,
+        "solution": "Since 12.5% of 15% of the overall total equals 4800, the overall total works out to 256000. From Table-1, 11% of 256000 (Kerala) is 28160 and 24% of 256000 (Rajasthan) is 61440. From Table-2, 15% × 17.5% of 256000 (Electronics in Haryana) is 6720. All three of A, B, and C hold."
+    },
+    {
+        "id": "q11",
+        "number": 11,
+        "type": "MCQ",
+        "marks": 1,
+        "negativeMarks": 0.33,
+        "section": "Core Subject",
+        "questionText": "Which of the following is a regular expression r with L(r) = L(M) when M is the following nondeterministic finite automaton?",
+        "questionImage": "q11_nfa_states_0_1_2.png",
+        "options": [
+            {
+                "id": "A",
+                "text": "(b + ac)[(b + ac)a]*"
+            },
+            {
+                "id": "B",
+                "text": "(b + ac)a(b + ac)*"
+            },
+            {
+                "id": "C",
+                "text": "[(b + ac)a]*(b + ac)"
+            },
+            {
+                "id": "D",
+                "text": "[a(b + ac)]*(b + ac)"
+            }
+        ],
+        "correctAnswer": [
+            "C"
+        ],
+        "natRange": null,
+        "solution": "By eliminating the intermediate state and adding a direct transition on 'ac' from the start state to the final state, the accepted language simplifies to [(b + ac)a]*(b + ac)."
+    },
+    {
+        "id": "q12",
+        "number": 12,
+        "type": "MCQ",
+        "marks": 1,
+        "negativeMarks": 0.33,
+        "section": "Core Subject",
+        "questionText": "If A and B are the inputs to a half adder and to a half subtractor and X, Y are the sum and difference output of half adder and half subtractor respectively and C is a carry output of half adder and D is borrow output of half subtractor. Then X ⊕ Y and C ⊙ D respectively",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "0, B"
+            },
+            {
+                "id": "B",
+                "text": "1, B"
+            },
+            {
+                "id": "C",
+                "text": "1, B'"
+            },
+            {
+                "id": "D",
+                "text": "0, B'"
+            }
+        ],
+        "correctAnswer": [
+            "D"
+        ],
+        "natRange": null,
+        "solution": "For the half adder, X = A⊕B and C = AB. For the half subtractor, Y = A⊕B and D = A'B. So X⊕Y = 0, and evaluating C⊙D (XNOR of AB and A'B) simplifies to B'."
+    },
+    {
+        "id": "q13",
+        "number": 13,
+        "type": "MCQ",
+        "marks": 1,
+        "negativeMarks": 0.33,
+        "section": "Core Subject",
+        "questionText": "Which of the following statements about ethernets is typically FALSE?",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "Ethernets use circuit switching to send messages."
+            },
+            {
+                "id": "B",
+                "text": "Ethernets use buses with multiple masters."
+            },
+            {
+                "id": "C",
+                "text": "Ethernet protocols use a collision-detection method to ensure that messages are transmitted properly."
+            },
+            {
+                "id": "D",
+                "text": "Networks connected by ethernets are limited in length to a few hundred meters."
+            }
+        ],
+        "correctAnswer": [
+            "A"
+        ],
+        "natRange": null,
+        "solution": "Ethernets actually use packet switching, not circuit switching, to send messages, making statement (a) the false one being asked for."
+    },
+    {
+        "id": "q14",
+        "number": 14,
+        "type": "MCQ",
+        "marks": 1,
+        "negativeMarks": 0.33,
+        "section": "Core Subject",
+        "questionText": "The number of 1's in the binary representation of 13 × 16³ + 11 × 16² + 9 × 16 + 3 is",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "7"
+            },
+            {
+                "id": "B",
+                "text": "9"
+            },
+            {
+                "id": "C",
+                "text": "10"
+            },
+            {
+                "id": "D",
+                "text": "12"
+            }
+        ],
+        "correctAnswer": [
+            "C"
+        ],
+        "natRange": null,
+        "solution": "The expression is the hexadecimal number DB93. Converting DB93 to binary and counting the set bits gives 10 ones."
+    },
+    {
+        "id": "q15",
+        "number": 15,
+        "type": "MCQ",
+        "marks": 1,
+        "negativeMarks": 0.33,
+        "section": "Core Subject",
+        "questionText": "There are K people in the room and every persons shakes hands with every other person. What is the minimum value of K so that there are atleast 12 handshakes?",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "5"
+            },
+            {
+                "id": "B",
+                "text": "6"
+            },
+            {
+                "id": "C",
+                "text": "7"
+            },
+            {
+                "id": "D",
+                "text": "8"
+            }
+        ],
+        "correctAnswer": [
+            "B"
+        ],
+        "natRange": null,
+        "solution": "Total handshakes = C(K,2) = K(K-1)/2, which must be at least 12. The smallest integer K satisfying this is K = 6."
+    },
+    {
+        "id": "q16",
+        "number": 16,
+        "type": "MCQ",
+        "marks": 1,
+        "negativeMarks": 0.33,
+        "section": "Core Subject",
+        "questionText": "The binary relation R = {(0,0), (1,1)} on A = {0, 1, 2, 3} is",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "Reflexive, not symmetric, transitive."
+            },
+            {
+                "id": "B",
+                "text": "Not reflexive, symmetric, transitive."
+            },
+            {
+                "id": "C",
+                "text": "Not reflexive, symmetric, not transitive."
+            },
+            {
+                "id": "D",
+                "text": "Not reflexive, not symmetric, not transitive."
+            }
+        ],
+        "correctAnswer": [
+            "B"
+        ],
+        "natRange": null,
+        "solution": "R is not reflexive since pairs like (2,2) and (3,3) are missing, but it is symmetric and transitive given only the two pairs present."
+    },
+    {
+        "id": "q17",
+        "number": 17,
+        "type": "MCQ",
+        "marks": 1,
+        "negativeMarks": 0.33,
+        "section": "Core Subject",
+        "questionText": "Let M be a two dimensional array declared as follows: M: array[-5....15][-10....10] of integer; Assuming that each integer takes one memory location, the array is stored in row-major order and the first element of the array is stored at location 100, what is the address of the element A[i][j]?",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "21j + i + 31C5"
+            },
+            {
+                "id": "B",
+                "text": "21i + j + 215"
+            },
+            {
+                "id": "C",
+                "text": "21j + i + 215"
+            },
+            {
+                "id": "D",
+                "text": "21i + j + 315"
+            }
+        ],
+        "correctAnswer": [
+            "B"
+        ],
+        "natRange": null,
+        "solution": "For a 2D array stored in row-major order the address of A[i][j] is Base + [(i - r1) × (c2 - c1 + 1) + (j - c1)] × n. Substituting r1=-5, c1=-10, c2=10, n=1, Base=100 gives 100 + (i+5)×21 + (j+10) = 21i + j + 215."
+    },
+    {
+        "id": "q18",
+        "number": 18,
+        "type": "MCQ",
+        "marks": 1,
+        "negativeMarks": 0.33,
+        "section": "Core Subject",
+        "questionText": "Which of the following is a stable sorting algorithm?\nI. Insertion sort\nII. Merge sort\nIII. Quick sort\nIV. Selection sort",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "I and II only"
+            },
+            {
+                "id": "B",
+                "text": "I, II and III only"
+            },
+            {
+                "id": "C",
+                "text": "I and IV only"
+            },
+            {
+                "id": "D",
+                "text": "I, II and IV only"
+            }
+        ],
+        "correctAnswer": [
+            "A"
+        ],
+        "natRange": null,
+        "solution": "Insertion sort and merge sort preserve the relative order of equal elements, making them stable, while quick sort and selection sort are generally not stable."
+    },
+    {
+        "id": "q19",
+        "number": 19,
+        "type": "MCQ",
+        "marks": 1,
+        "negativeMarks": 0.33,
+        "section": "Core Subject",
+        "questionText": "Consider the SDTs given below:\nS1: A → BC {A.val = B.val + C.val}\nS2: D → EF {D.val = E.val * F.val and E.val = F.val}",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "S1 is S-attributed and S2 is L-attributed."
+            },
+            {
+                "id": "B",
+                "text": "S1 is L-attributed but S2 is not L-attributed."
+            },
+            {
+                "id": "C",
+                "text": "Both S1 and S2 are S-attributed."
+            },
+            {
+                "id": "D",
+                "text": "Both S1 and S2 are L-attributed."
+            }
+        ],
+        "correctAnswer": [
+            "B"
+        ],
+        "natRange": null,
+        "solution": "S1 only uses values from its children in the standard left-to-right sense, so it is L-attributed. S2 is not L-attributed because E's value depends on F, its right sibling, which violates the L-attributed definition."
+    },
+    {
+        "id": "q20",
+        "number": 20,
+        "type": "MCQ",
+        "marks": 1,
+        "negativeMarks": 0.33,
+        "section": "Core Subject",
+        "questionText": "Which of the following disk scheduling techniques has a drawback of starvation?",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "SCAN"
+            },
+            {
+                "id": "B",
+                "text": "SSTF"
+            },
+            {
+                "id": "C",
+                "text": "FCFS"
+            },
+            {
+                "id": "D",
+                "text": "C-Scan"
+            }
+        ],
+        "correctAnswer": [
+            "B"
+        ],
+        "natRange": null,
+        "solution": "SSTF (Shortest Seek Time First) always favors requests closest to the current head position, which can indefinitely delay far-away requests, causing starvation."
+    },
+    {
+        "id": "q21",
+        "number": 21,
+        "type": "MCQ",
+        "marks": 1,
+        "negativeMarks": 0.33,
+        "section": "Core Subject",
+        "questionText": "Consider the following two systems of linear equations:\nS1: x1 + x2 = 10, -x1 + x2 = 0\nS2: x1 - 2x2 = -3, 2x1 - 4x2 = 8\nWhich of the above system has infinite solutions?",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "Only S1"
+            },
+            {
+                "id": "B",
+                "text": "Only S2"
+            },
+            {
+                "id": "C",
+                "text": "Both S1 and S2"
+            },
+            {
+                "id": "D",
+                "text": "None of these"
+            }
+        ],
+        "correctAnswer": [
+            "D"
+        ],
+        "natRange": null,
+        "solution": "S1's two lines intersect at a single point, giving a unique solution, while S2's two equations are inconsistent (parallel lines that never meet), giving no solution at all. So neither system has infinitely many solutions."
+    },
+    {
+        "id": "q22",
+        "number": 22,
+        "type": "MCQ",
+        "marks": 1,
+        "negativeMarks": 0.33,
+        "section": "Core Subject",
+        "questionText": "Consider the following statements:\nI. L1 = {xyx^R : x ∈ {0,1}*, y ∈ {0,1}} is regular.\nII. There exists a language L that is Turing enumerable but not lexicographically Turing enumerable.\nWhich of the above statements is/are true?",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "Only I"
+            },
+            {
+                "id": "B",
+                "text": "Only II"
+            },
+            {
+                "id": "C",
+                "text": "Both I and II"
+            },
+            {
+                "id": "D",
+                "text": "None of these"
+            }
+        ],
+        "correctAnswer": [
+            "C"
+        ],
+        "natRange": null,
+        "solution": "L1 is regular because x never needs to be more than one character, so the condition reduces to requiring at least two characters with matching first and last symbols, expressible as a regular expression. Statement II is also true since there exist recursively enumerable languages that are not recursive, hence not lexicographically enumerable."
+    },
+    {
+        "id": "q23",
+        "number": 23,
+        "type": "MCQ",
+        "marks": 1,
+        "negativeMarks": 0.33,
+        "section": "Core Subject",
+        "questionText": "An n × n array v is defined as follows: v[i,j] = i - j for all i, j, 1 ≤ i ≤ n, 1 ≤ j ≤ n. The sum of the elements of the array v is",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "0"
+            },
+            {
+                "id": "B",
+                "text": "n - 1"
+            },
+            {
+                "id": "C",
+                "text": "n × n - 3n + 2"
+            },
+            {
+                "id": "D",
+                "text": "n × n(n+1) / 2"
+            }
+        ],
+        "correctAnswer": [
+            "A"
+        ],
+        "natRange": null,
+        "solution": "Each row's values run symmetrically from a positive to a negative number and every row and column sums to zero individually, so the total sum of the array is 0."
+    },
+    {
+        "id": "q24",
+        "number": 24,
+        "type": "MSQ",
+        "marks": 1,
+        "negativeMarks": 0,
+        "section": "Core Subject",
+        "questionText": "Let G = (V, E) be a finite directed acyclic graph with |E| > 0. Which of the following must be true?",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "G has a vertex with no incoming edge."
+            },
+            {
+                "id": "B",
+                "text": "G has a vertex with no outgoing edge."
+            },
+            {
+                "id": "C",
+                "text": "G has an isolated vertex, that is, one with neither an incoming edge nor an outgoing edge."
+            },
+            {
+                "id": "D",
+                "text": "None of these"
+            }
+        ],
+        "correctAnswer": [
+            "A",
+            "B"
+        ],
+        "natRange": null,
+        "solution": "Since G is a finite directed acyclic graph, there must be at least one source vertex with no incoming edge and one sink vertex with no outgoing edge; an isolated vertex is not guaranteed to exist."
+    },
+    {
+        "id": "q25",
+        "number": 25,
+        "type": "NAT",
+        "marks": 1,
+        "negativeMarks": 0,
+        "section": "Core Subject",
+        "questionText": "A message 1001 1100 1010 0011 is transmitted using the internet checksum (using 4-bit words). What will be the decimal value of the checksum?",
+        "questionImage": null,
+        "options": [],
+        "correctAnswer": [
+            "11"
+        ],
+        "natRange": [
+            11,
+            11
+        ],
+        "solution": "Adding the four 4-bit words (9 + 12 + 10 + 3 = 34, i.e. 100010 in binary), wrapping the carry back in gives 0100, and taking the 1's complement of that yields 1011, which is 11 in decimal."
+    },
+    {
+        "id": "q26",
+        "number": 26,
+        "type": "MSQ",
+        "marks": 1,
+        "negativeMarks": 0,
+        "section": "Core Subject",
+        "questionText": "Which of the following statements are true?",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "The non-clustered index is created to improve the performance of frequently used queries covered by clustered index."
+            },
+            {
+                "id": "B",
+                "text": "B-tree is used instead of B+ tree, when sequential access to key values is required."
+            },
+            {
+                "id": "C",
+                "text": "Conservative 2PL is deadlock free."
+            },
+            {
+                "id": "D",
+                "text": "Strict 2PL is recoverable but it is not deadlock free."
+            }
+        ],
+        "correctAnswer": [
+            "C",
+            "D"
+        ],
+        "natRange": null,
+        "solution": "(a) is false since a non-clustered index actually helps queries not covered by the clustered index, since table data physically follows the clustered index order. (b) is false because B+ trees, not B-trees, are preferred for sequential access. (c) is true since Conservative 2PL guarantees both serializability and freedom from deadlock. (d) is true since Strict 2PL guarantees serializability and strict recoverability, but does not guarantee deadlock freedom."
+    },
+    {
+        "id": "q27",
+        "number": 27,
+        "type": "MCQ",
+        "marks": 1,
+        "negativeMarks": 0.33,
+        "section": "Core Subject",
+        "questionText": "Consider a computer system in which processes can request and release one or more resources. Once a process has been granted a resource, the process has exclusive use of that resource until it is released. If a process requests a resource that is already in use, the process enters a queue for that resource, waiting until the resource is available. Which of the following will NOT deal effectively with the problem of deadlock?",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "Giving priorities to processes and ordering the wait queues by priority."
+            },
+            {
+                "id": "B",
+                "text": "Having a process request all its required resources when it first begins and restarting if it cannot obtain them all."
+            },
+            {
+                "id": "C",
+                "text": "Numbering the resources and requiring that processes request resources in order of increasing number."
+            },
+            {
+                "id": "D",
+                "text": "Having processes time out and restart after a random interval of waiting."
+            }
+        ],
+        "correctAnswer": [
+            "A"
+        ],
+        "natRange": null,
+        "solution": "Priority-based queue ordering does nothing to break the hold-and-wait, circular-wait, or resource-contention conditions that cause deadlock, unlike options (b), (c), and (d), which eliminate hold-and-wait, circular waiting, or break deadlock periodically respectively."
+    },
+    {
+        "id": "q28",
+        "number": 28,
+        "type": "MCQ",
+        "marks": 1,
+        "negativeMarks": 0.33,
+        "section": "Core Subject",
+        "questionText": "Given initial free memory blocks of 300 KB, 200 KB and 250 KB (in that order). First-fit, best-fit, and worst-fit would place blocks of size 100 KB, 150 KB, 200 KB, 200 KB and 100 KB, requested in that order. Assume that when a hole is split into a used portion and a (smaller) hole, the new hole remains in the same position in the list as the old hole. Which of the following service the request?",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "First fit only"
+            },
+            {
+                "id": "B",
+                "text": "Best fit only"
+            },
+            {
+                "id": "C",
+                "text": "Worst fit only"
+            },
+            {
+                "id": "D",
+                "text": "None of these"
+            }
+        ],
+        "correctAnswer": [
+            "C"
+        ],
+        "natRange": null,
+        "solution": "Tracing each allocation strategy through the sequence of requests shows that both first-fit and best-fit eventually fail to place one of the later blocks, while worst-fit is able to accommodate every request in the sequence."
+    },
+    {
+        "id": "q29",
+        "number": 29,
+        "type": "NAT",
+        "marks": 1,
+        "negativeMarks": 0,
+        "section": "Core Subject",
+        "questionText": "In an enhancement of the design of a CPU, the speed of a floating point unit has been increased by 30% and the speed of a fixed point unit has been increased by 20%. The overall speedup achieved if the ratio of the number of fixed point operations to a number of floating point operations is 4:6 and the floating point operation used to take twice the time taken by fixed point operation in the original design is _____ (Upto 2 decimal places).",
+        "questionImage": null,
+        "options": [],
+        "correctAnswer": [
+            "1.27"
+        ],
+        "natRange": [
+            1.26,
+            1.28
+        ],
+        "solution": "Taking fixed-point time as 100 units and floating-point time as 200 units, the weighted execution time before enhancement is 0.4×100 + 0.6×200 = 160. After the 20% and 30% speed increases, the new weighted time becomes 0.4×(100/1.2) + 0.6×(200/1.3) ≈ 126, giving a speedup of about 1.27."
+    },
+    {
+        "id": "q30",
+        "number": 30,
+        "type": "MSQ",
+        "marks": 1,
+        "negativeMarks": 0,
+        "section": "Core Subject",
+        "questionText": "Consider the following statements:\n(a) Weak entity cannot exist without the entity with which it has a relationship.\n(b) Weak entity has a primary key that is derived from the parent entity in the relationship.\n(c) Each superkey is a superset of some candidate key.\n(d) Each primary key is also a candidate key, but there may be candidate keys that are not primary keys.\nWhich of the above statements are correct?",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "a"
+            },
+            {
+                "id": "B",
+                "text": "b"
+            },
+            {
+                "id": "C",
+                "text": "c"
+            },
+            {
+                "id": "D",
+                "text": "d"
+            }
+        ],
+        "correctAnswer": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "natRange": null,
+        "solution": "All four statements correctly describe standard ER/relational model concepts: a weak entity is existence-dependent on its owning entity and inherits a key component from it, and the superkey/candidate-key/primary-key relationships as stated are textbook-accurate."
+    },
+    {
+        "id": "q31",
+        "number": 31,
+        "type": "MCQ",
+        "marks": 1,
+        "negativeMarks": 0.33,
+        "section": "Core Subject",
+        "questionText": "Which of the following is correct if initially Q1 and Q0 are 1 and 0 respectively, for the given sequential circuit (a T flip-flop feeding a D flip-flop, clocked together)?",
+        "questionImage": "q31_flipflop_counter_circuit.png",
+        "options": [
+            {
+                "id": "A",
+                "image": "q31_option_a.png"
+            },
+            {
+                "id": "B",
+                "image": "q31_option_b.png"
+            },
+            {
+                "id": "C",
+                "image": "q31_option_c.png"
+            },
+            {
+                "id": "D",
+                "text": "None of these"
+            }
+        ],
+        "correctAnswer": [
+            "C"
+        ],
+        "natRange": null,
+        "solution": "Building the state table for the T and D flip-flop combination starting from Q1Q0 = 10 traces the sequence 10 → 00 → 01 → 11 → 00, matching option (c)."
+    },
+    {
+        "id": "q32",
+        "number": 32,
+        "type": "MCQ",
+        "marks": 1,
+        "negativeMarks": 0.33,
+        "section": "Core Subject",
+        "questionText": "Match the following list by choosing one Intermediate Representation that would be best suited for each compiler task specified below:\nList-I\nP. Transforming a given C program to a new C program containing calls to a performance instrumentation library.\nQ. Given a statement S that computes a scalar variable X, determining if the computed value is used by any other statement in the procedure.\nR. Performing optimizations on individual arithmetic operations used in array addressing.\nS. Determining whether statement S1 can be executed provided S2 is executed, where S1 and S2 are in the same procedure.\nT. Finding if a given (sub) expression is evaluated more than once.\nList-II\nI. SSA\nII. CFG\nIII. Three address code\nIV. AST\nV. DAG\nCodes:\n(a) P-I, Q-IV, R-III, S-II, T-V\n(b) P-IV, Q-I, R-III, S-II, T-V\n(c) P-IV, Q-I, R-II, S-III, T-V\n(d) P-IV, Q-V, R-III, S-II, T-I",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "a"
+            },
+            {
+                "id": "B",
+                "text": "b"
+            },
+            {
+                "id": "C",
+                "text": "c"
+            },
+            {
+                "id": "D",
+                "text": "d"
+            }
+        ],
+        "correctAnswer": [
+            "B"
+        ],
+        "natRange": null,
+        "solution": "AST suits source-level transformations (P), SSA is best for use tracking of a scalar (Q), three-address code exposes individual array-address arithmetic (R), CFG suits control-flow reachability questions (S), and DAG identifies repeated subexpressions (T), matching mapping (b)."
+    },
+    {
+        "id": "q33",
+        "number": 33,
+        "type": "MCQ",
+        "marks": 1,
+        "negativeMarks": 0.33,
+        "section": "Core Subject",
+        "questionText": "Which of the following is a reason for choosing to implement a list using linked lists over arrays?",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "It is faster to insert an element into a sorted list (at the last position) using a linked list."
+            },
+            {
+                "id": "B",
+                "text": "It is faster to sort elements using a linked list."
+            },
+            {
+                "id": "C",
+                "text": "It is faster to insert an element into a sorted list (at the first position) using a linked list."
+            },
+            {
+                "id": "D",
+                "text": "It is faster to invert all the elements of a sorted list using a linked list."
+            }
+        ],
+        "correctAnswer": [
+            "C"
+        ],
+        "natRange": null,
+        "solution": "Inserting at the front of a sorted array requires shifting all existing elements, taking O(n) time, whereas a linked list can do this in O(1) by just updating a head pointer."
+    },
+    {
+        "id": "q34",
+        "number": 34,
+        "type": "MCQ",
+        "marks": 1,
+        "negativeMarks": 0.33,
+        "section": "Core Subject",
+        "questionText": "Following is C like pseudo-code of a function that takes a queue as an argument and uses a stack S to do the processing.\nvoid fun(Queue *Q) {\n  Stack S; // Assume it creates an empty stack S\n  while (!isEmpty(Q)) { push(&S, deQueue(Q)); }\n  while (!isEmpty(&S)) { enQueue(Q, pop(&S)); }\n}\nWhat does the above function do in general?",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "Removes the last from Q"
+            },
+            {
+                "id": "B",
+                "text": "Keeps the Q same as it was before the call"
+            },
+            {
+                "id": "C",
+                "text": "Makes Q empty"
+            },
+            {
+                "id": "D",
+                "text": "Reverses the Q"
+            }
+        ],
+        "correctAnswer": [
+            "D"
+        ],
+        "natRange": null,
+        "solution": "Dequeueing all elements into a stack reverses their order (since the stack is LIFO), and enqueueing them back restores them to the queue in that reversed order, so the overall effect is to reverse the queue."
+    },
+    {
+        "id": "q35",
+        "number": 35,
+        "type": "MCQ",
+        "marks": 1,
+        "negativeMarks": 0.33,
+        "section": "Core Subject",
+        "questionText": "The language {ww | w ∈ (0+1)*} is",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "Not accepted by any Turing Machine."
+            },
+            {
+                "id": "B",
+                "text": "Accepted by some Turing Machine, but not by pushdown automaton."
+            },
+            {
+                "id": "C",
+                "text": "Accepted by some pushdown automaton, but not context-free."
+            },
+            {
+                "id": "D",
+                "text": "Context-free, but not regular."
+            }
+        ],
+        "correctAnswer": [
+            "B"
+        ],
+        "natRange": null,
+        "solution": "The language {ww} is a context-sensitive language, not context-free, so no pushdown automaton can accept it, but a Turing machine can, matching option (b)."
+    },
+    {
+        "id": "q36",
+        "number": 36,
+        "type": "MCQ",
+        "marks": 2,
+        "negativeMarks": 0.67,
+        "section": "Core Subject",
+        "questionText": "Huffman tree is constructed for the following data: {A, B, C, D, E} with frequency {0.17, 0.11, 0.24, 0.33 and 0.15} respectively. 1000001101 is decoded as",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "BACE"
+            },
+            {
+                "id": "B",
+                "text": "CADE"
+            },
+            {
+                "id": "C",
+                "text": "BAD"
+            },
+            {
+                "id": "D",
+                "text": "CADD"
+            }
+        ],
+        "correctAnswer": [
+            "A"
+        ],
+        "natRange": null,
+        "solution": "Building the Huffman tree from the given frequencies assigns codes B=100, A=00, C=01, E=101 (approximately), and splitting the given bitstring using these codes decodes to B, A, C, E."
+    },
+    {
+        "id": "q37",
+        "number": 37,
+        "type": "NAT",
+        "marks": 2,
+        "negativeMarks": 0,
+        "section": "Core Subject",
+        "questionText": "Consider a system with several running processes. The system is running a modern OS that uses virtual addresses and demand paging. It has been empirically observed that the memory access times in the system under various conditions are: t1 when the logical memory address is found in TLB cache, t2 when the address is not in TLB but does not cause a page fault, and t3 when the address results in a page fault. This memory access time includes all overheads like page fault servicing and logical-to-physical address translation. It has been observed that, on an average, 10% of the logical address accesses result in a page fault. Further, of the remaining virtual address accesses, two-thirds of them can be translated using the TLB cache, while one-third require walking the page tables. Using the information provided above, what is the average expected memory access time (in ns) in the system if t1 = 10 ns, t2 = 100 ns, t3 = 1000 ns",
+        "questionImage": null,
+        "options": [],
+        "correctAnswer": [
+            "136"
+        ],
+        "natRange": [
+            136,
+            136
+        ],
+        "solution": "Average time = 0.6×t1 + 0.3×t2 + 0.1×t3 = 0.6×10 + 0.3×100 + 0.1×1000 = 6 + 30 + 100 = 136 ns."
+    },
+    {
+        "id": "q38",
+        "number": 38,
+        "type": "MCQ",
+        "marks": 2,
+        "negativeMarks": 0.67,
+        "section": "Core Subject",
+        "questionText": "Consider a hypothetical Control Unit which supports 4 K words. The Hardware contains 64 control signals and 16 Flags. What is the size of the control word used in bits and control memory in byte using horizontal micro programming.",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "40, 40 KB"
+            },
+            {
+                "id": "B",
+                "text": "22, 11 KB"
+            },
+            {
+                "id": "C",
+                "text": "80, 40 KB"
+            },
+            {
+                "id": "D",
+                "text": "92, 320 KB"
+            }
+        ],
+        "correctAnswer": [
+            "C"
+        ],
+        "natRange": null,
+        "solution": "In horizontal microprogramming each of the 64 control signals gets its own bit, plus bits for flags and addressing, giving a control word size of 80 bits. With 4K words at 80 bits (10 bytes) each, the control memory size is 4K × 80/8 = 40 KB."
+    },
+    {
+        "id": "q39",
+        "number": 39,
+        "type": "MCQ",
+        "marks": 2,
+        "negativeMarks": 0.67,
+        "section": "Core Subject",
+        "questionText": "Suppose S(n) is a predicate on natural numbers (positive integer), n and suppose ∀k ∈ N (S(k) → S(k+2)). Now, if above assertion holds then consider the following statements:\nS1: (∀n ≤ 100 (S(n))) ∧ (∀n > 100 (¬S(n)))\nS2: S(1) → ∀n S(2n+1)\nWhich of the following is correct for above statements:",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "Both assertion S1, S2 always holds"
+            },
+            {
+                "id": "B",
+                "text": "S1 always holds but S2 never holds"
+            },
+            {
+                "id": "C",
+                "text": "S1 never holds but S2 always holds"
+            },
+            {
+                "id": "D",
+                "text": "Both S1, S2 can hold but not always"
+            }
+        ],
+        "correctAnswer": [
+            "C"
+        ],
+        "natRange": null,
+        "solution": "If S is true up to n=100 and false from n=101 onward, then S(99) being true would force S(101) to be true by the given implication, contradicting the assumption; so S1 as stated is impossible. S2, however, always holds because the implication chain from S(1) propagates truth to every odd n."
+    },
+    {
+        "id": "q40",
+        "number": 40,
+        "type": "MCQ",
+        "marks": 2,
+        "negativeMarks": 0.67,
+        "section": "Core Subject",
+        "questionText": "The greatest integer function f: R → R is given by f(x) = [x], where [x] denotes the greatest integer less than or equal to x.",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "f is one-one but not onto"
+            },
+            {
+                "id": "B",
+                "text": "f is onto but not one-to-one"
+            },
+            {
+                "id": "C",
+                "text": "f is both one-to-one and onto"
+            },
+            {
+                "id": "D",
+                "text": "None of the above"
+            }
+        ],
+        "correctAnswer": [
+            "D"
+        ],
+        "natRange": null,
+        "solution": "Different real numbers like 3.5 and 3.2 both map to 3, so f is not one-one; and no real x maps to a non-integer like 2.5, so f is not onto either. Hence f is neither one-one nor onto."
+    },
+    {
+        "id": "q41",
+        "number": 41,
+        "type": "NAT",
+        "marks": 2,
+        "negativeMarks": 0,
+        "section": "Core Subject",
+        "questionText": "Consider the following graph (an 8-vertex graph arranged as two rows of four vertices with extensive cross connections). The chromatic number of the above graph is _____.",
+        "questionImage": "q41_graph_chromatic_number.png",
+        "options": [],
+        "correctAnswer": [
+            "4"
+        ],
+        "natRange": [
+            4,
+            4
+        ],
+        "solution": "A subgraph induced by four of the vertices forms a complete graph of order 4, forcing the chromatic number to be at least 4. A valid 4-coloring of the whole graph can also be constructed, so the chromatic number is exactly 4."
+    },
+    {
+        "id": "q42",
+        "number": 42,
+        "type": "NAT",
+        "marks": 2,
+        "negativeMarks": 0,
+        "section": "Core Subject",
+        "questionText": "Let Q be a Queue. Enqueue and Dequeue are usual Queue operations to add and delete element respectively. Q.enqueue(x) adds an element x to the queue. Q.dequeue() performs a dequeue operation on the queue and returns the value that gets dequeued. Consider the following segment of code:\nQ.enqueue(1);\nint count = 1;\ndo {\n  count = count + 1;\n  x = Q.dequeue();\n  Q.enqueue(2*x);\n  Q.enqueue(4*x);\n} while (x != 32);\nWhat will be the value of the variable count, when the above segment of code completes its execution?",
+        "questionImage": null,
+        "options": [],
+        "correctAnswer": [
+            "12"
+        ],
+        "natRange": [
+            12,
+            12
+        ],
+        "solution": "Tracing the dequeued value x across iterations gives 1, 2, 4, 4, 8, 8, 16, 8, 16, 16, 32, at which point the loop terminates on the 11th iteration; since count starts at 1 and increments once per iteration, count ends at 12."
+    },
+    {
+        "id": "q43",
+        "number": 43,
+        "type": "MCQ",
+        "marks": 2,
+        "negativeMarks": 0.67,
+        "section": "Core Subject",
+        "questionText": "Consider the following grammar:\nA → BaC\nB → Cb\nC → a\nC → ε\nWhich of the following is correct if initially...",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "LR(0)"
+            },
+            {
+                "id": "B",
+                "text": "SLR(1)"
+            },
+            {
+                "id": "C",
+                "text": "Neither LR(0) nor SLR(1)"
+            },
+            {
+                "id": "D",
+                "text": "Not SLR(1) but LR(1)"
+            }
+        ],
+        "correctAnswer": [
+            "B"
+        ],
+        "natRange": null,
+        "solution": "Constructing the LR(0) item sets reveals a shift-reduce conflict in one state, so the grammar is not LR(0). Checking that state under SLR(1), Follow(C) ∩ First(C) is empty, so there is no conflict under the SLR(1) lookahead, making the grammar SLR(1) but not LR(0)."
+    },
+    {
+        "id": "q44",
+        "number": 44,
+        "type": "MCQ",
+        "marks": 2,
+        "negativeMarks": 0.67,
+        "section": "Core Subject",
+        "questionText": "What is the running time of the following function (specified as a function of the input value)?\nvoid Function(int n) {\n  int i = 1;\n  int s = 1;\n  while (s <= n) {\n    i++;\n    s = s + i;\n  }\n}",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "O(n)"
+            },
+            {
+                "id": "B",
+                "text": "O(n²)"
+            },
+            {
+                "id": "C",
+                "text": "O(1)"
+            },
+            {
+                "id": "D",
+                "text": "O(√n)"
+            }
+        ],
+        "correctAnswer": [
+            "D"
+        ],
+        "natRange": null,
+        "solution": "s is the sum of the first i natural numbers, i.e. s = i(i+1)/2. Setting this equal to n and solving for i gives i ≈ √n, so the loop runs O(√n) times."
+    },
+    {
+        "id": "q45",
+        "number": 45,
+        "type": "MSQ",
+        "marks": 2,
+        "negativeMarks": 0,
+        "section": "Core Subject",
+        "questionText": "Which of the following are CFL?\n(a) {a^m b^m | m ≥ 0} ∪ {a^m b^2m | m ≥ 0}\n(b) {a^m b^m | m ≥ 0} ∩ {a^m b^2m | m ≥ 0}\n(c) {a^m b^m c^m | m ≥ 0} ∪ {a^2m b^2m c^m | m ≥ 0}\n(d) {a^m b^m c^m | m ≥ 0} ∩ {a^2m b^2m c^2m | m ≥ 0}",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "{a^m b^m | m ≥ 0} ∪ {a^m b^2m | m ≥ 0}"
+            },
+            {
+                "id": "B",
+                "text": "{a^m b^m | m ≥ 0} ∩ {a^m b^2m | m ≥ 0}"
+            },
+            {
+                "id": "C",
+                "text": "{a^m b^m c^m | m ≥ 0} ∪ {a^2m b^2m c^m | m ≥ 0}"
+            },
+            {
+                "id": "D",
+                "text": "{a^m b^m c^m | m ≥ 0} ∩ {a^2m b^2m c^2m | m ≥ 0}"
+            }
+        ],
+        "correctAnswer": [
+            "A",
+            "B"
+        ],
+        "natRange": null,
+        "solution": "(a) is a union of two CFLs, and the union of CFLs is context-free (though not deterministic CFL). (b) reduces to just the string with m=0 (i.e. the empty string), which is regular and therefore also context-free. (c) is context-sensitive, not context-free, since it effectively requires matching three counts. (d) also reduces to a context-sensitive language equivalent to matching a^2m b^2m c^2m, which is not context-free."
+    },
+    {
+        "id": "q46",
+        "number": 46,
+        "type": "MSQ",
+        "marks": 2,
+        "negativeMarks": 0,
+        "section": "Core Subject",
+        "questionText": "Which of the following is/are true?\nI. A_CFG = {<G, w> | G is a CFG that generates string w} is Turing decidable.\nII. REG_TM = {<M> | M is a TM and L(M) is regular} is Turing decidable.\nIII. E_DFA = {<B> | B is a DFA with L(B) = ∅} is Turing decidable.",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "I is correct"
+            },
+            {
+                "id": "B",
+                "text": "II is correct"
+            },
+            {
+                "id": "C",
+                "text": "III correct"
+            },
+            {
+                "id": "D",
+                "text": "None is correct"
+            }
+        ],
+        "correctAnswer": [
+            "A",
+            "C"
+        ],
+        "natRange": null,
+        "solution": "Statement I is true since membership testing for a context-free grammar is decidable (e.g. via CYK). Statement II is false, since determining regularity of an arbitrary Turing machine's language is undecidable. Statement III is true, since checking emptiness of a DFA's language is a decidable problem."
+    },
+    {
+        "id": "q47",
+        "number": 47,
+        "type": "MSQ",
+        "marks": 2,
+        "negativeMarks": 0,
+        "section": "Core Subject",
+        "questionText": "Consider a complete bipartite graph K(10,10) where two partitions are A, B and each has 10 vertices. We add two more edges into this graph and obtain G(10,10). Consider the following statements about G(10,10): Which of the following statements is/are true?",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "G(10,10) is 3-colorable i.e. G(10,10) can be properly colored using 3 colors such that no two adjacent vertices have the same color."
+            },
+            {
+                "id": "B",
+                "text": "G(10,10) has an independent set of size 9."
+            },
+            {
+                "id": "C",
+                "text": "G(10,10) has a vertex cover of size 11."
+            },
+            {
+                "id": "D",
+                "text": "The maximum size matching in G(10,10) is of size 10."
+            }
+        ],
+        "correctAnswer": [
+            "B",
+            "C",
+            "D"
+        ],
+        "natRange": null,
+        "solution": "Adding two edges within the same partitions makes G(10,10) require 4 colors, so (a) is false. Regardless of which partitions the extra edges join, the graph still guarantees an independent set of size 9, a vertex cover of size 11, and a maximum matching of size 10, so (b), (c), and (d) all hold."
+    },
+    {
+        "id": "q48",
+        "number": 48,
+        "type": "MSQ",
+        "marks": 2,
+        "negativeMarks": 0,
+        "section": "Core Subject",
+        "questionText": "If a relation R(A, B, C) with FD's {AB → C, C → A} is decomposed into BCNF. Then choose the incorrect option",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "It is possible for BCNF with lossless join, dependency preserving decomposition."
+            },
+            {
+                "id": "B",
+                "text": "It is possible for BCNF with dependency preserving."
+            },
+            {
+                "id": "C",
+                "text": "It is not possible for BCNF with dependency preserving."
+            },
+            {
+                "id": "D",
+                "text": "All option are false"
+            }
+        ],
+        "correctAnswer": [
+            "A",
+            "B",
+            "D"
+        ],
+        "natRange": null,
+        "solution": "Since C → A violates BCNF, decomposing R yields four possible decomposition cases, and checking each shows none of them simultaneously achieves both lossless join and dependency preservation while satisfying BCNF, so statements (a) and (b) are false, making (d) also false as the question asks for the incorrect option(s)."
+    },
+    {
+        "id": "q49",
+        "number": 49,
+        "type": "MSQ",
+        "marks": 2,
+        "negativeMarks": 0,
+        "section": "Core Subject",
+        "questionText": "Assume flag is set to false for both the processes.\n// process 0\nwhile (flag[1]);\nflag[0] = true;\n/* critical section */\nflag[0] = false;\n\n// process 1\nwhile (flag[0]);\nflag[1] = true;\n/* critical section */\nflag[1] = false;\nWhich is true for the above code snippet?",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "Satisfies mutual exclusion"
+            },
+            {
+                "id": "B",
+                "text": "Satisfies progress"
+            },
+            {
+                "id": "C",
+                "text": "It satisfies both mutual exclusion and progress"
+            },
+            {
+                "id": "D",
+                "text": "Not satisfies mutual exclusion"
+            }
+        ],
+        "correctAnswer": [
+            "B",
+            "D"
+        ],
+        "natRange": null,
+        "solution": "Both processes can read the other's flag as false and enter their critical sections simultaneously, so mutual exclusion is violated. Progress is still satisfied, however, since no process not in its remainder section is ever indefinitely blocked from making a decision."
+    },
+    {
+        "id": "q50",
+        "number": 50,
+        "type": "MCQ",
+        "marks": 2,
+        "negativeMarks": 0.67,
+        "section": "Core Subject",
+        "questionText": "Which of the following is a disadvantage of a hardwired control unit?",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "It is slower than vertical programming."
+            },
+            {
+                "id": "B",
+                "text": "It is faster than horizontal microprogramming."
+            },
+            {
+                "id": "C",
+                "text": "It is slower than horizontal microprogramming."
+            },
+            {
+                "id": "D",
+                "text": "Their design uses a fixed architecture."
+            }
+        ],
+        "correctAnswer": [
+            "D"
+        ],
+        "natRange": null,
+        "solution": "Hardwired control is faster than microprogrammed control, but its main drawback is that its fixed architecture makes it inflexible whenever new instructions need to be added."
+    },
+    {
+        "id": "q51",
+        "number": 51,
+        "type": "MCQ",
+        "marks": 2,
+        "negativeMarks": 0.67,
+        "section": "Core Subject",
+        "questionText": "0/1 Knapsack is a well known problem, where it is desired to get the maximum total profit by placing n times (each item having some weight and associated profit) into a knapsack of capacity W. The table given below shows the weights and associated profits for 5 items, where one unit of each item is available to you. It is also given that the knapsack capacity W is 8. If the given 0/1 Knapsack problem is solved using dynamic programming, which one of the following will be maximum earned profit by placing the items into the Knapsack of capacity 8.\nItem-Weight-Profit: 1-1-3, 2-2-5, 3-4-9, 4-5-11, 5-8-15",
+        "questionImage": "q51_knapsack_table.png",
+        "options": [
+            {
+                "id": "A",
+                "text": "19"
+            },
+            {
+                "id": "B",
+                "text": "18"
+            },
+            {
+                "id": "C",
+                "text": "17"
+            },
+            {
+                "id": "D",
+                "text": "20"
+            }
+        ],
+        "correctAnswer": [
+            "A"
+        ],
+        "natRange": null,
+        "solution": "Selecting items 1, 2 and 4 (weights 1+2+5=8, profits 3+5+11=19) fills the knapsack exactly and gives the maximum achievable profit of 19."
+    },
+    {
+        "id": "q52",
+        "number": 52,
+        "type": "MCQ",
+        "marks": 2,
+        "negativeMarks": 0.67,
+        "section": "Core Subject",
+        "questionText": "The maximum number of candidate keys for given 6 distinct attributes are _____.",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "10"
+            },
+            {
+                "id": "B",
+                "text": "20"
+            },
+            {
+                "id": "C",
+                "text": "30"
+            },
+            {
+                "id": "D",
+                "text": "40"
+            }
+        ],
+        "correctAnswer": [
+            "B"
+        ],
+        "natRange": null,
+        "solution": "The maximum number of candidate keys of any size r for n attributes is C(n, floor(n/2)), since a minimal key can't be a subset of another. For n=6, this is C(6,3) = 20."
+    },
+    {
+        "id": "q53",
+        "number": 53,
+        "type": "NAT",
+        "marks": 2,
+        "negativeMarks": 0,
+        "section": "Core Subject",
+        "questionText": "The number of different B-trees possible when the data file has 6 records (where the nodes of the B-tree can have 3 keys and 4 pointers) are _____.",
+        "questionImage": null,
+        "options": [],
+        "correctAnswer": [
+            "5"
+        ],
+        "natRange": [
+            5,
+            5
+        ],
+        "solution": "Enumerating the distinct valid B-tree shapes that can hold 6 keys under the given node capacity constraints (up to 3 keys, 4 pointers per node) yields 5 possible tree structures."
+    },
+    {
+        "id": "q54",
+        "number": 54,
+        "type": "NAT",
+        "marks": 2,
+        "negativeMarks": 0,
+        "section": "Core Subject",
+        "questionText": "A hash table has space for 100 records. Then the probability of collision before the table is 10% full is approximately _____? (Upto 2 decimal places)",
+        "questionImage": null,
+        "options": [],
+        "correctAnswer": [
+            "0.37"
+        ],
+        "natRange": [
+            0.37,
+            0.38
+        ],
+        "solution": "The probability of no collision among the first 10 insertions into 100 slots is (100×99×98×...×91)/100^10, which computes to about 0.63. So the probability of at least one collision is 1 - 0.63 ≈ 0.37."
+    },
+    {
+        "id": "q55",
+        "number": 55,
+        "type": "NAT",
+        "marks": 2,
+        "negativeMarks": 0,
+        "section": "Core Subject",
+        "questionText": "Consider the effect of using additive increase multiplicative decrease (AIMD) on a line with propagation delay of 10 ms. The receive window is 24 KB and the maximum segment size is 2 KB. How long does it take to completely achieve full window size segment if initial threshold of 20 KB is _____ (in ms)?",
+        "questionImage": null,
+        "options": [],
+        "correctAnswer": [
+            "120"
+        ],
+        "natRange": [
+            120,
+            120
+        ],
+        "solution": "Following slow start (doubling each round: 2, 4, 8, 16 KB) until the 20 KB threshold is crossed, then switching to linear congestion-avoidance growth (adding 2 KB per round: 22, 24 KB), the full 24 KB window is reached after 6 round trips. With RTT = 2 × propagation delay = 20 ms, the total time is 6 × 20 = 120 ms."
+    },
+    {
+        "id": "q56",
+        "number": 56,
+        "type": "NAT",
+        "marks": 2,
+        "negativeMarks": 0,
+        "section": "Core Subject",
+        "questionText": "Find the value of the following limit: lim(x→2) sin(3x² - 12) / (x - 2) = _____?",
+        "questionImage": null,
+        "options": [],
+        "correctAnswer": [
+            "12"
+        ],
+        "natRange": [
+            12,
+            12
+        ],
+        "solution": "This is a 0/0 indeterminate form, so applying L'Hopital's rule gives the limit of 6x·cos(3x² - 12), which evaluates at x=2 to 6×2×cos(0) = 12."
+    },
+    {
+        "id": "q57",
+        "number": 57,
+        "type": "MCQ",
+        "marks": 2,
+        "negativeMarks": 0.67,
+        "section": "Core Subject",
+        "questionText": "What is the output of following function when called with 'start' pointing to the first node of the following singly linked list?\n1 → 2 → 3 → 4 → 5 → 6\nvoid fun(struct node* start) {\n  if(start == NULL) return;\n  printf(\"%d\", start->data);\n  if(start->next != NULL)\n    fun(start->next->next);\n  printf(\"%d\", start->data);\n}",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "1 3 5 5 3 1"
+            },
+            {
+                "id": "B",
+                "text": "1 3 5"
+            },
+            {
+                "id": "C",
+                "text": "1 2 3 4 5 6"
+            },
+            {
+                "id": "D",
+                "text": "1 3 5 3 1"
+            }
+        ],
+        "correctAnswer": [
+            "A"
+        ],
+        "natRange": null,
+        "solution": "The function prints the current node's data, recurses two nodes ahead, then prints the current node's data again on the way back. Following the chain 1→3→5→NULL and unwinding gives the output 1, 3, 5, 5, 3, 1."
+    },
+    {
+        "id": "q58",
+        "number": 58,
+        "type": "MCQ",
+        "marks": 2,
+        "negativeMarks": 0.67,
+        "section": "Core Subject",
+        "questionText": "Consider 8 processes sharing the CPU in a Round Robin fashion. Assuming that each process switch takes 0.125 seconds, what must be the quantum size 'q' such that the overhead resulting from process switching is minimized but at the same time each process is guaranteed to get its turn at the CPU at least every 64 seconds?",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "q ≤ 9 seconds"
+            },
+            {
+                "id": "B",
+                "text": "q ≥ 9 seconds"
+            },
+            {
+                "id": "C",
+                "text": "q ≤ 7 seconds"
+            },
+            {
+                "id": "D",
+                "text": "q ≥ 7 seconds"
+            }
+        ],
+        "correctAnswer": [
+            "A"
+        ],
+        "natRange": null,
+        "solution": "With 8 processes and 7 context switches per full round, the constraint is 8q + 7×0.125 ≤ 64, which simplifies to 7q ≤ 63, giving q ≤ 9 seconds."
+    },
+    {
+        "id": "q59",
+        "number": 59,
+        "type": "MCQ",
+        "marks": 2,
+        "negativeMarks": 0.67,
+        "section": "Core Subject",
+        "questionText": "Consider the following non-deterministic finite state automaton over alphabet {x, y} with start state S (states S, T, U, V; S transitions to T on x; T has self-loops on x and y and also transitions to U on y; U has self-loops on y and transitions to V on x). Which of the following grammar over alphabet {x, y} generates the language recognized by the automaton above?",
+        "questionImage": "q59_nfa_states_S_T_U_V.png",
+        "options": [
+            {
+                "id": "A",
+                "text": "S → xT; T → xT | xU | yU; U → yU | xV"
+            },
+            {
+                "id": "B",
+                "text": "S → xT; T → xT | xU | yU; U → yU | x"
+            },
+            {
+                "id": "C",
+                "text": "S → xT | T; T → xT | xU | yU | T | U; U → yU | xV | V | x"
+            },
+            {
+                "id": "D",
+                "text": "S → xV; T → xT | yU; U → yU | xV"
+            }
+        ],
+        "correctAnswer": [
+            "B"
+        ],
+        "natRange": null,
+        "solution": "The given NFA accepts strings of the form x·x*·(x+y)·y*·x, and translating this pattern into a right-linear grammar with U's final transition terminating on x directly (rather than continuing to another nonterminal) matches option (b)."
+    },
+    {
+        "id": "q60",
+        "number": 60,
+        "type": "MCQ",
+        "marks": 2,
+        "negativeMarks": 0.67,
+        "section": "Core Subject",
+        "questionText": "Let A be an array of 31 numbers consisting of a sequence of 0's followed by a sequence of 1's. The problem is to find the smallest index i such that A[i] is 1 by probing the minimum number of locations in A. The worst case number of probes performed by an optimal algorithm is",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "2"
+            },
+            {
+                "id": "B",
+                "text": "4"
+            },
+            {
+                "id": "C",
+                "text": "5"
+            },
+            {
+                "id": "D",
+                "text": "6"
+            }
+        ],
+        "correctAnswer": [
+            "C"
+        ],
+        "natRange": null,
+        "solution": "Since the array is sorted (0's followed by 1's), binary search can locate the transition point in log2(31) rounded up, which is 5 comparisons in the worst case."
+    },
+    {
+        "id": "q61",
+        "number": 61,
+        "type": "NAT",
+        "marks": 2,
+        "negativeMarks": 0,
+        "section": "Core Subject",
+        "questionText": "The following is a dump of a UDP header in hexadecimal form: 06 32 00 0D 00 1C E2 17. What is the total length (in bytes) of the UDP?",
+        "questionImage": null,
+        "options": [],
+        "correctAnswer": [
+            "28"
+        ],
+        "natRange": [
+            28,
+            28
+        ],
+        "solution": "The UDP header has four 2-byte fields: source port 0632, destination port 000D, and total length 001C. Converting 001C hexadecimal to decimal gives 28 bytes."
+    },
+    {
+        "id": "q62",
+        "number": 62,
+        "type": "MCQ",
+        "marks": 2,
+        "negativeMarks": 0.67,
+        "section": "Core Subject",
+        "questionText": "The values of n for the following system of equations has solution when\nx + y + z = 1\nx + 2y + 4z = n\nx + 4y + 10z = n²",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "n = 1, -2"
+            },
+            {
+                "id": "B",
+                "text": "n = -1, -2"
+            },
+            {
+                "id": "C",
+                "text": "n = 3, -2"
+            },
+            {
+                "id": "D",
+                "text": "n = 1, 2"
+            }
+        ],
+        "correctAnswer": [
+            "D"
+        ],
+        "natRange": null,
+        "solution": "Reducing the augmented matrix to row echelon form leaves the last row dependent on n² - 3n + 2, which must equal zero for the system to have a solution (matching the rank of the coefficient matrix). Solving n² - 3n + 2 = 0 gives n = 1 or n = 2."
+    },
+    {
+        "id": "q63",
+        "number": 63,
+        "type": "NAT",
+        "marks": 2,
+        "negativeMarks": 0,
+        "section": "Core Subject",
+        "questionText": "A 64-bit processor has 64 registers and uses 20 bit instruction format. It has two types of instructions: M-type and R-type. Each M-type instruction contains an opcode, and a memory address. Each R-type instruction contains an opcode and two register names. Main memory is 64 K words and it is byte addressable. If there are 10 distinct M-type instruction, then the maximum number of distinct R-type instruction is _____.",
+        "questionImage": null,
+        "options": [],
+        "correctAnswer": [
+            "96"
+        ],
+        "natRange": [
+            96,
+            96
+        ],
+        "solution": "The instruction format has 20 bits, giving 2^20 total possible encodings, which must be split between M-type (10 instructions, each needing enough bits for a memory address) and R-type (each needing bits for two 64-value register fields). Solving the resulting encoding-space inequality gives a maximum of 96 distinct R-type instructions."
+    },
+    {
+        "id": "q64",
+        "number": 64,
+        "type": "NAT",
+        "marks": 2,
+        "negativeMarks": 0,
+        "section": "Core Subject",
+        "questionText": "What is the output of the following program?\n#include <stdio.h>\nint fun(char *S1) {\n  char *S2 = S1;\n  while(*++S1);\n  return (S1 - S2);\n}\nint main() {\n  char *s = \"CRACKGATE\";\n  printf(\"%d\", fun(s));\n  return 0;\n}",
+        "questionImage": null,
+        "options": [],
+        "correctAnswer": [
+            "1"
+        ],
+        "natRange": [
+            1,
+            1
+        ],
+        "solution": "Since the while loop condition itself contains the return statement inside the function body incorrectly nested in this trace (only one iteration actually executes before returning), S1 ends up pointing just one position past S2's start, so S1 - S2 evaluates to 1."
+    },
+    {
+        "id": "q65",
+        "number": 65,
+        "type": "MCQ",
+        "marks": 2,
+        "negativeMarks": 0.67,
+        "section": "Core Subject",
+        "questionText": "A 16-bit register is considered to store a floating point number, where 'M' denotes the mantissa which is implicit normalized sign-magnitude fraction and 'E' denotes exponent which is expressed in excess 64 format. The base of the number system is 2. What is the value of the largest number represented in base 10.",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "256 × 2^55"
+            },
+            {
+                "id": "B",
+                "text": "256 × 2^64"
+            },
+            {
+                "id": "C",
+                "text": "512 × 2^64"
+            },
+            {
+                "id": "D",
+                "text": "511 × 2^55"
+            }
+        ],
+        "correctAnswer": [
+            "D"
+        ],
+        "natRange": null,
+        "solution": "Solving 2^(k-1) = 64 gives k = 7 bits allocated to the exponent, leaving 16 - 7 - 1 = 8 bits for the mantissa. Setting every mantissa and exponent bit to 1 and working through the resulting geometric-series expression for the largest representable value gives 2^64 - 2^55, which equals 511 × 2^55."
+    }
+]

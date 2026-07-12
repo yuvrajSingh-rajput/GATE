@@ -1,0 +1,30 @@
+{
+  "id": "test-1",
+  "title": "FULL SYLLABUS TEST-1 (BASIC LEVEL) (GATE - 2021)",
+  "source": "Made Easy",
+  "totalQuestions": 65,
+  "totalMarks": 100,
+  "durationMinutes": 180,
+  "sections": [
+    {
+      "name": "General Aptitude",
+      "range": [
+        1,
+        10
+      ]
+    },
+    {
+      "name": "Core Subject",
+      "range": [
+        11,
+        65
+      ]
+    }
+  ],
+  "extractionNotes": [
+    "Q17: The exact text of option A was split across a page break in the source PDF screenshots and was not fully legible; it has been reconstructed based on the visible solution text confirming option (a) as the correct prefix expression. Options B-D were transcribed as legibly as possible from the source and may contain minor OCR-level uncertainty in spacing/parenthesization.",
+    "Q8, Q10, Q32, Q45, Q47 depend on an accompanying diagram/chart/K-map/graph image to be answerable and are flagged with a questionImage placeholder for separate cropping from the source PDF.",
+    "Q26 (process arrival/duration table), Q64 (virtual-to-actual page lookup table), and Q63 (leaky bucket illustration) present their data in small tables/diagrams in the source PDF, but all needed values were fully expressible in the question text, so no questionImage was set for these.",
+    "Q56's AVL tree diagram and Q45's/Q47's diagrams that appear only within the solution (not needed to answer the question itself, where applicable) were described in the solution text rather than flagged as questionImage."
+  ]
+}

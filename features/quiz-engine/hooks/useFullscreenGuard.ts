@@ -1,10 +1,7 @@
 import { useEffect, useState } from "react";
 import { Attempt } from "@/types";
-import { useAttemptStore } from "@/features/quiz-engine/store/attempt-session.store";
-
 export function useFullscreenGuard(isActive: boolean, attemptId: string) {
   const [showFullscreenOverlay, setShowFullscreenOverlay] = useState(false);
-  const { forceSave } = useAttemptStore();
 
   useEffect(() => {
     if (!isActive) return;

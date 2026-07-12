@@ -2,30 +2,29 @@
 
 import React, { useState } from "react";
 import { useParams, useRouter } from "next/navigation";
-import { TEST_MANIFEST } from "@/data/tests";
+import { useTest } from "@/hooks/queries/useTests";
 import { PaletteLegend } from "@/features/quiz-engine/components/PaletteLegend";
 import { Button } from "@/components/ui/button";
 import { useCreateAttempt } from "@/hooks/queries/useAttempts";
-import test2Json from "@/data/tests/test-2.json"; // Phase 1: hardcoded import since we only have test-2
 
 export default function InstructionsPage() {
   const { testId } = useParams();
   const router = useRouter();
   const [agreed, setAgreed] = useState(false);
   const { mutateAsync: createAttempt } = useCreateAttempt();
+  const { data: testData } = useTest(testId as string);
 
-  const testMeta = TEST_MANIFEST.find((t) => t.id === testId);
+  const testMeta = testData?.testMeta;
 
-  if (!testMeta) {
-    return <div className="p-8">Test not found.</div>;
+  if (!testMeta || !testData) {
+    return <div className="p-8">Test not found or loading...</div>;
   }
 
   const handleBeginTest = async () => {
     if (!agreed) return;
 
-    // Phase 1: we load the question IDs from test2Json.
-    // Real app would fetch the test data by testId here if it wasn't pre-bundled.
-    const questions = test2Json.questions;
+    const questions = testData.questions;
+    if (!questions || questions.length === 0) return;
 
     const attemptId = crypto.randomUUID();
     const newAttempt = {

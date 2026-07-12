@@ -9,12 +9,13 @@ import { cn } from "@/lib/utils";
 import { CheckCircle2, XCircle, MinusCircle } from "lucide-react";
 
 interface SolutionReportProps {
+  testId: string;
   questions: Question[];
   result: AttemptResult;
   answers: Record<string, AttemptAnswer>;
 }
 
-export function SolutionReport({ questions, result, answers }: SolutionReportProps) {
+export function SolutionReport({ testId, questions, result, answers }: SolutionReportProps) {
   const [filter, setFilter] = useState<"all" | "correct" | "incorrect" | "skipped">("all");
 
   const filteredQuestions = questions.filter((q) => {
@@ -114,7 +115,7 @@ export function SolutionReport({ questions, result, answers }: SolutionReportPro
                 <FormattedText text={q.questionText} />
                 {q.questionImage && (
                   <div className="mt-4">
-                    <ZoomableImage src={`/images/questions/${q.questionImage}`} alt={`Question ${q.number}`} />
+                    <ZoomableImage src={`/api/images/${testId}/${q.questionImage}`} alt={`Question ${q.number}`} />
                   </div>
                 )}
               </div>
@@ -136,8 +137,13 @@ export function SolutionReport({ questions, result, answers }: SolutionReportPro
                     return (
                       <div key={opt.id} className={cn("flex items-start gap-4 p-4 rounded-xl border", optClass)}>
                         <div className="font-bold shrink-0">{opt.id}.</div>
-                        <div className="flex-1">
-                          <FormattedText text={opt.text} />
+                        <div className="flex-1 overflow-hidden">
+                          {opt.text && <FormattedText text={opt.text} />}
+                          {opt.image && (
+                            <div className="mt-2 w-full max-w-sm">
+                              <ZoomableImage src={`/api/images/${testId}/${opt.image}`} alt={`Option ${opt.id}`} />
+                            </div>
+                          )}
                         </div>
                         {isActuallyCorrect && (
                           <Badge className="bg-success text-success-foreground shrink-0">Correct Option</Badge>

@@ -3,7 +3,7 @@
 import React, { useMemo } from "react";
 import { useParams, useRouter } from "next/navigation";
 import { useAttempt } from "@/hooks/queries/useAttempts";
-import { TEST_MANIFEST, getTestData } from "@/data/tests";
+import { useTest } from "@/hooks/queries/useTests";
 import { computeScore } from "@/features/quiz-engine/lib/scoring";
 import { Question } from "@/types";
 import { Button } from "@/components/ui/button";
@@ -15,21 +15,15 @@ import { SolutionReport } from "@/features/results/components/SolutionReport";
 export default function ResultsPage() {
   const { attemptId } = useParams();
   const [activeTab, setActiveTab] = React.useState<"overview" | "solutions">("overview");
-  const { data: attempt, isLoading } = useAttempt(attemptId as string);
+  const { data: attempt, isLoading: attemptLoading } = useAttempt(attemptId as string);
+  const { data: testData, isLoading: testLoading } = useTest(attempt?.testId || "");
 
   const result = useMemo(() => {
-    if (!attempt) return null;
-    const testData = getTestData(attempt.testId);
-    if (!testData) return null;
+    if (!attempt || !testData) return null;
     return computeScore(attempt, testData.questions as Question[]);
-  }, [attempt]);
+  }, [attempt, testData]);
 
-  const testMeta = useMemo(() => {
-    if (!attempt) return null;
-    return TEST_MANIFEST.find(t => t.id === attempt.testId);
-  }, [attempt]);
-
-  if (isLoading || !attempt || !result || !testMeta) {
+  if (attemptLoading || testLoading || !attempt || !result || !testData) {
     return (
       <div className="flex h-[calc(100vh-4rem)] items-center justify-center">
         <Skeleton className="h-[400px] w-full max-w-3xl rounded-xl" />
@@ -48,7 +42,7 @@ export default function ResultsPage() {
           </Link>
           <div>
             <h1 className="text-2xl font-bold tracking-tight">Test Results</h1>
-            <p className="text-muted-foreground">{testMeta.title}</p>
+            <p className="text-muted-foreground">{testData.testMeta.title}</p>
           </div>
         </div>
         <div className="flex gap-2">
@@ -171,7 +165,8 @@ export default function ResultsPage() {
       ) : (
         <div className="mt-8">
           <SolutionReport
-            questions={getTestData(attempt.testId)?.questions as Question[] || []}
+            testId={testData.testMeta.id}
+            questions={testData.questions as Question[]}
             result={result}
             answers={attempt.answers}
           />

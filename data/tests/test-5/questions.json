@@ -1,0 +1,1967 @@
+[
+    {
+        "id": "q1",
+        "number": 1,
+        "type": "MCQ",
+        "marks": 1,
+        "negativeMarks": 0.33,
+        "section": "General Aptitude",
+        "questionText": "Out of the four alternatives, choose the one which best expresses the meaning of the given word.\nVeracity",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "Freedom"
+            },
+            {
+                "id": "B",
+                "text": "Truthfulness"
+            },
+            {
+                "id": "C",
+                "text": "Wisdom"
+            },
+            {
+                "id": "D",
+                "text": "Loyalty"
+            }
+        ],
+        "correctAnswer": [
+            "B"
+        ],
+        "natRange": null,
+        "solution": "Veracity means truthfulness, so option (b) is correct."
+    },
+    {
+        "id": "q2",
+        "number": 2,
+        "type": "MCQ",
+        "marks": 1,
+        "negativeMarks": 0.33,
+        "section": "General Aptitude",
+        "questionText": "Out of the four alternatives, choose the one which best expresses the meaning of the given word.\nDulcet",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "Sweet"
+            },
+            {
+                "id": "B",
+                "text": "Dull"
+            },
+            {
+                "id": "C",
+                "text": "Hard"
+            },
+            {
+                "id": "D",
+                "text": "Sour"
+            }
+        ],
+        "correctAnswer": [
+            "A"
+        ],
+        "natRange": null,
+        "solution": "Dulcet means sweet or pleasant sounding, so option (a) is correct."
+    },
+    {
+        "id": "q3",
+        "number": 3,
+        "type": "MCQ",
+        "marks": 1,
+        "negativeMarks": 0.33,
+        "section": "General Aptitude",
+        "questionText": "Pankaj buys a table and a chair at price ratio 5:3. He sells the table at x% loss and the chair at y% profit such that overall there is no profit no loss. If the total selling price of table and chair together is Rs. 1600, then the possible value of x and y can be respectively.",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "30 and 40"
+            },
+            {
+                "id": "B",
+                "text": "24 and 36"
+            },
+            {
+                "id": "C",
+                "text": "12 and 20"
+            },
+            {
+                "id": "D",
+                "text": "9 and 12"
+            }
+        ],
+        "correctAnswer": [
+            "C"
+        ],
+        "natRange": null,
+        "solution": "Let the cost prices be 5k and 3k. Since 5k+3k=1600, k=200, giving cost of table=Rs.1000 and chair=Rs.600. Setting up 1000(100-x)/100 + 600(100+y)/100 = 1600 simplifies to 10x=6y, so x/y=3/5. Only the values in option (c) satisfy this ratio."
+    },
+    {
+        "id": "q4",
+        "number": 4,
+        "type": "MCQ",
+        "marks": 1,
+        "negativeMarks": 0.33,
+        "section": "General Aptitude",
+        "questionText": "Given A and B are 2 distinct numbers such that A^2 = 2002 + B and B^2 = 2002 + A. The value of AB is _____.",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "2001"
+            },
+            {
+                "id": "B",
+                "text": "-2001"
+            },
+            {
+                "id": "C",
+                "text": "-2000"
+            },
+            {
+                "id": "D",
+                "text": "1"
+            }
+        ],
+        "correctAnswer": [
+            "B"
+        ],
+        "natRange": null,
+        "solution": "Subtracting the two equations: A^2 - B^2 = B - A, so (A+B)(A-B) = -(A-B), giving A+B = -1 (since A≠B). Adding the equations gives A^2+B^2 = 4004+A+B = 4003. Since (A+B)^2 = A^2+B^2+2AB, we get 1 = 4003+2AB, so AB = -2001."
+    },
+    {
+        "id": "q5",
+        "number": 5,
+        "type": "NAT",
+        "marks": 1,
+        "negativeMarks": 0,
+        "section": "General Aptitude",
+        "questionText": "There are two groups of students A and B in a sport academy which offers three games volleyball, basketball, baseball. The ratio of the total number of students playing volleyball, basketball and baseball is 3:4:5 in both the groups. If the ratio of the total number of students in Group A and B is 2:3 and there are 40 more students in Group B than Group A who plays baseball, then the total number of students is _____.",
+        "questionImage": null,
+        "options": [],
+        "correctAnswer": [
+            "480"
+        ],
+        "natRange": [
+            480,
+            480
+        ],
+        "solution": "Let students in group A be 6x,8x,10x (for volleyball, basketball, baseball) and group B be 9x,12x,15x. Since 15x - 10x = 40, x = 8. Total students = (6+8+10+9+12+15) × 8 = 480."
+    },
+    {
+        "id": "q6",
+        "number": 6,
+        "type": "MCQ",
+        "marks": 2,
+        "negativeMarks": 0.67,
+        "section": "General Aptitude",
+        "questionText": "6 men and 8 women can complete a work in 10 days. 26 men and 48 women can complete the same work in 2 days. 15 men and 20 women can do the same work in _____.",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "2 days"
+            },
+            {
+                "id": "B",
+                "text": "3 days"
+            },
+            {
+                "id": "C",
+                "text": "4 days"
+            },
+            {
+                "id": "D",
+                "text": "5 days"
+            }
+        ],
+        "correctAnswer": [
+            "C"
+        ],
+        "natRange": null,
+        "solution": "Let a and b be the work done by a man and a woman in one day. From 6a+8b=1/10 and 26a+48b=1/2, solving gives a=1/100 and b=1/200. Work done by 15 men and 20 women in one day = 15/100+20/200 = 1/4, so required time is 4 days."
+    },
+    {
+        "id": "q7",
+        "number": 7,
+        "type": "MCQ",
+        "marks": 2,
+        "negativeMarks": 0.67,
+        "section": "General Aptitude",
+        "questionText": "The metro service has trains going from Mumbai to Pune and Pune to Mumbai every hour. The first one from either station starts at 6:00 am. The trip from one city to another takes four and half hours and all the trains travel at same speed. If a train starts at 12:00 noon from Mumbai toward Pune, then the number of trains it will pass in its entire journey is",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "7"
+            },
+            {
+                "id": "B",
+                "text": "8"
+            },
+            {
+                "id": "C",
+                "text": "9"
+            },
+            {
+                "id": "D",
+                "text": "10"
+            }
+        ],
+        "correctAnswer": [
+            "C"
+        ],
+        "natRange": null,
+        "solution": "Trains leave both stations every hour starting 6:00 am, each trip taking 4.5 hours. The train leaving Mumbai at noon reaches Pune at 4:30 pm. It meets trains leaving Pune between 8:00 am and 4:30 pm, giving a total of 9 trains."
+    },
+    {
+        "id": "q8",
+        "number": 8,
+        "type": "MCQ",
+        "marks": 2,
+        "negativeMarks": 0.67,
+        "section": "General Aptitude",
+        "questionText": "ABCDEF is a regular hexagon of side 6 cm. What is the area of triangle BDF?",
+        "questionImage": "q8_hexagon_ABCDEF_diagram.png",
+        "options": [
+            {
+                "id": "A",
+                "text": "32√3 cm²"
+            },
+            {
+                "id": "B",
+                "text": "27√3 cm²"
+            },
+            {
+                "id": "C",
+                "text": "24 cm²"
+            },
+            {
+                "id": "D",
+                "text": "None of these"
+            }
+        ],
+        "correctAnswer": [
+            "B"
+        ],
+        "natRange": null,
+        "solution": "Subtract the areas of the three corner triangles DEF, BAF, BCD from the hexagon's area. Each corner triangle has area (1/2)×6×6×sin120° = 9√3 cm², so the three together give 27√3 cm². The hexagon's area is (3√3/2)×6² = 54√3 cm². Required area = 54√3 - 27√3 = 27√3 cm²."
+    },
+    {
+        "id": "q9",
+        "number": 9,
+        "type": "MCQ",
+        "marks": 2,
+        "negativeMarks": 0.67,
+        "section": "General Aptitude",
+        "questionText": "A student is required to answer 6 out of 10 questions in an examination. The questions are divided in two groups, each containing 5 questions. She is not allowed to attempt more than 4 questions from each group. The number of ways in which the student can choose 6 questions is _____.",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "150"
+            },
+            {
+                "id": "B",
+                "text": "250"
+            },
+            {
+                "id": "C",
+                "text": "300"
+            },
+            {
+                "id": "D",
+                "text": "200"
+            }
+        ],
+        "correctAnswer": [
+            "D"
+        ],
+        "natRange": null,
+        "solution": "Considering the valid splits of 6 questions between the two groups of 5 (4+2, 3+3, 2+4, each respecting the max-4-per-group rule), the total ways = ⁵C4×⁵C2 + ⁵C3×⁵C3 + ⁵C2×⁵C4 = 50+100+50 = 200."
+    },
+    {
+        "id": "q10",
+        "number": 10,
+        "type": "MSQ",
+        "marks": 2,
+        "negativeMarks": 0,
+        "section": "General Aptitude",
+        "questionText": "The real roots of equation |x-2|^2 + |x-2| - 2 = 0 are _____.",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "1"
+            },
+            {
+                "id": "B",
+                "text": "0"
+            },
+            {
+                "id": "C",
+                "text": "3"
+            },
+            {
+                "id": "D",
+                "text": "4"
+            }
+        ],
+        "correctAnswer": [
+            "A",
+            "C"
+        ],
+        "natRange": null,
+        "solution": "Let m = |x-2|. The equation becomes m^2+m-2=0, i.e. (m-1)(m+2)=0, giving m=1 (m=-2 rejected since m≥0). So |x-2|=1, giving x=3 or x=1."
+    },
+    {
+        "id": "q11",
+        "number": 11,
+        "type": "MCQ",
+        "marks": 1,
+        "negativeMarks": 0.33,
+        "section": "Core Subject",
+        "questionText": "Consider the following languages:\nL1 = {<M,x> | M is a DFA and M accepts x}\nL2 = {<M> | M is a DFA and M accepts some string of the form ww^R for some w ∈ {a,b}*}\nThen which of the following is true?",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "L1 is recursive but L2 is undecidable."
+            },
+            {
+                "id": "B",
+                "text": "L1 is undecidable but L2 is decidable."
+            },
+            {
+                "id": "C",
+                "text": "L1 and L2 both are undecidable."
+            },
+            {
+                "id": "D",
+                "text": "L1 and L2 both are decidable."
+            }
+        ],
+        "correctAnswer": [
+            "D"
+        ],
+        "natRange": null,
+        "solution": "For L1, simply running M on x decides membership. For L2, intersecting the DFA with a machine recognizing strings of the form ww^R and testing emptiness of the resulting language decides membership. Hence both are decidable."
+    },
+    {
+        "id": "q12",
+        "number": 12,
+        "type": "MCQ",
+        "marks": 1,
+        "negativeMarks": 0.33,
+        "section": "Core Subject",
+        "questionText": "Let M be a two-dimensional array declared as follows:\nM: array [5...15][5...20] of integer;\nAssuming that each integer takes one memory location, the array is stored in row-major order and the first element of the array is stored at location 200, what is the address of the element A[i][j]?",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "11i + j + 140"
+            },
+            {
+                "id": "B",
+                "text": "16j + i + 115"
+            },
+            {
+                "id": "C",
+                "text": "16i + j + 115"
+            },
+            {
+                "id": "D",
+                "text": "11j + i + 140"
+            }
+        ],
+        "correctAnswer": [
+            "C"
+        ],
+        "natRange": null,
+        "solution": "Address of A[i][j] = Base + (i-r1)*(c2-c1+1) + (j-c1), where r1=5, c1=5, c2=20. This gives 200 + (i-5)*16 + (j-5) = 16i + j + 115."
+    },
+    {
+        "id": "q13",
+        "number": 13,
+        "type": "MCQ",
+        "marks": 1,
+        "negativeMarks": 0.33,
+        "section": "Core Subject",
+        "questionText": "Suppose in quick sort, we choose the middle element as pivot, every time. What will be the time complexity of quick sort if a sorted array is given?",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "O(log n)"
+            },
+            {
+                "id": "B",
+                "text": "O(n)"
+            },
+            {
+                "id": "C",
+                "text": "O(n log n)"
+            },
+            {
+                "id": "D",
+                "text": "O(n*n)"
+            }
+        ],
+        "correctAnswer": [
+            "C"
+        ],
+        "natRange": null,
+        "solution": "Choosing the middle element on a sorted array always gives an even split, resulting in O(n log n) time."
+    },
+    {
+        "id": "q14",
+        "number": 14,
+        "type": "MCQ",
+        "marks": 1,
+        "negativeMarks": 0.33,
+        "section": "Core Subject",
+        "questionText": "Which language necessarily needs heap allocation in the run time environment?",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "Those that support recursion."
+            },
+            {
+                "id": "B",
+                "text": "Those that use dynamic scoping."
+            },
+            {
+                "id": "C",
+                "text": "Those that allow dynamic data structure."
+            },
+            {
+                "id": "D",
+                "text": "Those that uses global variables."
+            }
+        ],
+        "correctAnswer": [
+            "C"
+        ],
+        "natRange": null,
+        "solution": "Heap allocation is needed to support dynamic data structures such as trees and linked lists."
+    },
+    {
+        "id": "q15",
+        "number": 15,
+        "type": "MCQ",
+        "marks": 1,
+        "negativeMarks": 0.33,
+        "section": "Core Subject",
+        "questionText": "A new flip-flop, called AB flip-flop, is created as shown below. What does the flip-flop do?",
+        "questionImage": "q15_AB_flipflop_circuit.png",
+        "options": [
+            {
+                "id": "A",
+                "text": "Set command when A=0, B=0"
+            },
+            {
+                "id": "B",
+                "text": "Reset command when A=0, B=1"
+            },
+            {
+                "id": "C",
+                "text": "Hold command when A=1, B=0"
+            },
+            {
+                "id": "D",
+                "text": "Toggle command when A=1, B=1"
+            }
+        ],
+        "correctAnswer": [
+            "D"
+        ],
+        "natRange": null,
+        "solution": "Since J = A+B (OR gate) and K = AB (AND gate), when both A and B are 1, J=1 and K=1, which causes the flip-flop to toggle."
+    },
+    {
+        "id": "q16",
+        "number": 16,
+        "type": "MCQ",
+        "marks": 1,
+        "negativeMarks": 0.33,
+        "section": "Core Subject",
+        "questionText": "For the relational schema R having n possible attributes in it. What is the maximum number of possible superkeys?",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "2^(n+1)"
+            },
+            {
+                "id": "B",
+                "text": "2^n - 1"
+            },
+            {
+                "id": "C",
+                "text": "2^(n-1)"
+            },
+            {
+                "id": "D",
+                "text": "2^floor(n/2)"
+            }
+        ],
+        "correctAnswer": [
+            "B"
+        ],
+        "natRange": null,
+        "solution": "The maximum number of possible superkeys for a table with n attributes is 2^n - 1."
+    },
+    {
+        "id": "q17",
+        "number": 17,
+        "type": "MCQ",
+        "marks": 1,
+        "negativeMarks": 0.33,
+        "section": "Core Subject",
+        "questionText": "Find the total number of subnets available and broadcast address given for subnet mask 255.255.255.224 and IP address as 192.168.0.102",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "4, 192.168.0.127"
+            },
+            {
+                "id": "B",
+                "text": "6, 192.168.0.217"
+            },
+            {
+                "id": "C",
+                "text": "8, 192.168.0.184"
+            },
+            {
+                "id": "D",
+                "text": "6, 192.168.0.127"
+            }
+        ],
+        "correctAnswer": [
+            "D"
+        ],
+        "natRange": null,
+        "solution": "With a /27 mask, the host range for 192.168.0.102 is 192.168.0.96 to 192.168.0.127, giving 6 usable subnets in this scheme and a broadcast address of 192.168.0.127."
+    },
+    {
+        "id": "q18",
+        "number": 18,
+        "type": "MCQ",
+        "marks": 1,
+        "negativeMarks": 0.33,
+        "section": "Core Subject",
+        "questionText": "Alisha, Babita and Catty go to a Chinese restaurant at a busy time of the day. The waiter apologetically explains that the restaurant can provide only two pairs of chopsticks (for a total of four chopsticks) to be shared among the three people. Alisha proposes that all four chopsticks be placed in an empty glass at the center of the table and that each diner should obey the following protocol:\nwhile (!had_enough_to_eat()) { acquire_one_chopstick(); acquire_one_chopstick(); eat(); release_one_chopstick(); release_one_chopstick(); }\nConsider the following statements:\n1. This dining plan may lead to deadlock.\n2. This dining plan may lead to starvation of someone.\nWhich of the above is correct?",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "Only I"
+            },
+            {
+                "id": "B",
+                "text": "Only II"
+            },
+            {
+                "id": "C",
+                "text": "Both I and II"
+            },
+            {
+                "id": "D",
+                "text": "None of these"
+            }
+        ],
+        "correctAnswer": [
+            "B"
+        ],
+        "natRange": null,
+        "solution": "Deadlock cannot occur because there are enough chopsticks to guarantee at least one of the three diners can get the two chopsticks needed; once that diner finishes, chopsticks free up for others. Starvation is possible if two people keep repeatedly grabbing the chopsticks."
+    },
+    {
+        "id": "q19",
+        "number": 19,
+        "type": "MCQ",
+        "marks": 1,
+        "negativeMarks": 0.33,
+        "section": "Core Subject",
+        "questionText": "The number of bit strings of length eight that will either start with 'a' or end with two bits as 'bb' where Σ = {a,b}",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "32"
+            },
+            {
+                "id": "B",
+                "text": "64"
+            },
+            {
+                "id": "C",
+                "text": "128"
+            },
+            {
+                "id": "D",
+                "text": "160"
+            }
+        ],
+        "correctAnswer": [
+            "D"
+        ],
+        "natRange": null,
+        "solution": "Strings starting with 'a' number 2^7=128; strings ending in 'bb' number 2^6=64; strings that both start with 'a' and end in 'bb' number 2^5=32. By inclusion-exclusion, total = 128+64-32 = 160."
+    },
+    {
+        "id": "q20",
+        "number": 20,
+        "type": "MCQ",
+        "marks": 1,
+        "negativeMarks": 0.33,
+        "section": "Core Subject",
+        "questionText": "Consider the following relational schemes: R(A,B,C,D,E,F) and S(A,B,C) within the following functional dependencies: {AB→C, C→ABDE, ADE→F}. Assume (A,B) is the key for both schemes. Which of the following statements is true?",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "Both R and S are in 2NF only and R covers S."
+            },
+            {
+                "id": "B",
+                "text": "Both R and S are in 2NF only and R covers S."
+            },
+            {
+                "id": "C",
+                "text": "R is in 2NF and S is in 3NF and R covers S."
+            },
+            {
+                "id": "D",
+                "text": "R is in 2NF and S is in 3NF and S covers R."
+            }
+        ],
+        "correctAnswer": [
+            "C"
+        ],
+        "natRange": null,
+        "solution": "For relation R, the FD C→ABDE is a non-key attribute determining other non-key attributes, so R is only in 2NF (no partial dependency issue, but this violates 3NF). Relation S is in BCNF, hence also 3NF, and R's dependencies are covered by S, so R covers S."
+    },
+    {
+        "id": "q21",
+        "number": 21,
+        "type": "MCQ",
+        "marks": 1,
+        "negativeMarks": 0.33,
+        "section": "Core Subject",
+        "questionText": "The function y = |2 - 3x|",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "is continuous ∀x ∈ R and differentiable ∀x ∈ R."
+            },
+            {
+                "id": "B",
+                "text": "is continuous ∀x ∈ R and differentiable ∀x ∈ R except at x = 3/2."
+            },
+            {
+                "id": "C",
+                "text": "is continuous ∀x ∈ R and differentiable ∀x ∈ R except at x = 2/3."
+            },
+            {
+                "id": "D",
+                "text": "is continuous ∀x ∈ R except at x = 3 and differentiable ∀x ∈ R."
+            }
+        ],
+        "correctAnswer": [
+            "C"
+        ],
+        "natRange": null,
+        "solution": "Since y is made of two polynomial pieces (2-3x for x≤2/3, 3x-2 for x>2/3), it's continuous everywhere. At x=2/3, the left derivative is -3 and right derivative is +3, which differ, so it is not differentiable there. Hence y is continuous everywhere but differentiable everywhere except x=2/3."
+    },
+    {
+        "id": "q22",
+        "number": 22,
+        "type": "NAT",
+        "marks": 1,
+        "negativeMarks": 0,
+        "section": "Core Subject",
+        "questionText": "S: R1(A), R2(D), W1(B), R2(B), R4(B), W2(C), R3(C), W4(E), R3(E), W3(B)\nNumber of serial schedules which are view equal to above S are _____.",
+        "questionImage": null,
+        "options": [],
+        "correctAnswer": [
+            "10"
+        ],
+        "natRange": [
+            10,
+            10
+        ],
+        "solution": "Checking view-serializability rules (matching initial reads, write-read dependencies, and final writes) against the four write-read conflict pairs in the schedule, valid orderings total 5+5=10."
+    },
+    {
+        "id": "q23",
+        "number": 23,
+        "type": "MCQ",
+        "marks": 1,
+        "negativeMarks": 0.33,
+        "section": "Core Subject",
+        "questionText": "Find the exact value of lim(x→0) [√(3+x) - √3] / x.",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "√3"
+            },
+            {
+                "id": "B",
+                "text": "0"
+            },
+            {
+                "id": "C",
+                "text": "1/(2√3)"
+            },
+            {
+                "id": "D",
+                "text": "The limit does not exist"
+            }
+        ],
+        "correctAnswer": [
+            "C"
+        ],
+        "natRange": null,
+        "solution": "Multiplying numerator and denominator by the conjugate √(3+x)+√3 simplifies the expression to x / [x(√(3+x)+√3)], which as x→0 gives 1/(2√3)."
+    },
+    {
+        "id": "q24",
+        "number": 24,
+        "type": "MSQ",
+        "marks": 1,
+        "negativeMarks": 0,
+        "section": "Core Subject",
+        "questionText": "Suppose there are four problems (languages) A, B, C and D. Each of these languages may or may not be recursively enumerable. However, we know the following about them:\nI. There is a reduction (i.e., an algorithm, not necessarily polynomial-time) from A to B.\nII. There is a reduction from B to C.\nIII. There is a reduction from D to C.\nConsider the following statements and select the statements that are never true, regardless of what A through D are.",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "A is recursively enumerable but not recursive and C is recursive."
+            },
+            {
+                "id": "B",
+                "text": "A is not recursive and D is not recursively enumerable."
+            },
+            {
+                "id": "C",
+                "text": "The complement of A is not recursively enumerable, but the complement of B is recursively enumerable."
+            },
+            {
+                "id": "D",
+                "text": "The complement of B is not recursive, but the complement of C is recursive."
+            }
+        ],
+        "correctAnswer": [
+            "A",
+            "D"
+        ],
+        "natRange": null,
+        "solution": "[Using properties of many-one reductions and their implications for recursiveness and recursive enumerability across the chain A→B→C, statements A and D are shown to be impossible given the stated reductions.]"
+    },
+    {
+        "id": "q25",
+        "number": 25,
+        "type": "MCQ",
+        "marks": 1,
+        "negativeMarks": 0.33,
+        "section": "Core Subject",
+        "questionText": "You are assigning IP addresses to hosts in the 192.168.4.0/26 subnet. Which two of the following IP addresses are assignable IP addresses that reside in that subnet?",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "192.168.4.0"
+            },
+            {
+                "id": "B",
+                "text": "192.168.4.63"
+            },
+            {
+                "id": "C",
+                "text": "192.168.4.64"
+            },
+            {
+                "id": "D",
+                "text": "192.168.4.62"
+            }
+        ],
+        "correctAnswer": [
+            "D"
+        ],
+        "natRange": null,
+        "solution": "For the /26 subnet 192.168.4.0, the host range is 192.168.4.1 to 192.168.4.62, so 192.168.4.62 is assignable (others are network, broadcast, or outside the subnet)."
+    },
+    {
+        "id": "q26",
+        "number": 26,
+        "type": "MSQ",
+        "marks": 1,
+        "negativeMarks": 0,
+        "section": "Core Subject",
+        "questionText": "Which of the following solutions to the synchronization problem is/are implemented in the user mode?",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "Lock variable"
+            },
+            {
+                "id": "B",
+                "text": "Bakery algorithm"
+            },
+            {
+                "id": "C",
+                "text": "Strict alternation"
+            },
+            {
+                "id": "D",
+                "text": "None of the above"
+            }
+        ],
+        "correctAnswer": [
+            "A",
+            "B",
+            "C"
+        ],
+        "natRange": null,
+        "solution": "All three (lock variable, bakery algorithm, strict alternation) are purely software-based solutions implementable in user mode, without requiring hardware support."
+    },
+    {
+        "id": "q27",
+        "number": 27,
+        "type": "MCQ",
+        "marks": 1,
+        "negativeMarks": 0.33,
+        "section": "Core Subject",
+        "questionText": "Consider the following languages:\nL1 = {<M> | M is a TM and L(M) is not RE}\nL2 = {<M> | M is a TM and {00,11} ∉ L(M)}\nWhich of the above languages is decidable?",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "Only L1"
+            },
+            {
+                "id": "B",
+                "text": "Only L2"
+            },
+            {
+                "id": "C",
+                "text": "Both L1 and L2"
+            },
+            {
+                "id": "D",
+                "text": "None of these"
+            }
+        ],
+        "correctAnswer": [
+            "A"
+        ],
+        "natRange": null,
+        "solution": "Since the language of any TM is always RE, asking whether L(M) is not RE is trivially false, making L1 trivially decidable. Whether {00,11} belongs to L(M) is a non-trivial semantic property, so by Rice's theorem L2 is undecidable."
+    },
+    {
+        "id": "q28",
+        "number": 28,
+        "type": "NAT",
+        "marks": 1,
+        "negativeMarks": 0,
+        "section": "Core Subject",
+        "questionText": "A min heap having 1024 distinct elements with keys ranging from 0 to 1023 is stored in an array of 1024 indices. The element with key value 512 can be stored in some level of the heap. The maximum difference possible at maximum level and minimum level in which key 512 can be present is _____?",
+        "questionImage": null,
+        "options": [],
+        "correctAnswer": [
+            "9"
+        ],
+        "natRange": [
+            9,
+            9
+        ],
+        "solution": "Taking the root as level 1, the element with value 512 could appear as deep as level 11 (maximum) or as shallow as level 2 (minimum), giving a maximum difference of 9."
+    },
+    {
+        "id": "q29",
+        "number": 29,
+        "type": "NAT",
+        "marks": 1,
+        "negativeMarks": 0,
+        "section": "Core Subject",
+        "questionText": "Consider the following function:\nint DoSomething() {\n  int i, r;\n  r = 0;\n  for (i = 0; i < 5; i++) {\n    if ((i % 3) == 1) r = r + i;\n    else r = r + 1;\n  }\n  return r;\n}\nWhat value is returned as a result of the call DoSomething()?",
+        "questionImage": null,
+        "options": [],
+        "correctAnswer": [
+            "8"
+        ],
+        "natRange": [
+            8,
+            8
+        ],
+        "solution": "As i goes from 0 to 4, r increases by i when i mod 3 equals 1 (i.e. i=1,4), and increases by 1 otherwise (i=0,2,3). This gives r = 1(for i=0) + 1(i=1,r+=1) + ... tracing through gives a final value of 8."
+    },
+    {
+        "id": "q30",
+        "number": 30,
+        "type": "MSQ",
+        "marks": 1,
+        "negativeMarks": 0,
+        "section": "Core Subject",
+        "questionText": "Consider the following CFG:\nS → aB | bA | D | E\nA → a | aS | bAA | c\nB → b | bS | aBB | c\nD → dD | Dd | d\nE → EE | EdE\nWhich of the following statements are true for the above grammar?",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "S ⇒ aB ⇒ aaBB ⇒ aabSB ⇒ aabbAB ⇒ aabbcB ⇒ aabbcc is the left-most derivation for string aabbcc."
+            },
+            {
+                "id": "B",
+                "text": "S ⇒ aB ⇒ aaBB ⇒ aaBc ⇒ aabSc ⇒ aabAc ⇒ aabbcc is the right-most derivation for string aabbcc."
+            },
+            {
+                "id": "C",
+                "text": "The grammar is ambiguous."
+            },
+            {
+                "id": "D",
+                "text": "The string ab has more than one parse trees."
+            }
+        ],
+        "correctAnswer": [
+            "A",
+            "B",
+            "C"
+        ],
+        "natRange": null,
+        "solution": "The grammar is ambiguous because there are two different leftmost derivations for the string 'dd' (S⇒D⇒dD⇒dd and S⇒D⇒Dd⇒dd). The given leftmost and rightmost derivations for 'aabbcc' shown in A and B are valid."
+    },
+    {
+        "id": "q31",
+        "number": 31,
+        "type": "NAT",
+        "marks": 1,
+        "negativeMarks": 0,
+        "section": "Core Subject",
+        "questionText": "The Karnaugh map shown above represents a switching function F(a, b, c, d). The summation of the number of prime implicants and essential prime implicants of this function is _____?",
+        "questionImage": "q31_karnaugh_map.png",
+        "options": [],
+        "correctAnswer": [
+            "6"
+        ],
+        "natRange": [
+            6,
+            6
+        ],
+        "solution": "Analyzing the K-map, three prime implicant groups are found: cells (0,2,8,10), cells (0,1,8,9), and cells (10,14). Each is also an essential prime implicant since each covers a minterm uniquely, giving 3 PIs + 3 EPIs = 6."
+    },
+    {
+        "id": "q32",
+        "number": 32,
+        "type": "MCQ",
+        "marks": 1,
+        "negativeMarks": 0.33,
+        "section": "Core Subject",
+        "questionText": "Let A and B are events. P(A)=0.35, P(B)=0.25 and P(A∩B)=0.1. What is P(A^c ∩ B)?",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "0.1"
+            },
+            {
+                "id": "B",
+                "text": "0.15"
+            },
+            {
+                "id": "C",
+                "text": "0.25"
+            },
+            {
+                "id": "D",
+                "text": "0.20"
+            }
+        ],
+        "correctAnswer": [
+            "B"
+        ],
+        "natRange": null,
+        "solution": "P(A^c∩B) = P(B) - P(A∩B) = 0.25 - 0.1 = 0.15."
+    },
+    {
+        "id": "q33",
+        "number": 33,
+        "type": "MCQ",
+        "marks": 1,
+        "negativeMarks": 0.33,
+        "section": "Core Subject",
+        "questionText": "X(R_i) represents an index addressing mode. The effective address of operand is given by EA = X + [R_i], X denotes signed integer and mentioned in the instruction itself. If the contents of the register R_i is always equal to zero then Index addressing mode will implement.",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "Immediate addressing mode"
+            },
+            {
+                "id": "B",
+                "text": "Absolute addressing mode"
+            },
+            {
+                "id": "C",
+                "text": "Indirect addressing mode"
+            },
+            {
+                "id": "D",
+                "text": "Register addressing mode"
+            }
+        ],
+        "correctAnswer": [
+            "B"
+        ],
+        "natRange": null,
+        "solution": "Since R_i is always zero, the effective address always equals X directly, i.e. the address of the operand is specified directly, which is absolute addressing mode."
+    },
+    {
+        "id": "q34",
+        "number": 34,
+        "type": "MCQ",
+        "marks": 1,
+        "negativeMarks": 0.33,
+        "section": "Core Subject",
+        "questionText": "Let N* denote the non-zero natural numbers. Define a binary relation R on N* by (m,n) R (s,t) if (m-n) ≡ (s-t) mod 5. The binary relation R is",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "Reflexive, not symmetric, transitive"
+            },
+            {
+                "id": "B",
+                "text": "Reflexive, symmetric, transitive"
+            },
+            {
+                "id": "C",
+                "text": "Reflexive, symmetric, not transitive"
+            },
+            {
+                "id": "D",
+                "text": "Reflexive, not symmetric, not transitive"
+            }
+        ],
+        "correctAnswer": [
+            "B"
+        ],
+        "natRange": null,
+        "solution": "The relation is reflexive since (m-n)≡(m-n) mod 5; symmetric since (m-n)≡(s-t) mod 5 implies (s-t)≡(m-n) mod 5; and transitive by combining two congruences mod 5. Hence R is an equivalence relation: reflexive, symmetric, transitive."
+    },
+    {
+        "id": "q35",
+        "number": 35,
+        "type": "MCQ",
+        "marks": 1,
+        "negativeMarks": 0.33,
+        "section": "Core Subject",
+        "questionText": "Consider the following program:\nsum = 0;\nfor (i=1; i<31; ++i)\n for (j=1; j<31; ++j)\n  for (k=1; k<31; ++k)\n   if ((i+j+k)%3 == 0)\n    sum += 1;\nprintf(\"%d\", sum);\nThe output is _____.",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "900"
+            },
+            {
+                "id": "B",
+                "text": "3000"
+            },
+            {
+                "id": "C",
+                "text": "90"
+            },
+            {
+                "id": "D",
+                "text": "9000"
+            }
+        ],
+        "correctAnswer": [
+            "D"
+        ],
+        "natRange": null,
+        "solution": "sum increments whenever i+j+k is divisible by 3. For each value of i, there are 300 valid (j,k) combinations, and summing over all 30 values of i gives 300×30=9000."
+    },
+    {
+        "id": "q36",
+        "number": 36,
+        "type": "MCQ",
+        "marks": 2,
+        "negativeMarks": 0.67,
+        "section": "Core Subject",
+        "questionText": "Consider the circuit shown in the figure. The correct input/output relationship between Y and (X1, X2) is",
+        "questionImage": "q36_NOR_cascade_circuit.png",
+        "options": [
+            {
+                "id": "A",
+                "text": "Y = X1 + X2"
+            },
+            {
+                "id": "B",
+                "text": "Y = X1 . X2"
+            },
+            {
+                "id": "C",
+                "text": "Y = X1 ⊕ X2"
+            },
+            {
+                "id": "D",
+                "text": "Y = complement(X1 ⊕ X2)"
+            }
+        ],
+        "correctAnswer": [
+            "D"
+        ],
+        "natRange": null,
+        "solution": "The cascaded NOR-gate combination shown implements an XNOR gate. Since XNOR is the complement of XOR, Y equals the complement of (X1⊕X2)."
+    },
+    {
+        "id": "q37",
+        "number": 37,
+        "type": "MSQ",
+        "marks": 2,
+        "negativeMarks": 0,
+        "section": "Core Subject",
+        "questionText": "Which of the following options is/are true?",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "Self dual function is a subset of neutral functions."
+            },
+            {
+                "id": "B",
+                "text": "F(x, y, z) = Σ(0, 1, 2, 4) is self-dual."
+            },
+            {
+                "id": "C",
+                "text": "Number of neutral functions < number of self-dual functions."
+            },
+            {
+                "id": "D",
+                "text": "A function becomes self-dual if the number of minterms is equal to number of maxterms."
+            }
+        ],
+        "correctAnswer": [
+            "A",
+            "B"
+        ],
+        "natRange": null,
+        "solution": "Options A and B are true. Option C contradicts option A (since self-dual functions form a subset, their count cannot exceed neutral functions). Option D is false because self-duality additionally requires the minterms and maxterms to be complementary pairs, not merely equal in count."
+    },
+    {
+        "id": "q38",
+        "number": 38,
+        "type": "MCQ",
+        "marks": 2,
+        "negativeMarks": 0.67,
+        "section": "Core Subject",
+        "questionText": "G(x): x is a gold ornament.\nS(x): x is a silver ornament.\nP(x): x is precious.\nWhich one of the following is the appropriate logical formula to represent the statement 'Gold and silver ornaments are precious'.",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "∀x (G(x) ∧ S(x) ⇒ P(x))"
+            },
+            {
+                "id": "B",
+                "text": "∀x (G(x) ∨ S(x) ⇒ P(x))"
+            },
+            {
+                "id": "C",
+                "text": "∃x (G(x) ∧ S(x) ⇒ P(x))"
+            },
+            {
+                "id": "D",
+                "text": "∃x (G(x) ∨ S(x) ⇒ P(x))"
+            }
+        ],
+        "correctAnswer": [
+            "B"
+        ],
+        "natRange": null,
+        "solution": "The statement means every gold ornament and every silver ornament is precious, i.e. for every x, if x is gold OR silver, then x is precious."
+    },
+    {
+        "id": "q39",
+        "number": 39,
+        "type": "NAT",
+        "marks": 2,
+        "negativeMarks": 0,
+        "section": "Core Subject",
+        "questionText": "Consider the following strings x and y.\nx = \"csemadeeasy2021\"\ny = \"gateexam2021\"\nThe length of longest common subsequences possible from x and y is _____.",
+        "questionImage": null,
+        "options": [],
+        "correctAnswer": [
+            "8"
+        ],
+        "natRange": [
+            8,
+            8
+        ],
+        "solution": "Taking common letters in the same relative order from both strings gives the longest common subsequence, which has length 8."
+    },
+    {
+        "id": "q40",
+        "number": 40,
+        "type": "MCQ",
+        "marks": 2,
+        "negativeMarks": 0.67,
+        "section": "Core Subject",
+        "questionText": "Let two systems of linear equations be defined as follows:\nP: x+y=1, 3x+3y=3, 5x+5y=5   Q: x+y=3, 2x+3y=4, 5x+5y=12. Then,",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "P and Q are inconsistent."
+            },
+            {
+                "id": "B",
+                "text": "P and Q are consistent."
+            },
+            {
+                "id": "C",
+                "text": "P is consistent but Q is inconsistent."
+            },
+            {
+                "id": "D",
+                "text": "None of the above"
+            }
+        ],
+        "correctAnswer": [
+            "C"
+        ],
+        "natRange": null,
+        "solution": "System P has all equations as multiples of each other, giving infinitely many solutions (consistent). System Q's equations are contradictory, giving no solution (inconsistent)."
+    },
+    {
+        "id": "q41",
+        "number": 41,
+        "type": "NAT",
+        "marks": 2,
+        "negativeMarks": 0,
+        "section": "Core Subject",
+        "questionText": "Let M be the number of different boolean functions of degree 4. The value of log2(M) _____.",
+        "questionImage": null,
+        "options": [],
+        "correctAnswer": [
+            "16"
+        ],
+        "natRange": [
+            16,
+            16
+        ],
+        "solution": "The number of boolean functions on n variables is 2^(2^n). For n=4, this is 2^16, so log2(M)=16."
+    },
+    {
+        "id": "q42",
+        "number": 42,
+        "type": "MCQ",
+        "marks": 2,
+        "negativeMarks": 0.67,
+        "section": "Core Subject",
+        "questionText": "Consider the following function/method:\nint test(int a, int b) {\n  if (a < b) return 0;\n  else return (1 + test(a - b, b));\n}\nWhat is returned by the call test(15, 4)?",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "1"
+            },
+            {
+                "id": "B",
+                "text": "2"
+            },
+            {
+                "id": "C",
+                "text": "3"
+            },
+            {
+                "id": "D",
+                "text": "4"
+            }
+        ],
+        "correctAnswer": [
+            "C"
+        ],
+        "natRange": null,
+        "solution": "Tracing the recursion: test(15,4)→test(11,4)→test(7,4)→test(3,4) returns 0 (since 3<4). Unwinding: test(7,4)=1, test(11,4)=2, test(15,4)=3."
+    },
+    {
+        "id": "q43",
+        "number": 43,
+        "type": "MSQ",
+        "marks": 2,
+        "negativeMarks": 0,
+        "section": "Core Subject",
+        "questionText": "Consider the following NFA. Let L be the language accepted by this NFA. Which of the following statements are true for the above NFA?",
+        "questionImage": "q43_NFA_diagram.png",
+        "options": [
+            {
+                "id": "A",
+                "text": "The minimal DFA for L will have 3 states."
+            },
+            {
+                "id": "B",
+                "text": "The grammar S → aA?bA?c; A → aA?bB; B → aS?bA?c generates language L."
+            },
+            {
+                "id": "C",
+                "text": "The number of Myhill Nerode equivalence classes for L is 3."
+            },
+            {
+                "id": "D",
+                "text": "The grammar S → aA?bA?c; A → aA?baS?bA?b generates language L."
+            }
+        ],
+        "correctAnswer": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "natRange": null,
+        "solution": "The given NFA is already deterministic in structure; applying the partition refinement algorithm shows it converges to a minimal 3-state DFA within a couple of steps, matching the equivalence class count, and the given grammars (after renaming states) generate the same language, so all four statements hold."
+    },
+    {
+        "id": "q44",
+        "number": 44,
+        "type": "MCQ",
+        "marks": 2,
+        "negativeMarks": 0.67,
+        "section": "Core Subject",
+        "questionText": "8 processes sharing the CPU in a round-robin fashion. Assuming that each process switch takes 0.125 seconds, what must be the quantum size 'q' such that the overhead resulting from process switching is minimized but at the same time each process is guaranteed to get its turn at the CPU at least every 64 seconds?",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "q ≤ 9 seconds"
+            },
+            {
+                "id": "B",
+                "text": "q ≥ 9 seconds"
+            },
+            {
+                "id": "C",
+                "text": "q ≤ 7 seconds"
+            },
+            {
+                "id": "D",
+                "text": "q ≥ 7 seconds"
+            }
+        ],
+        "correctAnswer": [
+            "A"
+        ],
+        "natRange": null,
+        "solution": "With 8 processes, a process returns to the CPU after 8 context switches and 7 time quanta. Requiring 8(0.125) + 7q ≤ 64 gives 7q ≤ 63, so q ≤ 9 seconds."
+    },
+    {
+        "id": "q45",
+        "number": 45,
+        "type": "MCQ",
+        "marks": 2,
+        "negativeMarks": 0.67,
+        "section": "Core Subject",
+        "questionText": "Consider the following function:\nint foo(int n) {\n  if (n < 5) { return n; }\n  else if (n < 1000) { return foo(n - 3); }\n  else { return foo(n / 3); }\n}\nWhen asked what is the worst-case tight big-O runtime of this function foo(), Vivek says it is O(log2 n). Nick says it is O(log3 n). Who is right?",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "Vivek is right (Vivek's answer: O(log2 n))"
+            },
+            {
+                "id": "B",
+                "text": "Nisha is right (Nisha's answer: O(log3 n))"
+            },
+            {
+                "id": "C",
+                "text": "Both are right."
+            },
+            {
+                "id": "D",
+                "text": "Both are wrong."
+            }
+        ],
+        "correctAnswer": [
+            "C"
+        ],
+        "natRange": null,
+        "solution": "The function runs in O(log n) time overall. Since O(log2 n) and O(log3 n) differ only by a constant factor, both are valid tight worst-case bounds, so both are correct."
+    },
+    {
+        "id": "q46",
+        "number": 46,
+        "type": "MSQ",
+        "marks": 2,
+        "negativeMarks": 0,
+        "section": "Core Subject",
+        "questionText": "Which of the following options are true?",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "If lim(x→a) [f(x)-f(a)]/(x-a) exists, then f is differentiable at a."
+            },
+            {
+                "id": "B",
+                "text": "If f is continuous at a, then f is differentiable at a."
+            },
+            {
+                "id": "C",
+                "text": "If lim(x→a) f(x) exists, then f is differentiable at a."
+            },
+            {
+                "id": "D",
+                "text": "If f is differentiable at a, then lim(x→a) f(x) = f(a)."
+            }
+        ],
+        "correctAnswer": [
+            "A",
+            "D"
+        ],
+        "natRange": null,
+        "solution": "Option A is true by the definition of the derivative. Option D is true since differentiability implies continuity, so the limit as x→a equals f(a). Options B and C are false converse statements."
+    },
+    {
+        "id": "q47",
+        "number": 47,
+        "type": "MCQ",
+        "marks": 2,
+        "negativeMarks": 0.67,
+        "section": "Core Subject",
+        "questionText": "A company needs 600 addresses. Which of the following set of class C blocks can be used to form a supernet for this company?",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "198.47.32.0, 198.47.33.0, 198.47.34.0"
+            },
+            {
+                "id": "B",
+                "text": "198.47.32.0, 198.47.42.0, 198.47.52.0, 198.47.62.0"
+            },
+            {
+                "id": "C",
+                "text": "198.47.31.0, 198.47.32.0, 198.47.33.0, 198.47.52.0"
+            },
+            {
+                "id": "D",
+                "text": "198.47.32.0, 198.47.33.0, 198.47.34.0, 198.47.35.0"
+            }
+        ],
+        "correctAnswer": [
+            "D"
+        ],
+        "natRange": null,
+        "solution": "For supernetting, the block addresses must be contiguous when written in binary. Only the four blocks 198.47.32.0, 33.0, 34.0, 35.0 form a contiguous, aligned range suitable for aggregation."
+    },
+    {
+        "id": "q48",
+        "number": 48,
+        "type": "MCQ",
+        "marks": 2,
+        "negativeMarks": 0.67,
+        "section": "Core Subject",
+        "questionText": "Let M be a n dimensional array declared as follows:\nM: array [0...n-1][0...n-1]...[0...n-1] of integers;\nAssuming that each integer takes one memory location, the array is stored in row-major order and the first element of the array is stored at location 0. The address of the element A[i][i][i]...[i] is?",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "[(n^(n-1) - 1)/(n-1)] * i"
+            },
+            {
+                "id": "B",
+                "text": "[(n^n - 1)/(n-1)] * i"
+            },
+            {
+                "id": "C",
+                "text": "[(n^(n+1) - 1)/(n-1)] * i"
+            },
+            {
+                "id": "D",
+                "text": "None of these"
+            }
+        ],
+        "correctAnswer": [
+            "B"
+        ],
+        "natRange": null,
+        "solution": "In row-major order for an n-dimensional array with each dimension of size n, the address formula for element [i][i]...[i] simplifies to i × [1 + n + n^2 + ... + n^(n-1)] = i × [(n^n - 1)/(n - 1)]."
+    },
+    {
+        "id": "q49",
+        "number": 49,
+        "type": "NAT",
+        "marks": 2,
+        "negativeMarks": 0,
+        "section": "Core Subject",
+        "questionText": "Consider the following relations: R1(A,B,C) and R2(A,D,E).\nR1 has 1000 records and R2 has 2000 records. The attribute 'A' of R2 is not key in R2, referencing attribute 'A' in R1. Let X be minimum number of records in R1⋈R2 and Y be the maximum number of records in R1⋈R2. The sum of (X+Y) is _____.",
+        "questionImage": null,
+        "options": [],
+        "correctAnswer": [
+            "4000"
+        ],
+        "natRange": [
+            4000,
+            4000
+        ],
+        "solution": "Since A in R2 is a foreign key referencing A in R1 (a key), every value of A in R2 matches some record in R1, so the join has minimum and maximum both equal to 2000 (bounded by the size of R2). Hence X+Y = 2000+2000 = 4000."
+    },
+    {
+        "id": "q50",
+        "number": 50,
+        "type": "MCQ",
+        "marks": 2,
+        "negativeMarks": 0.67,
+        "section": "Core Subject",
+        "questionText": "Assume there are transactions: T0, T1, T2, ..., T(n-1) in a schedule S. Every transaction writes value of x = x + 1, which is read by its successive transactions. T0 writes value of x that is read by T1, T1 writes a value of x that is read by T2, ..., T(n-2) writes a value of x that is read by T(n-1). And before S is executed, x=1. Now, if T0 fails, then in total how many transaction rollbacks are required to recover the schedule and what will be the final value of x?",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "n-1, 1"
+            },
+            {
+                "id": "B",
+                "text": "n, 0"
+            },
+            {
+                "id": "C",
+                "text": "n-1, 0"
+            },
+            {
+                "id": "D",
+                "text": "n, 1"
+            }
+        ],
+        "correctAnswer": [
+            "D"
+        ],
+        "natRange": null,
+        "solution": "Since each transaction reads an uncommitted value written by its predecessor, a rollback of T0 cascades through all remaining transactions, requiring all n transactions to be rolled back, and x reverts to its original value of 1."
+    },
+    {
+        "id": "q51",
+        "number": 51,
+        "type": "MCQ",
+        "marks": 2,
+        "negativeMarks": 0.67,
+        "section": "Core Subject",
+        "questionText": "A hash function f defined as f(key) = key mod 7, with linear probing, insert the keys 37, 38, 72, 48, 98, 11, 56 into a table indexed from 11 will be stored in the location",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "3"
+            },
+            {
+                "id": "B",
+                "text": "4"
+            },
+            {
+                "id": "C",
+                "text": "5"
+            },
+            {
+                "id": "D",
+                "text": "6"
+            }
+        ],
+        "correctAnswer": [
+            "C"
+        ],
+        "natRange": null,
+        "solution": "Inserting keys using key mod 7 with linear probing: 37→2, 38→3, 72→2(collision, probes to 4), 48→6, 98→0, 11→4(collision, probes to 5). So 11 is stored at index 5."
+    },
+    {
+        "id": "q52",
+        "number": 52,
+        "type": "MCQ",
+        "marks": 2,
+        "negativeMarks": 0.67,
+        "section": "Core Subject",
+        "questionText": "Memory Protection is of no use in",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "Multi-programmed systems"
+            },
+            {
+                "id": "B",
+                "text": "Non multi-programmed systems"
+            },
+            {
+                "id": "C",
+                "text": "Non multitasking systems"
+            },
+            {
+                "id": "D",
+                "text": "None of the above"
+            }
+        ],
+        "correctAnswer": [
+            "B"
+        ],
+        "natRange": null,
+        "solution": "Memory protection prevents one process from accessing another's memory. In non-multiprogrammed (uniprogrammed) systems, there's no other resident process to protect against, so it is unnecessary."
+    },
+    {
+        "id": "q53",
+        "number": 53,
+        "type": "NAT",
+        "marks": 2,
+        "negativeMarks": 0,
+        "section": "Core Subject",
+        "questionText": "Consider four processes with a burst time of 10, 20, 30, 40, all process arrived at time 0. Each process spends first 10% of its execution time doing I/O, next 40% time doing CPU operations, next 20% time doing I/O and the last 30% time doing CPU operations. The system uses shortest remaining time first algorithm for scheduling. Calculate the completion time of P3 _____.",
+        "questionImage": null,
+        "options": [],
+        "correctAnswer": [
+            "49"
+        ],
+        "natRange": [
+            49,
+            49
+        ],
+        "solution": "Building the Gantt chart from the given burst/I-O phase breakdown of all four processes under SRTF scheduling, process P3 (burst time 30) is found to complete at time 49."
+    },
+    {
+        "id": "q54",
+        "number": 54,
+        "type": "NAT",
+        "marks": 2,
+        "negativeMarks": 0,
+        "section": "Core Subject",
+        "questionText": "We insert the following keys into an empty AVL tree in the following order:\n15, 19, 13, 8, 6, 7, 11, 12, 10, 4\nWhich key will be the right child of the root after inserting all keys?",
+        "questionImage": null,
+        "options": [],
+        "correctAnswer": [
+            "12"
+        ],
+        "natRange": [
+            12,
+            12
+        ],
+        "solution": "Inserting all the keys with the necessary AVL rotations results in a tree rooted at 8, whose right child is 12."
+    },
+    {
+        "id": "q55",
+        "number": 55,
+        "type": "MCQ",
+        "marks": 2,
+        "negativeMarks": 0.67,
+        "section": "Core Subject",
+        "questionText": "Consider the regular expression (x+y)(x+y)...(x+y) [n times] on the alphabet Σ={x,y}. The minimum number of states in deterministic finite automation that recognizes the language represented by this regular expression contains.",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "n states"
+            },
+            {
+                "id": "B",
+                "text": "n+1 states"
+            },
+            {
+                "id": "C",
+                "text": "n+2 states"
+            },
+            {
+                "id": "D",
+                "text": "2n states"
+            }
+        ],
+        "correctAnswer": [
+            "C"
+        ],
+        "natRange": null,
+        "solution": "For n=3, the expression (x+y)^3 requires a chain of 3 transition states plus a start and dead/trap state, giving 3+2=5 states. In general, the minimum number of states required is n+2."
+    },
+    {
+        "id": "q56",
+        "number": 56,
+        "type": "NAT",
+        "marks": 2,
+        "negativeMarks": 0,
+        "section": "Core Subject",
+        "questionText": "Consider the following 3 address intermediate code for a C program fragment computing a dot product of arrays a and b of size 10 each, where a[i]=1 for all i and b[i]=2 for all i, with integer size 4 bytes. Then the value of the variable dot_prod after the program fragment (at label L2) will be _____?",
+        "questionImage": null,
+        "options": [],
+        "correctAnswer": [
+            "20"
+        ],
+        "natRange": [
+            20,
+            20
+        ],
+        "solution": "The intermediate code multiplies corresponding entries of arrays a and b and sums them into dot_prod, i.e. it computes sum(a[i]*b[i]) for i=0..9. Since a[i]=1 and b[i]=2 for all i, dot_prod = 10×1×2 = 20."
+    },
+    {
+        "id": "q57",
+        "number": 57,
+        "type": "NAT",
+        "marks": 2,
+        "negativeMarks": 0,
+        "section": "Core Subject",
+        "questionText": "Consider the given grammar:\nE → E+T | E-T | T\nT → T×F | T÷F | F\nF → G↑F | G\nG → id\nEvaluate the following expression in accordance with the given grammar (symbols have their usual meaning, ↑ is the exponentiation operation. Example: 2↑3=8).\n3×1+2↑2↑3×1+3 equals _____.",
+        "questionImage": null,
+        "options": [],
+        "correctAnswer": [
+            "262"
+        ],
+        "natRange": [
+            262,
+            262
+        ],
+        "solution": "Following precedence (exponent highest and right-associative, then × and ÷ left-associative, then + and - lowest), 2↑2↑3 (right-associative) = 2↑(2↑3) = 2↑8... actually evaluates to 2↑(2↑3)=256 using right associativity as computed, then 256×1=256; adding 3×1=3 and 3 gives total 3+256+3=262."
+    },
+    {
+        "id": "q58",
+        "number": 58,
+        "type": "MSQ",
+        "marks": 2,
+        "negativeMarks": 0,
+        "section": "Core Subject",
+        "questionText": "Let L be the language consisting of all strings of zero or more 0's followed by one or more 1's, followed by two or more 2's. For example, 001122, 122 and 0111122 are in L; 012 (too few 2's) and 0112122 (a 2 precedes a 1) are not.\nWhich of the following are true for L?",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "L is regular."
+            },
+            {
+                "id": "B",
+                "text": "The regular expression for L is 0*11*222*."
+            },
+            {
+                "id": "C",
+                "text": "The following grammar generates L. (ε = empty) S→ABC; A→0A|ε; B→1B|1; C→2C|22"
+            },
+            {
+                "id": "D",
+                "text": "L is CFL."
+            }
+        ],
+        "correctAnswer": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "natRange": null,
+        "solution": "L is regular, matches the given regular expression, is generated by the given grammar, and since all regular languages are also context-free, L is a CFL. Hence all four statements are true."
+    },
+    {
+        "id": "q59",
+        "number": 59,
+        "type": "MCQ",
+        "marks": 2,
+        "negativeMarks": 0.67,
+        "section": "Core Subject",
+        "questionText": "The logic circuit shown below implements:",
+        "questionImage": "q59_MUX_logic_circuit.png",
+        "options": [
+            {
+                "id": "A",
+                "text": "(A⊕C)(B⊕C)"
+            },
+            {
+                "id": "B",
+                "text": "(C⊕B) + (C⊕A)"
+            },
+            {
+                "id": "C",
+                "text": "(A⊕B⊕C)"
+            },
+            {
+                "id": "D",
+                "text": "complement(A⊕B⊕C)"
+            }
+        ],
+        "correctAnswer": [
+            "B"
+        ],
+        "natRange": null,
+        "solution": "Tracing signals through the cascaded 2×1 multiplexer network with the given select and input lines, the simplified boolean expression for the final output F works out to (C⊕B) + (C⊕A)."
+    },
+    {
+        "id": "q60",
+        "number": 60,
+        "type": "MCQ",
+        "marks": 2,
+        "negativeMarks": 0.67,
+        "section": "Core Subject",
+        "questionText": "Consider the following arguments. Which of them are valid?\nI. Everyone enrolled in the university has lived in a dormitory. Mia has never lived in a dormitory. Therefore, Mia is not enrolled in the university.\nII. A convertible car is fun to drive. Issac's car is not a convertible. Therefore, Issac's car is not fun to drive.\nIII. Quincy likes all action movies. Quincy likes the movie eight men out. Therefore, eight men out is an action movie.\nIV. All lobstermen set at least a dozen traps. Hamilton is a lobsterman. Therefore, Hamilton sets at least a dozen traps.",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "Only I and III"
+            },
+            {
+                "id": "B",
+                "text": "Only I and IV"
+            },
+            {
+                "id": "C",
+                "text": "I, III and IV only"
+            },
+            {
+                "id": "D",
+                "text": "All are correct"
+            }
+        ],
+        "correctAnswer": [
+            "B"
+        ],
+        "natRange": null,
+        "solution": "Statement I is a valid application of universal modus tollens. Statement IV is a valid application of universal instantiation. Statement II commits the fallacy of denying the hypothesis, and statement III commits the fallacy of affirming the conclusion. So only I and IV are valid."
+    },
+    {
+        "id": "q61",
+        "number": 61,
+        "type": "MCQ",
+        "marks": 2,
+        "negativeMarks": 0.67,
+        "section": "Core Subject",
+        "questionText": "In a computer with a cache memory interposed between the processor and the primary memory, the cache is K-way set-associative (for some fixed K); i.e., each location in primary memory 'maps to' (can be cached in) any of K locations in the set. Let there be P locations (blocks) in primary memory and C locations (lines) in the cache. On the average, how many different locations in primary memory map to a particular location in the cache if K=2?",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "1"
+            },
+            {
+                "id": "B",
+                "text": "P"
+            },
+            {
+                "id": "C",
+                "text": "P/C"
+            },
+            {
+                "id": "D",
+                "text": "2P/C"
+            }
+        ],
+        "correctAnswer": [
+            "D"
+        ],
+        "natRange": null,
+        "solution": "With K-way set-associative cache, there are C/K sets, so P/(C/K) = PK/C blocks map to each set on average, and since a set has K lines, the number mapping to a particular line is (PK/C)/K × K = 2P/C when K=2."
+    },
+    {
+        "id": "q62",
+        "number": 62,
+        "type": "NAT",
+        "marks": 2,
+        "negativeMarks": 0,
+        "section": "Core Subject",
+        "questionText": "A certain company wants to have security for their computer systems. So they have given everyone a name and password. A length 10 word containing each of the characters: a,d,e,f,i,l,o,p,r,s is called a cword. A password is a cword which does not contain any of the subwords 'fails', 'failed', or 'drop'. Then the total number of passwords possible will be _____?",
+        "questionImage": null,
+        "options": [],
+        "correctAnswer": [
+            "3622928"
+        ],
+        "natRange": [
+            3622928,
+            3622928
+        ],
+        "solution": "There are 7! cwords containing 'drop', 6! containing 'fails', and 5! containing 'failed'. By inclusion-exclusion over these overlapping forbidden subwords, the number of cwords containing at least one forbidden subword works out to 3622928 fewer... the final count of valid passwords among the 10! total cwords is 3622928."
+    },
+    {
+        "id": "q63",
+        "number": 63,
+        "type": "MCQ",
+        "marks": 2,
+        "negativeMarks": 0.67,
+        "section": "Core Subject",
+        "questionText": "Consider the following functions:\nF1(A,B,C) = A' + BC'\nF2(A,B) = A'B + AB'\nWhich of the above function(s) is/are functionally complete?",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "Only F1"
+            },
+            {
+                "id": "B",
+                "text": "Only F2"
+            },
+            {
+                "id": "C",
+                "text": "Both F1 and F2"
+            },
+            {
+                "id": "D",
+                "text": "Neither F1 nor F2"
+            }
+        ],
+        "correctAnswer": [
+            "A"
+        ],
+        "natRange": null,
+        "solution": "Substituting values into F1 can produce both NOT and NAND gates, and NAND alone is functionally complete. F2 is simply the XOR function, which by itself is not functionally complete. So only F1 is functionally complete."
+    },
+    {
+        "id": "q64",
+        "number": 64,
+        "type": "NAT",
+        "marks": 2,
+        "negativeMarks": 0,
+        "section": "Core Subject",
+        "questionText": "Consider the following definitions and function given below:\nThe prime implicants for which each of its minterm is covered by some essential prime implicant are Redundant Prime Implicants (RPI). The prime implicants which are neither essential nor redundant prime implicants are called Selective Prime Implicants (SPI). Given F(A,B,C,D) = Σm(0,1,5,7,10,14,15). Let the number of Essential Prime Implicants present is X, the number of Redundant Prime Implicants present is Y and the number of Selective Prime Implicants present is Z. What is X+Y+Z?",
+        "questionImage": null,
+        "options": [],
+        "correctAnswer": [
+            "6"
+        ],
+        "natRange": [
+            6,
+            6
+        ],
+        "solution": "For the given function, there are 7 implicants total, 6 of which are prime implicants: 2 essential (X=2), 0 redundant (Y=0), and 4 selective (Z=4). Hence X+Y+Z = 2+0+4 = 6."
+    },
+    {
+        "id": "q65",
+        "number": 65,
+        "type": "MSQ",
+        "marks": 2,
+        "negativeMarks": 0,
+        "section": "Core Subject",
+        "questionText": "Let E and F be the events that a family of n children has children of both sexes and has at most one boy, respectively. For which of the following value of n, E and F are not independent?",
+        "questionImage": null,
+        "options": [
+            {
+                "id": "A",
+                "text": "2"
+            },
+            {
+                "id": "B",
+                "text": "3"
+            },
+            {
+                "id": "C",
+                "text": "4"
+            },
+            {
+                "id": "D",
+                "text": "6"
+            }
+        ],
+        "correctAnswer": [
+            "A",
+            "C",
+            "D"
+        ],
+        "natRange": null,
+        "solution": "Checking for n=3 as an example: E (both sexes) has probability 3/4 and F (at most one boy) has probability 1/2, and P(E∩F)=3/8=P(E)×P(F), so they are independent at n=3. Carrying out the analogous calculation for other values of n shows independence fails at n=2, 4, and 6."
+    }
+]

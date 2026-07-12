@@ -1,0 +1,32 @@
+{
+  "id": "test-6",
+  "title": "FULL SYLLABUS TEST-6 (ADVANCE LEVEL) (GATE - 2021)",
+  "source": "Made Easy",
+  "totalQuestions": 65,
+  "totalMarks": 100,
+  "durationMinutes": 180,
+  "sections": [
+    {
+      "name": "General Aptitude",
+      "range": [
+        1,
+        10
+      ]
+    },
+    {
+      "name": "Core Subject",
+      "range": [
+        11,
+        65
+      ]
+    }
+  ],
+  "extractionNotes": [
+    "Q3 option D text was partially cut off across a page break in the source PDF screenshot; transcribed as '1/9' based on the visible fraction over 9, but this could not be fully confirmed.",
+    "Q7, Q11, Q31, Q41, and Q59 depend on a diagram/graphic in the question itself and are flagged with questionImage placeholders for separate cropping.",
+    "Q31's answer options are themselves small state-sequence diagrams (circles connected by arrows) rather than plain text; option text below is a best-effort textual description of each diagram.",
+    "Q48 option C text was partially obscured by a UI overlay in the screenshot; only options A, B, and D could be fully confirmed, matching the marked correct answers (a,b,d).",
+    "Q53's solution in the source PDF only states the final numeric answer with no worked derivation shown.",
+    "Q9 and Q10 solutions include a Venn-diagram / table image in the original PDF that is only used to illustrate the worked solution, not needed to answer the question, so questionImage is left null for both."
+  ]
+}

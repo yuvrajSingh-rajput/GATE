@@ -1,0 +1,29 @@
+{
+  "id": "test-3",
+  "title": "Full Syllabus Test-3 (Basic Level) (GATE-2020)",
+  "source": "Made Easy",
+  "totalQuestions": 65,
+  "totalMarks": 100,
+  "durationMinutes": 180,
+  "sections": [
+    {
+      "name": "General Aptitude",
+      "range": [
+        1,
+        10
+      ]
+    },
+    {
+      "name": "Core Subject",
+      "range": [
+        11,
+        65
+      ]
+    }
+  ],
+  "extractionNotes": [
+    "Unlike test-1, this test contains no MSQ (multi-select) questions — only MCQ and NAT.",
+    "Q40 options B and C have identical text ('F1 covers F2') in the source PDF — preserved as-is, likely a source typo.",
+    "Q43 options A and D have identical text in the source PDF — preserved as-is, likely a source typo."
+  ]
+}

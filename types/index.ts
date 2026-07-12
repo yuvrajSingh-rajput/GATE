@@ -1,4 +1,5 @@
-export type { Question, QuestionOption, QuestionType, TestMeta, TestData } from "../lib/validators/testData.schema";
+export type { Question, QuestionOption, QuestionType } from "../data/tests/_schema/question.schema";
+export type { TestMeta, TestData } from "../data/tests/_schema/testMeta.schema";
 export interface AttemptAnswer {
   questionId: string;
   selected: string[];
