@@ -6,7 +6,7 @@ import { StorageClient } from "../storage-client";
 // This will eventually integrate with NextAuth sessions.
 
 const DEFAULT_PROFILE: UserProfile = {
-  name: "Guest Student",
+  name: "Apoorva Singh",
   createdAt: new Date().toISOString(),
   streak: {
     current: 0,
@@ -30,7 +30,7 @@ export const profileRepository = {
   async recordActivity(): Promise<void> {
     const profile = await this.getProfile();
     const today = new Date().toISOString().split("T")[0]; // YYYY-MM-DD
-    
+
     if (profile.streak.lastActiveDate === today) {
       return; // Already active today
     }
