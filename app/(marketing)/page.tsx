@@ -37,7 +37,6 @@ export default function MarketingPage() {
         <nav className="hidden md:flex gap-8 text-sm font-medium text-muted-foreground">
           <Link href="#features" className="hover:text-foreground transition-colors">Features</Link>
           <Link href="#stats" className="hover:text-foreground transition-colors">Stats</Link>
-          <Link href="#pricing" className="hover:text-foreground transition-colors">Pricing</Link>
         </nav>
         <div className="flex items-center gap-4">
           <Link href="/dashboard">
@@ -94,7 +93,7 @@ export default function MarketingPage() {
               variants={fadeInUp}
             >
               The most advanced, realistic CBT simulation platform for GATE CS.
-              Master topics, track analytics, and ace the exam with premium mock tests.
+              Master topics, track analytics, and ace the exam with full-length mock tests.
             </motion.p>
 
             <motion.div
@@ -254,8 +253,8 @@ export default function MarketingPage() {
           </motion.div>
         </section>
 
-        {/* ── Pricing CTA ── */}
-        <section id="pricing" className="py-28">
+        {/* ── Final CTA ── */}
+        <section className="py-28">
           <motion.div
             className="container mx-auto px-4 text-center max-w-3xl"
             initial="hidden"
@@ -285,23 +284,13 @@ export default function MarketingPage() {
               Join thousands of successful GATE aspirants who cracked the exam with our platform.
             </motion.p>
 
-            <motion.div
-              className="inline-flex items-center gap-2 rounded-full border border-accent/20 bg-accent/5 px-6 py-3 mb-8"
-              variants={fadeInUp}
-            >
-              <span className="h-2 w-2 rounded-full gradient-bg animate-[pulse-dot_2s_ease-in-out_infinite]" />
-              <span className="font-mono text-sm tracking-wider text-accent">
-                Pro Plans starting at ₹999/mo (Coming Soon)
-              </span>
-            </motion.div>
-
             <motion.div variants={fadeInUp}>
               <Link href="/dashboard">
                 <Button
                   size="lg"
                   className="h-14 px-10 text-lg rounded-xl gradient-bg text-white font-bold transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[var(--shadow-glow-lg)] active:scale-[0.98] group"
                 >
-                  Try for Free
+                  Start Practicing Now
                   <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
                 </Button>
               </Link>

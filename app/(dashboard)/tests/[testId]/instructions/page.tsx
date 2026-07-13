@@ -51,6 +51,16 @@ export default function InstructionsPage() {
     };
 
     await createAttempt(newAttempt);
+    
+    // Request fullscreen using the trusted click event before navigating
+    try {
+      if (document.documentElement.requestFullscreen) {
+        await document.documentElement.requestFullscreen();
+      }
+    } catch (err) {
+      console.warn("Fullscreen request failed", err);
+    }
+
     router.push(`/tests/${testMeta.id}/attempt/${attemptId}`);
   };
 

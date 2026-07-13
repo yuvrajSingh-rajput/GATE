@@ -7,9 +7,7 @@ import { useAttemptStore } from "@/features/quiz-engine/store/attempt-session.st
 import { useAutoSave } from "@/features/quiz-engine/hooks/useAutoSave";
 import { useTimer } from "@/features/quiz-engine/hooks/useTimer";
 import { useKeyboardNav } from "@/features/quiz-engine/hooks/useKeyboardNav";
-import { useFullscreenGuard } from "@/features/quiz-engine/hooks/useFullscreenGuard";
-import { useVisibilityGuard } from "@/features/quiz-engine/hooks/useVisibilityGuard";
-import { useNavigationGuard } from "@/features/quiz-engine/hooks/useNavigationGuard";
+import { useAttemptLock } from "@/hooks/useAttemptLock";
 import { deriveStatus } from "@/features/quiz-engine/lib/status";
 import { QuestionCard } from "@/features/quiz-engine/components/QuestionCard";
 import { QuestionPalette } from "@/features/quiz-engine/components/QuestionPalette";
@@ -34,9 +32,17 @@ export default function QuizTakingPage() {
   useTimer(); // starts the timer if status is in-progress
 
   const isTestActive = store.status === "in-progress";
-  const { showFullscreenOverlay, resumeFullscreen } = useFullscreenGuard(isTestActive, attemptId as string);
-  useVisibilityGuard(isTestActive, attemptId as string);
-  useNavigationGuard(isTestActive);
+
+  const [violationType, setViolationType] = useState<"tab-switch" | "fullscreen-exit" | null>(null);
+  const { requestFullscreen, exitFullscreen } = useAttemptLock({
+    attempt: attempt || undefined,
+    isActive: isTestActive,
+    onViolation: (type) => setViolationType(type),
+    onAutoSubmit: () => {
+      forceSave();
+      store.submitAttempt(true);
+    },
+  });
 
   const [submitDialogOpen, setSubmitDialogOpen] = useState(false);
   const [activeSection, setActiveSection] = useState<string>("");
@@ -188,15 +194,20 @@ export default function QuizTakingPage() {
   const currentIndex = questions.findIndex(q => q.id === currentQuestion.id);
 
   return (
-    <div className="flex flex-col h-screen w-full overflow-hidden bg-background">
-      {showFullscreenOverlay && (
-        <div className="fixed inset-0 z-[100] flex flex-col items-center justify-center bg-background/95 backdrop-blur-sm">
+    <div className="flex flex-col h-screen w-full overflow-hidden bg-background relative z-[9999]">
+      {violationType && (
+        <div className="fixed inset-0 z-[10000] flex flex-col items-center justify-center bg-background/95 backdrop-blur-md">
           <div className="bg-card p-8 rounded-2xl shadow-xl max-w-md text-center border">
             <h2 className="text-2xl font-bold mb-4 text-destructive">Exam Paused</h2>
             <p className="text-muted-foreground mb-8">
-              You have exited fullscreen. Your exam is paused and this exit has been recorded. Re-enter fullscreen to continue your exam.
+              {violationType === "tab-switch" 
+                ? "You have switched tabs or minimized the window. Your exam is paused and this violation has been recorded."
+                : "You have exited fullscreen. Your exam is paused and this exit has been recorded."}
             </p>
-            <Button size="lg" onClick={resumeFullscreen} className="w-full">
+            <Button size="lg" onClick={() => {
+              setViolationType(null);
+              requestFullscreen(document.documentElement);
+            }} className="w-full">
               Resume Exam
             </Button>
           </div>

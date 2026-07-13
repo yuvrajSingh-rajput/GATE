@@ -201,29 +201,11 @@ export function Sidebar({ className }: { className?: string }) {
         })()}
       </div>
 
-      {/* ── Upgrade Card (gradient border) ── */}
-      <div className="relative z-10 px-4 pb-4">
-        <div
-          className="rounded-xl p-[1.5px]"
-          style={{
-            background: "linear-gradient(135deg, var(--accent), var(--accent-secondary))",
-          }}
-        >
-          <div className="rounded-[calc(0.75rem-1.5px)] bg-sidebar px-4 py-4">
-            <div className="flex items-center gap-2 mb-1">
-              <Sparkles className="h-4 w-4 text-[var(--accent-secondary)]" />
-              <p className="text-sm font-semibold text-white">Upgrade to Pro</p>
-            </div>
-            <p className="text-xs text-white/50 mb-3">
-              Get access to all premium tests.
-            </p>
-            <button
-              className="w-full gradient-bg text-white text-sm font-medium py-2 rounded-lg transition-all duration-200 hover:brightness-110 hover:shadow-[var(--shadow-glow)] active:scale-[0.98]"
-            >
-              Coming Soon
-            </button>
-          </div>
-        </div>
+      {/* ── Version Tag ── */}
+      <div className="relative z-10 px-4 pb-4 mt-auto">
+        <p className="font-mono text-[10px] text-white/30 tracking-wider">
+          GATEPrep · v0.1
+        </p>
       </div>
     </aside>
   );

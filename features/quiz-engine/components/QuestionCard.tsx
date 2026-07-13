@@ -24,6 +24,9 @@ interface QuestionCardProps {
   onAnswerChange: (selected: string[]) => void;
   isBookmarked: boolean;
   onToggleBookmark: () => void;
+  isPracticeMode?: boolean;
+  showSolution?: boolean;
+  onNextQuestion?: () => void;
 }
 
 export function QuestionCard({
@@ -33,6 +36,9 @@ export function QuestionCard({
   onAnswerChange,
   isBookmarked,
   onToggleBookmark,
+  isPracticeMode,
+  showSolution,
+  onNextQuestion,
 }: QuestionCardProps) {
   const selected = answer?.selected || [];
 
@@ -123,6 +129,8 @@ export function QuestionCard({
                 options={question.options}
                 selectedOption={selected[0] || null}
                 onChange={handleMCQChange}
+                showSolution={showSolution}
+                correctAnswer={question.correctAnswer}
               />
             )}
             {question.type === "MSQ" && (
@@ -131,15 +139,35 @@ export function QuestionCard({
                 options={question.options}
                 selectedOptions={selected}
                 onChange={handleMSQChange}
+                showSolution={showSolution}
+                correctAnswer={question.correctAnswer}
               />
             )}
             {question.type === "NAT" && (
               <NATInput
                 value={selected[0] || ""}
                 onChange={handleNATChange}
+                showSolution={showSolution}
+                natRange={question.natRange}
               />
             )}
           </div>
+
+          {isPracticeMode && showSolution && (
+            <div className="mt-8 pt-8 border-t border-border/50 animate-in fade-in slide-in-from-bottom-4 duration-500">
+              <h3 className="text-lg font-bold mb-4 text-foreground/90">Solution</h3>
+              <div className="bg-muted/30 p-6 rounded-2xl border border-border/50">
+                <FormattedText text={question.solution} />
+              </div>
+              {onNextQuestion && (
+                <div className="mt-8 flex justify-end">
+                  <Button onClick={onNextQuestion} className="rounded-xl px-8 py-6 text-base" size="lg">
+                    Next Question
+                  </Button>
+                </div>
+              )}
+            </div>
+          )}
         </div>
       </div>
     </div>
