@@ -127,9 +127,9 @@ export default function DashboardPage() {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-warning opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-3 w-3 bg-warning"></span>
               </span>
-              <h2 className="font-bold text-warning-foreground text-lg">Test in Progress</h2>
+              <h2 className="font-bold text-warning text-lg">Test in Progress</h2>
             </div>
-            <p className="text-warning-foreground/80 text-sm">
+            <p className="text-warning/80 text-sm">
               You have an unfinished attempt for <strong>{activeTest.title}</strong>.
             </p>
           </div>

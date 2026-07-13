@@ -18,8 +18,11 @@ import { SubmitConfirmDialog } from "@/features/quiz-engine/components/SubmitCon
 import { Timer } from "@/features/quiz-engine/components/Timer";
 import { Button } from "@/components/ui/button";
 import { Skeleton } from "@/components/ui/skeleton";
+import { Sheet, SheetContent, SheetTrigger, SheetTitle, SheetHeader } from "@/components/ui/sheet";
+import { Menu } from "lucide-react";
 import { Question } from "@/types";
 import { useTest } from "@/hooks/queries/useTests";
+import { useIsBookmarked, useAddBookmark, useRemoveBookmark } from "@/hooks/queries/useBookmarks";
 
 export default function QuizTakingPage() {
   const { testId, attemptId } = useParams();
@@ -173,6 +176,23 @@ export default function QuizTakingPage() {
     store.submitAttempt(false);
   };
 
+  const { data: isBookmarked } = useIsBookmarked(currentQuestion?.id || "", testId as string);
+  const { mutate: addBookmark } = useAddBookmark();
+  const { mutate: removeBookmark } = useRemoveBookmark();
+
+  const handleToggleBookmark = () => {
+    if (!currentQuestion) return;
+    if (isBookmarked) {
+      removeBookmark({ questionId: currentQuestion.id, testId: testId as string });
+    } else {
+      addBookmark({
+        questionId: currentQuestion.id,
+        testId: testId as string,
+        createdAt: new Date().toISOString(),
+      });
+    }
+  };
+
   useKeyboardNav({
     questions,
     currentQuestionId: store.currentQuestionId,
@@ -194,7 +214,7 @@ export default function QuizTakingPage() {
   const currentIndex = questions.findIndex(q => q.id === currentQuestion.id);
 
   return (
-    <div className="flex flex-col h-screen w-full overflow-hidden bg-background relative z-[9999]">
+    <div className="flex flex-col h-[100dvh] w-full overflow-hidden bg-background relative">
       {violationType && (
         <div className="fixed inset-0 z-[10000] flex flex-col items-center justify-center bg-background/95 backdrop-blur-md">
           <div className="bg-card p-8 rounded-2xl shadow-xl max-w-md text-center border">
@@ -214,15 +234,45 @@ export default function QuizTakingPage() {
         </div>
       )}
       {/* Top Bar specific to quiz */}
-      <header className="flex items-center justify-between px-4 md:px-6 h-14 border-b border-border/60 bg-card shrink-0">
-        <div className="flex items-center gap-3">
-          <span className="font-heading text-lg tracking-tight">
+      <header className="flex items-center justify-between px-3 md:px-6 h-14 border-b border-border/60 bg-card shrink-0 gap-2">
+        <div className="flex items-center gap-2 min-w-0 flex-1">
+          <Sheet>
+            <SheetTrigger className="lg:hidden shrink-0 inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors hover:bg-muted h-9 w-9">
+              <Menu className="w-5 h-5" />
+            </SheetTrigger>
+            <SheetContent side="left" className="w-80 flex flex-col p-0">
+              <SheetHeader className="p-4 border-b text-left">
+                <SheetTitle>Question Palette</SheetTitle>
+              </SheetHeader>
+              <div className="p-4 border-b">
+                <PaletteLegend />
+              </div>
+              <div className="flex-1 overflow-y-auto p-4">
+                <QuestionPalette
+                  questions={sectionQuestions}
+                  onNavigate={handleNavigate}
+                />
+              </div>
+              <div className="p-4 border-t">
+                <Button
+                  className="w-full h-12 text-base font-bold gradient-bg text-white rounded-xl transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[var(--shadow-glow)] active:scale-[0.98]"
+                  onClick={() => setSubmitDialogOpen(true)}
+                >
+                  Submit Test
+                </Button>
+              </div>
+            </SheetContent>
+          </Sheet>
+
+          <span className="font-heading text-lg tracking-tight shrink-0 hidden sm:inline-block">
             GATE<span className="gradient-text">Prep</span>
           </span>
-          <span className="text-border">|</span>
-          <span className="text-sm font-medium text-muted-foreground truncate max-w-[200px] md:max-w-none">{testMeta.title}</span>
+          <span className="text-border hidden sm:inline-block">|</span>
+          <span className="text-sm font-medium text-muted-foreground truncate">{testMeta.title}</span>
         </div>
-        <Timer />
+        <div className="shrink-0">
+          <Timer />
+        </div>
       </header>
 
       <div className="flex flex-1 overflow-hidden">
@@ -241,8 +291,8 @@ export default function QuizTakingPage() {
               question={currentQuestion}
               answer={store.answers[currentQuestion.id]}
               onAnswerChange={handleAnswerChange}
-              isBookmarked={false}
-              onToggleBookmark={() => {}}
+              isBookmarked={!!isBookmarked}
+              onToggleBookmark={handleToggleBookmark}
             />
           </div>
           
