@@ -203,8 +203,14 @@ export default function QuizTakingPage() {
         </div>
       )}
       {/* Top Bar specific to quiz */}
-      <header className="flex items-center justify-between px-4 md:px-6 h-16 border-b bg-card shrink-0">
-        <div className="font-bold text-lg text-primary">{testMeta.title}</div>
+      <header className="flex items-center justify-between px-4 md:px-6 h-14 border-b border-border/60 bg-card shrink-0">
+        <div className="flex items-center gap-3">
+          <span className="font-heading text-lg tracking-tight">
+            GATE<span className="gradient-text">Prep</span>
+          </span>
+          <span className="text-border">|</span>
+          <span className="text-sm font-medium text-muted-foreground truncate max-w-[200px] md:max-w-none">{testMeta.title}</span>
+        </div>
         <Timer />
       </header>
 
@@ -253,9 +259,9 @@ export default function QuizTakingPage() {
               onNavigate={handleNavigate}
             />
           </div>
-          <div className="p-4 border-t bg-muted/20">
+          <div className="p-4 border-t">
             <Button
-              className="w-full h-12 text-base font-bold shadow-glow"
+              className="w-full h-12 text-base font-bold gradient-bg text-white rounded-xl transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[var(--shadow-glow)] active:scale-[0.98]"
               onClick={() => setSubmitDialogOpen(true)}
             >
               Submit Test

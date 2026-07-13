@@ -25,22 +25,30 @@ export function OptionList({ testId, options, selectedOption, onChange }: Option
             role="radio"
             aria-checked={isSelected}
             className={cn(
-              "w-full flex items-center gap-4 p-4 rounded-xl border text-left transition-all",
+              "w-full flex items-center gap-4 p-4 rounded-xl border text-left transition-all duration-200 group/opt",
               isSelected
-                ? "border-primary bg-primary/5 ring-1 ring-primary shadow-sm"
-                : "border-border hover:border-primary/40 hover:bg-muted/50"
+                ? "border-accent bg-accent/5 ring-1 ring-accent shadow-sm"
+                : "border-border hover:border-accent/40 hover:bg-muted/50 hover:-translate-y-0.5 hover:shadow-md"
             )}
           >
+            {/* Option circle */}
             <div
               className={cn(
-                "flex-shrink-0 w-8 h-8 rounded-full border flex items-center justify-center font-medium text-sm transition-colors",
+                "flex-shrink-0 w-8 h-8 rounded-full border flex items-center justify-center font-semibold text-sm transition-all duration-200",
                 isSelected
-                  ? "bg-primary border-primary text-primary-foreground"
-                  : "bg-background border-muted-foreground/30 text-foreground"
+                  ? "text-white border-transparent"
+                  : "bg-background border-muted-foreground/30 text-foreground group-hover/opt:border-accent/50"
               )}
+              style={
+                isSelected
+                  ? { background: "linear-gradient(135deg, var(--accent), var(--accent-secondary))" }
+                  : undefined
+              }
             >
               {option.id}
             </div>
+
+            {/* Option content */}
             <div className="flex-1 text-base leading-relaxed overflow-hidden">
               {option.text && <FormattedText text={option.text} />}
               {option.image && (

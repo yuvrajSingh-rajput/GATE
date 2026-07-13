@@ -18,7 +18,7 @@ export function Timer() {
   return (
     <div
       className={cn(
-        "flex items-center gap-2 px-3 py-1.5 rounded-md font-mono text-lg transition-colors border",
+        "flex items-center gap-2 px-4 py-2 rounded-lg font-mono text-lg tabular-nums transition-colors border",
         isCritical
           ? "bg-destructive/10 text-destructive border-destructive/20 animate-pulse"
           : isWarning
@@ -26,8 +26,8 @@ export function Timer() {
           : "bg-muted text-foreground border-transparent"
       )}
     >
-      <Clock className="w-5 h-5" />
-      <span>
+      <Clock className="w-4 h-4" />
+      <span className="tracking-wider">
         {hours.toString().padStart(2, "0")}:{minutes.toString().padStart(2, "0")}:{seconds.toString().padStart(2, "0")}
       </span>
     </div>
