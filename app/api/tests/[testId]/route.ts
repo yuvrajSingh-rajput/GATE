@@ -1,6 +1,8 @@
 import { NextResponse } from "next/server";
 import { getFullTest } from "@/data/tests";
 
+export const dynamic = "force-dynamic";
+
 export async function GET(req: Request, { params }: { params: Promise<{ testId: string }> }) {
   try {
     const { testId } = await params;

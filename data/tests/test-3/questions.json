@@ -506,8 +506,8 @@
     "marks": 1,
     "negativeMarks": 0.33,
     "section": "Core Subject",
-    "questionText": "Consider the following segment table:\nSegment 0: Base=200, Length=180\nSegment 1: Base=540, Length=490\nSegment 2: Base=1135, Length=65\nSegment 3: Base=2084, Length=300\nWhich of the following logical address generate trap to operating system?\nI. 0, 210  II. 1, 340  III. 2, 1140  IV. 3, 140",
-    "questionImage": null,
+    "questionText": "Consider the following segment table:",
+    "questionImage": "q17_segment_table.png",
     "options": [
       {
         "id": "A",
@@ -638,8 +638,8 @@
     "marks": 1,
     "negativeMarks": 0.33,
     "section": "Core Subject",
-    "questionText": "Let A=[[-1,0,1],[0,1,0]] and B=[[a,b],[c,d],[e,f]] (B is 3×2). If AB=I then element f=_________.",
-    "questionImage": null,
+    "questionText": "If AB=I then element f=_________.",
+    "questionImage": "q21_matrix_ab.png",
     "options": [
       {
         "id": "A",
@@ -841,8 +841,8 @@
     "marks": 1,
     "negativeMarks": 0,
     "section": "Core Subject",
-    "questionText": "What is the value of the following limit ________ (Upto 2 decimal places)\nlim(x→4) [3-√(x+5)] / (x-4)",
-    "questionImage": null,
+    "questionText": "What is the value of the following limit ________ (Upto 2 decimal places)",
+    "questionImage": "q28_limit_function.png",
     "options": [],
     "correctAnswer": [
       "-0.16"
@@ -1092,8 +1092,8 @@
     "marks": 2,
     "negativeMarks": 0.67,
     "section": "Core Subject",
-    "questionText": "A single processor system has three resource types X, Y and Z, which are shared by four processes. There are 12 units of each resource type. Consider the following scenario, where the column allocation denotes the units of each resource type allocated to each process, and the column request denotes the remaining needs of every process for each resource type in order to complete their execution.\nP0: Allocation(2,3,2) Request(3,5,8)\nP1: Allocation(3,1,2) Request(1,2,3)\nP2: Allocation(3,3,2) Request(5,8,1)\nP3: Allocation(3,2,3) Request(2,2,4)\nWhich of the following is correct?",
-    "questionImage": null,
+    "questionText": "A single processor system has three resource types X, Y and Z, which are shared by four processes. There are 12 units of each resource type. Consider the following scenario, where the column allocation denotes the units of each resource type allocated to each process, and the column request denotes the remaining needs of every process for each resource type in order to complete their execution.\nWhich of the following is correct?",
+    "questionImage": "q39_process_resources.png",
     "options": [
       {
         "id": "A",
@@ -1522,7 +1522,7 @@
     "negativeMarks": 0.67,
     "section": "Core Subject",
     "questionText": "A 5 stage pipelined processor has IF, ID, EXE, MEM and WB. WB stage operation is divided into two parts. In the first part register write operation and in the second part register read operation is performed. The latencies of all those stages are 300, 400, 500, 500 and 300 (in nano second) respectively. Consider the following code is executed on this processor:\nI1: ADD R3,R2,R4; R3←R2+R4\nI2: SUB R6,R4,R3; R6←R4-R3\nI3: ADD R7,R5,R3; R7←R5+R3\nI4: SUB R1,R7,R4; R1←R7-R4\nWhat will be the execution time for the above code? (Assume each instruction takes one cycle to complete its operation in every stage).",
-    "questionImage": "q52_pipeline_diagram.png",
+    "questionImage": null,
     "options": [
       {
         "id": "A",
